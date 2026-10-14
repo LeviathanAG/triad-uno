@@ -131,3 +131,17 @@ remains. A further per-decision route-feature memoization experiment matched
 pass, providing no useful new headroom; it was not integrated into the job or
 runtime. Cache keys used queried card multisets and public top/colour only;
 the hypothetical rival queries were never factual hidden cards.
+
+Private isolated risk-residual experiment (not deployed): six own/public
+response, one-card finish and penalty-pressure features use a uniform per-seat
+hard-constraint prior, not factual rival cards or a joint/style posterior.
+The retained 24 route weights are frozen; only six bounded coefficients
+[-8,8] are tuned by small CEM against eight of our own diverse trained/archive
+policies, three distinct rivals per seed block and four seat rotations.
+Zero residual is eligible in training and common league selection. Seed
+families are 140M training,141M selection,142M fresh final;143M is reserved
+for independent replication if supported. No competitor private source is used.
+The finite/legality/public-constraint audit is saved alongside the helper.
+Additional scorer checks matched 1,810 zero-residual decisions and verified
+1,810 nonzero legal decisions plus845 incomplete-history declines to the
+unchanged scalar prior. No runtime, model, manifest or main branch change.

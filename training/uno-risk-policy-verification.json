@@ -1,0 +1,11 @@
+{
+  "development_only": true,
+  "runtime_unchanged": true,
+  "source_games": 16,
+  "source_seed_start": 147000000,
+  "exact_zero_residual_decisions": 1810,
+  "nonzero_legal_decisions": 1810,
+  "multichoice_decisions": 845,
+  "incomplete_history_prior_declines": 845,
+  "actual_hidden_state_or_game_seed_policy_inputs": false
+}

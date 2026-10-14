@@ -1,0 +1,23 @@
+{
+  "development_only": true,
+  "runtime_unchanged": true,
+  "finite_hypergeometric_numeric_cases": 3311,
+  "official_normal_response_hand_cases": 38700,
+  "official_stacking_cases": 5400,
+  "source_games": 64,
+  "source_seed_start": 132000000,
+  "source_policy": "four unchanged retained route policies",
+  "observations": 6294,
+  "legal_action_feature_vectors": 12969,
+  "states_with_choices": 2868,
+  "action_sets_with_distinct_risks": 2465,
+  "public_hard_constraints_checked_against_referee_hands": true,
+  "mean_preparation_plus_all_action_features_seconds": 0.00024488443613002907,
+  "max_preparation_plus_all_action_features_seconds": 0.0012417640027706511,
+  "total_seconds": 2.3653905920000398,
+  "limitations": [
+    "Uniform within one seat's public hard constraints is an approximation.",
+    "Other seats' joint constraints and opponent policies are not represented.",
+    "No runtime integration or actual-game improvement result yet."
+  ]
+}
