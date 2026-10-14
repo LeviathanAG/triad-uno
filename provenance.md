@@ -149,3 +149,5 @@ and24 legal decisions passed. The sampled posterior and rival model remain
 approximate and the Gaussian world-mean comparison is heuristic. Planned
 130M development/131M selection/133M final are distinct from root132M numeric
 fixtures and from the untouched119M candidate. No runtime or main change.
+
+Private continued research: fixed119M belief-budget finalist has no supported paired improvement in any of four fresh regimes (2048 games/policy/regime); incumbent remains held. Frozen130M interval256 development selection advances only to fresh131M comparison with all paired arrays retained. Development130M summary itself did not retain arrays; this limitation is preserved. Source and asset inventories matched all frozen uploads. No runtime/base-model/manifest change and no claim of event victory. The131M empirical gate requires trained lower95 bootstrap bound above zero and route/random observed mean gain at least−.02 before reserved133M final.

@@ -1,0 +1,60 @@
+{
+  "belief-budget-final": {
+    "sources_match": true,
+    "source_count": 15,
+    "assets_match": true,
+    "asset_count": 4,
+    "all_json_valid": true
+  },
+  "censoring": {
+    "sources_match": true,
+    "source_count": 13,
+    "assets_match": true,
+    "asset_count": 2,
+    "all_json_valid": true
+  },
+  "belief_final": {
+    "league": {
+      "mean_gain": 0.01123046875,
+      "ci95_independent10000": [
+        -0.00244140625,
+        0.02490234375
+      ],
+      "first_place_gain": -0.00048828125,
+      "blocks": 512,
+      "games_per_policy": 2048
+    },
+    "starter": {
+      "mean_gain": -0.00390625,
+      "ci95_independent10000": [
+        -0.0185546875,
+        0.01171875
+      ],
+      "first_place_gain": -0.00244140625,
+      "blocks": 512,
+      "games_per_policy": 2048
+    },
+    "random": {
+      "mean_gain": 0.00439453125,
+      "ci95_independent10000": [
+        -0.00830078125,
+        0.01708984375
+      ],
+      "first_place_gain": -0.00048828125,
+      "blocks": 512,
+      "games_per_policy": 2048
+    },
+    "trained-league": {
+      "mean_gain": 0.0087890625,
+      "ci95_independent10000": [
+        -0.005859375,
+        0.02294921875
+      ],
+      "first_place_gain": 0.0009765625,
+      "blocks": 512,
+      "games_per_policy": 2048
+    }
+  },
+  "belief_conclusion": "No supported upgrade; incumbent held. No additional replication of same fixed finalist.",
+  "censor_development": "interval256 selected on 130M; development report does not retain per-block arrays. Fresh131M comparator will retain all arrays; no final selection from130M ancillary outcomes."
+}

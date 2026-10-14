@@ -1,0 +1,13 @@
+{
+  "configuration": {
+    "name": "interval256",
+    "kind": "interval",
+    "max_steps": 256
+  },
+  "source_report": "training/kaggle-uno-censoring-output/output/development.json",
+  "source_report_sha256": "f61b25a3f4359c5e536b0d361af6bd1f438e4aea4414e0f99bf68d5c1e0baf07",
+  "chosen_on_development_seed_start": 130000000,
+  "primary_criterion": "own-trained distinct-rival league placement points;incumbent eligible",
+  "policy_sha256": "d458ef2894c0ce51d62ed30a4ad1b685c85db2c1a97417a8a93efab16d5abe14",
+  "frozen_before131M": true
+}

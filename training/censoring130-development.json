@@ -1,0 +1,512 @@
+{
+  "trained": {
+    "incumbent": {
+      "points": 2.78125,
+      "win_rate": 0.25390625,
+      "games": 256,
+      "probe_stats": {
+        "probes": 0,
+        "overrides": 0,
+        "sampling_declines": 0,
+        "incomplete_pairs": 0,
+        "completed_trials": 0,
+        "world_rejections": 0,
+        "retained_pairs": 0,
+        "interval_pairs": 0,
+        "deadline_bounds": 0,
+        "step_bounds": 0,
+        "max_decision_seconds": 0
+      },
+      "summed_worker_seconds": 15.69657945900019
+    },
+    "candidates": [
+      {
+        "configuration": {
+          "name": "discard128",
+          "kind": "discard",
+          "max_steps": 128
+        },
+        "summary": {
+          "points": 2.81640625,
+          "win_rate": 0.2578125,
+          "games": 256,
+          "probe_stats": {
+            "probes": 721,
+            "overrides": 22,
+            "sampling_declines": 2319,
+            "incomplete_pairs": 1169,
+            "completed_trials": 13407,
+            "world_rejections": 0,
+            "retained_pairs": 0,
+            "interval_pairs": 0,
+            "deadline_bounds": 0,
+            "step_bounds": 0,
+            "max_decision_seconds": 0.5158066159999635
+          },
+          "summed_worker_seconds": 348.430604443
+        },
+        "paired_gain": {
+          "mean_gain": 0.03515625,
+          "ci95": [
+            -0.02734375,
+            0.10166015624999858
+          ],
+          "unit": "points per game",
+          "sampling_unit": "four-seat seed block"
+        }
+      },
+      {
+        "configuration": {
+          "name": "interval128",
+          "kind": "interval",
+          "max_steps": 128
+        },
+        "summary": {
+          "points": 2.8046875,
+          "win_rate": 0.2578125,
+          "games": 256,
+          "probe_stats": {
+            "probes": 719,
+            "overrides": 11,
+            "sampling_declines": 2273,
+            "incomplete_pairs": 1165,
+            "completed_trials": 13237,
+            "world_rejections": 0,
+            "retained_pairs": 14402,
+            "interval_pairs": 1165,
+            "deadline_bounds": 845,
+            "step_bounds": 657,
+            "max_decision_seconds": 0.5142026140000553
+          },
+          "summed_worker_seconds": 348.97542718
+        },
+        "paired_gain": {
+          "mean_gain": 0.0234375,
+          "ci95": [
+            -0.015625,
+            0.07421875
+          ],
+          "unit": "points per game",
+          "sampling_unit": "four-seat seed block"
+        }
+      },
+      {
+        "configuration": {
+          "name": "interval256",
+          "kind": "interval",
+          "max_steps": 256
+        },
+        "summary": {
+          "points": 2.8203125,
+          "win_rate": 0.26171875,
+          "games": 256,
+          "probe_stats": {
+            "probes": 702,
+            "overrides": 12,
+            "sampling_declines": 2208,
+            "incomplete_pairs": 558,
+            "completed_trials": 13050,
+            "world_rejections": 0,
+            "retained_pairs": 13608,
+            "interval_pairs": 558,
+            "deadline_bounds": 849,
+            "step_bounds": 8,
+            "max_decision_seconds": 0.5187926529999913
+          },
+          "summed_worker_seconds": 342.1325823180001
+        },
+        "paired_gain": {
+          "mean_gain": 0.0390625,
+          "ci95": [
+            -0.00390625,
+            0.09375
+          ],
+          "unit": "points per game",
+          "sampling_unit": "four-seat seed block"
+        }
+      },
+      {
+        "configuration": {
+          "name": "interval512",
+          "kind": "interval",
+          "max_steps": 512
+        },
+        "summary": {
+          "points": 2.796875,
+          "win_rate": 0.25390625,
+          "games": 256,
+          "probe_stats": {
+            "probes": 721,
+            "overrides": 11,
+            "sampling_declines": 2235,
+            "incomplete_pairs": 562,
+            "completed_trials": 13656,
+            "world_rejections": 0,
+            "retained_pairs": 14218,
+            "interval_pairs": 562,
+            "deadline_bounds": 825,
+            "step_bounds": 0,
+            "max_decision_seconds": 0.5188627520000182
+          },
+          "summed_worker_seconds": 350.5824651439999
+        },
+        "paired_gain": {
+          "mean_gain": 0.015625,
+          "ci95": [
+            -0.01171875,
+            0.046875
+          ],
+          "unit": "points per game",
+          "sampling_unit": "four-seat seed block"
+        }
+      }
+    ]
+  },
+  "route": {
+    "incumbent": {
+      "points": 2.75,
+      "win_rate": 0.25,
+      "games": 256,
+      "probe_stats": {
+        "probes": 0,
+        "overrides": 0,
+        "sampling_declines": 0,
+        "incomplete_pairs": 0,
+        "completed_trials": 0,
+        "world_rejections": 0,
+        "retained_pairs": 0,
+        "interval_pairs": 0,
+        "deadline_bounds": 0,
+        "step_bounds": 0,
+        "max_decision_seconds": 0
+      },
+      "summed_worker_seconds": 12.006542011999727
+    },
+    "candidates": [
+      {
+        "configuration": {
+          "name": "discard128",
+          "kind": "discard",
+          "max_steps": 128
+        },
+        "summary": {
+          "points": 2.7578125,
+          "win_rate": 0.25,
+          "games": 256,
+          "probe_stats": {
+            "probes": 650,
+            "overrides": 20,
+            "sampling_declines": 2072,
+            "incomplete_pairs": 1045,
+            "completed_trials": 11438,
+            "world_rejections": 0,
+            "retained_pairs": 0,
+            "interval_pairs": 0,
+            "deadline_bounds": 0,
+            "step_bounds": 0,
+            "max_decision_seconds": 0.5134996550000324
+          },
+          "summed_worker_seconds": 311.4623252429999
+        },
+        "paired_gain": {
+          "mean_gain": 0.0078125,
+          "ci95": [
+            -0.015625,
+            0.0390625
+          ],
+          "unit": "points per game",
+          "sampling_unit": "four-seat seed block"
+        }
+      },
+      {
+        "configuration": {
+          "name": "interval128",
+          "kind": "interval",
+          "max_steps": 128
+        },
+        "summary": {
+          "points": 2.75,
+          "win_rate": 0.25,
+          "games": 256,
+          "probe_stats": {
+            "probes": 664,
+            "overrides": 10,
+            "sampling_declines": 2025,
+            "incomplete_pairs": 1064,
+            "completed_trials": 11556,
+            "world_rejections": 0,
+            "retained_pairs": 12620,
+            "interval_pairs": 1064,
+            "deadline_bounds": 769,
+            "step_bounds": 589,
+            "max_decision_seconds": 0.5173224029999801
+          },
+          "summed_worker_seconds": 319.415726672
+        },
+        "paired_gain": {
+          "mean_gain": 0.0,
+          "ci95": [
+            -0.01171875,
+            0.01171875
+          ],
+          "unit": "points per game",
+          "sampling_unit": "four-seat seed block"
+        }
+      },
+      {
+        "configuration": {
+          "name": "interval256",
+          "kind": "interval",
+          "max_steps": 256
+        },
+        "summary": {
+          "points": 2.75,
+          "win_rate": 0.25,
+          "games": 256,
+          "probe_stats": {
+            "probes": 666,
+            "overrides": 12,
+            "sampling_declines": 2029,
+            "incomplete_pairs": 530,
+            "completed_trials": 12015,
+            "world_rejections": 0,
+            "retained_pairs": 12545,
+            "interval_pairs": 530,
+            "deadline_bounds": 788,
+            "step_bounds": 10,
+            "max_decision_seconds": 0.513499192999916
+          },
+          "summed_worker_seconds": 320.77160228599996
+        },
+        "paired_gain": {
+          "mean_gain": 0.0,
+          "ci95": [
+            -0.01171875,
+            0.01171875
+          ],
+          "unit": "points per game",
+          "sampling_unit": "four-seat seed block"
+        }
+      },
+      {
+        "configuration": {
+          "name": "interval512",
+          "kind": "interval",
+          "max_steps": 512
+        },
+        "summary": {
+          "points": 2.75,
+          "win_rate": 0.25,
+          "games": 256,
+          "probe_stats": {
+            "probes": 667,
+            "overrides": 13,
+            "sampling_declines": 2038,
+            "incomplete_pairs": 526,
+            "completed_trials": 12001,
+            "world_rejections": 0,
+            "retained_pairs": 12527,
+            "interval_pairs": 526,
+            "deadline_bounds": 781,
+            "step_bounds": 0,
+            "max_decision_seconds": 0.5150252840001031
+          },
+          "summed_worker_seconds": 321.24340720600003
+        },
+        "paired_gain": {
+          "mean_gain": 0.0,
+          "ci95": [
+            -0.01171875,
+            0.01171875
+          ],
+          "unit": "points per game",
+          "sampling_unit": "four-seat seed block"
+        }
+      }
+    ]
+  },
+  "random": {
+    "incumbent": {
+      "points": 3.47265625,
+      "win_rate": 0.4375,
+      "games": 256,
+      "probe_stats": {
+        "probes": 0,
+        "overrides": 0,
+        "sampling_declines": 0,
+        "incomplete_pairs": 0,
+        "completed_trials": 0,
+        "world_rejections": 0,
+        "retained_pairs": 0,
+        "interval_pairs": 0,
+        "deadline_bounds": 0,
+        "step_bounds": 0,
+        "max_decision_seconds": 0
+      },
+      "summed_worker_seconds": 5.644981055999779
+    },
+    "candidates": [
+      {
+        "configuration": {
+          "name": "discard128",
+          "kind": "discard",
+          "max_steps": 128
+        },
+        "summary": {
+          "points": 3.46484375,
+          "win_rate": 0.4296875,
+          "games": 256,
+          "probe_stats": {
+            "probes": 767,
+            "overrides": 28,
+            "sampling_declines": 2332,
+            "incomplete_pairs": 1365,
+            "completed_trials": 12079,
+            "world_rejections": 0,
+            "retained_pairs": 0,
+            "interval_pairs": 0,
+            "deadline_bounds": 0,
+            "step_bounds": 0,
+            "max_decision_seconds": 0.5189654650000648
+          },
+          "summed_worker_seconds": 367.36937144500007
+        },
+        "paired_gain": {
+          "mean_gain": -0.0078125,
+          "ci95": [
+            -0.06640625,
+            0.046875
+          ],
+          "unit": "points per game",
+          "sampling_unit": "four-seat seed block"
+        }
+      },
+      {
+        "configuration": {
+          "name": "interval128",
+          "kind": "interval",
+          "max_steps": 128
+        },
+        "summary": {
+          "points": 3.51171875,
+          "win_rate": 0.44140625,
+          "games": 256,
+          "probe_stats": {
+            "probes": 768,
+            "overrides": 16,
+            "sampling_declines": 2326,
+            "incomplete_pairs": 1361,
+            "completed_trials": 11806,
+            "world_rejections": 0,
+            "retained_pairs": 13167,
+            "interval_pairs": 1361,
+            "deadline_bounds": 967,
+            "step_bounds": 781,
+            "max_decision_seconds": 0.5213739770001666
+          },
+          "summed_worker_seconds": 369.1364120200001
+        },
+        "paired_gain": {
+          "mean_gain": 0.0390625,
+          "ci95": [
+            0.01171875,
+            0.07421875
+          ],
+          "unit": "points per game",
+          "sampling_unit": "four-seat seed block"
+        }
+      },
+      {
+        "configuration": {
+          "name": "interval256",
+          "kind": "interval",
+          "max_steps": 256
+        },
+        "summary": {
+          "points": 3.48828125,
+          "win_rate": 0.4375,
+          "games": 256,
+          "probe_stats": {
+            "probes": 769,
+            "overrides": 18,
+            "sampling_declines": 2315,
+            "incomplete_pairs": 653,
+            "completed_trials": 12175,
+            "world_rejections": 0,
+            "retained_pairs": 12828,
+            "interval_pairs": 653,
+            "deadline_bounds": 970,
+            "step_bounds": 7,
+            "max_decision_seconds": 0.5187914599998749
+          },
+          "summed_worker_seconds": 370.6688577360003
+        },
+        "paired_gain": {
+          "mean_gain": 0.015625,
+          "ci95": [
+            -0.01953125,
+            0.05078125
+          ],
+          "unit": "points per game",
+          "sampling_unit": "four-seat seed block"
+        }
+      },
+      {
+        "configuration": {
+          "name": "interval512",
+          "kind": "interval",
+          "max_steps": 512
+        },
+        "summary": {
+          "points": 3.484375,
+          "win_rate": 0.43359375,
+          "games": 256,
+          "probe_stats": {
+            "probes": 774,
+            "overrides": 21,
+            "sampling_declines": 2410,
+            "incomplete_pairs": 593,
+            "completed_trials": 14218,
+            "world_rejections": 0,
+            "retained_pairs": 14811,
+            "interval_pairs": 593,
+            "deadline_bounds": 890,
+            "step_bounds": 0,
+            "max_decision_seconds": 0.5189610099998845
+          },
+          "summed_worker_seconds": 361.01506763099997
+        },
+        "paired_gain": {
+          "mean_gain": 0.01171875,
+          "ci95": [
+            -0.01953125,
+            0.04296875
+          ],
+          "unit": "points per game",
+          "sampling_unit": "four-seat seed block"
+        }
+      }
+    ]
+  },
+  "selection": {
+    "selected": 3,
+    "configuration": {
+      "name": "interval256",
+      "kind": "interval",
+      "max_steps": 256
+    },
+    "criterion": "own-trained distinct-rival league placement points;incumbent eligible"
+  },
+  "provenance": {
+    "development_only": true,
+    "seed_start": 130000000,
+    "blocks": 64,
+    "selection_family_reserved": 131000000,
+    "fresh_final_family_reserved": 133000000,
+    "root_numeric_fixture_not_reused": 132000000,
+    "actual_hidden_state_or_game_seed_policy_inputs": false,
+    "bounds": "All valid sampled pairs retained; unfinished score in exact remaining-placement range",
+    "uncertainty": "Posterior/rival model and Gaussian world-mean test remain approximate; real games are the strength gate",
+    "completed_trials_definition": "exact pairs only; retained_pairs additionally counts interval pairs"
+  }
+}

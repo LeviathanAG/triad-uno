@@ -1,0 +1,201 @@
+{
+  "trained": {
+    "incumbent": {
+      "points": 2.5,
+      "win_rate": 0.0,
+      "games": 4,
+      "probe_stats": {
+        "probes": 0,
+        "overrides": 0,
+        "sampling_declines": 0,
+        "incomplete_pairs": 0,
+        "completed_trials": 0,
+        "world_rejections": 0,
+        "retained_pairs": 0,
+        "interval_pairs": 0,
+        "deadline_bounds": 0,
+        "step_bounds": 0,
+        "max_decision_seconds": 0
+      },
+      "summed_worker_seconds": 0.0900219199975254
+    },
+    "candidate": {
+      "points": 2.5,
+      "win_rate": 0.0,
+      "games": 4,
+      "probe_stats": {
+        "probes": 10,
+        "overrides": 1,
+        "sampling_declines": 4,
+        "incomplete_pairs": 0,
+        "completed_trials": 316,
+        "world_rejections": 0,
+        "retained_pairs": 316,
+        "interval_pairs": 0,
+        "deadline_bounds": 0,
+        "step_bounds": 0,
+        "max_decision_seconds": 0.38133062700217124
+      },
+      "summed_worker_seconds": 1.58534953599883
+    },
+    "paired_gain": {
+      "mean_gain": 0.0,
+      "ci95": null
+    },
+    "block_points_candidate": [
+      2.5
+    ],
+    "block_points_incumbent": [
+      2.5
+    ],
+    "block_wins_candidate": [
+      0.0
+    ],
+    "block_wins_incumbent": [
+      0.0
+    ]
+  },
+  "route": {
+    "incumbent": {
+      "points": 2.75,
+      "win_rate": 0.25,
+      "games": 4,
+      "probe_stats": {
+        "probes": 0,
+        "overrides": 0,
+        "sampling_declines": 0,
+        "incomplete_pairs": 0,
+        "completed_trials": 0,
+        "world_rejections": 0,
+        "retained_pairs": 0,
+        "interval_pairs": 0,
+        "deadline_bounds": 0,
+        "step_bounds": 0,
+        "max_decision_seconds": 0
+      },
+      "summed_worker_seconds": 0.021289864998834673
+    },
+    "candidate": {
+      "points": 2.75,
+      "win_rate": 0.25,
+      "games": 4,
+      "probe_stats": {
+        "probes": 7,
+        "overrides": 0,
+        "sampling_declines": 4,
+        "incomplete_pairs": 0,
+        "completed_trials": 220,
+        "world_rejections": 0,
+        "retained_pairs": 220,
+        "interval_pairs": 0,
+        "deadline_bounds": 0,
+        "step_bounds": 0,
+        "max_decision_seconds": 0.18582269000035012
+      },
+      "summed_worker_seconds": 1.062085087003652
+    },
+    "paired_gain": {
+      "mean_gain": 0.0,
+      "ci95": null
+    },
+    "block_points_candidate": [
+      2.75
+    ],
+    "block_points_incumbent": [
+      2.75
+    ],
+    "block_wins_candidate": [
+      0.25
+    ],
+    "block_wins_incumbent": [
+      0.25
+    ]
+  },
+  "random": {
+    "incumbent": {
+      "points": 2.5,
+      "win_rate": 0.0,
+      "games": 4,
+      "probe_stats": {
+        "probes": 0,
+        "overrides": 0,
+        "sampling_declines": 0,
+        "incomplete_pairs": 0,
+        "completed_trials": 0,
+        "world_rejections": 0,
+        "retained_pairs": 0,
+        "interval_pairs": 0,
+        "deadline_bounds": 0,
+        "step_bounds": 0,
+        "max_decision_seconds": 0
+      },
+      "summed_worker_seconds": 0.020515823001915123
+    },
+    "candidate": {
+      "points": 2.75,
+      "win_rate": 0.0,
+      "games": 4,
+      "probe_stats": {
+        "probes": 9,
+        "overrides": 1,
+        "sampling_declines": 0,
+        "incomplete_pairs": 1,
+        "completed_trials": 287,
+        "world_rejections": 0,
+        "retained_pairs": 288,
+        "interval_pairs": 1,
+        "deadline_bounds": 0,
+        "step_bounds": 1,
+        "max_decision_seconds": 0.32831677200010745
+      },
+      "summed_worker_seconds": 1.9579412300008698
+    },
+    "paired_gain": {
+      "mean_gain": 0.25,
+      "ci95": null
+    },
+    "block_points_candidate": [
+      2.75
+    ],
+    "block_points_incumbent": [
+      2.5
+    ],
+    "block_wins_candidate": [
+      0.0
+    ],
+    "block_wins_incumbent": [
+      0.0
+    ]
+  },
+  "eligibility": {
+    "eligible_for_fresh_final": false,
+    "criterion": "trained lower95 bootstrap bound>0; route/random mean gain>=-.02",
+    "empirical_selection_guard_not_event_guarantee": true
+  },
+  "provenance": {
+    "fixed_selection": {
+      "configuration": {
+        "name": "interval256",
+        "kind": "interval",
+        "max_steps": 256
+      },
+      "source_report": "training/kaggle-uno-censoring-output/output/development.json",
+      "source_report_sha256": "f61b25a3f4359c5e536b0d361af6bd1f438e4aea4414e0f99bf68d5c1e0baf07",
+      "chosen_on_development_seed_start": 130000000,
+      "primary_criterion": "own-trained distinct-rival league placement points;incumbent eligible",
+      "policy_sha256": "d458ef2894c0ce51d62ed30a4ad1b685c85db2c1a97417a8a93efab16d5abe14",
+      "frozen_before131M": true
+    },
+    "seed_start": 158000000,
+    "blocks": 1,
+    "workers": 2,
+    "development_only": true,
+    "final_seed_reserved": 133000000,
+    "actual_hidden_or_game_seed_policy_inputs": false,
+    "scoring": "5/3/2/1; actual unfinished seats share remaining placement points",
+    "uncertainty": "uniform public belief and route rival model approximate; Gaussian sampled-world test heuristic",
+    "policy_sha256": "d458ef2894c0ce51d62ed30a4ad1b685c85db2c1a97417a8a93efab16d5abe14",
+    "trained_pool_sha256": "ce7f4537b3dfe5ee7be2bf4aeed41760b64feeacb2da59c3766ce0bfe391e740",
+    "selection_sha256": "dc413dd77324edab84b271b7708b113eed26882198471ed1044a0203db3384aa"
+  }
+}
