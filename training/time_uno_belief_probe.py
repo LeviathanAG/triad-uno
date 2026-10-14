@@ -10,8 +10,12 @@ from uno_belief_rollout_probe import Policy,engine
 def main():
     p=argparse.ArgumentParser();p.add_argument('--model',type=Path,required=True)
     p.add_argument('--games',type=int,default=8);p.add_argument('--seed',type=int,default=55_100_000)
-    p.add_argument('--budget',type=float,default=.15);a=p.parse_args()
-    probe=Policy(json.loads(a.model.read_text())['weights'],budget=a.budget,max_trials=8,min_trials=4)
+    p.add_argument('--budget',type=float,default=.15)
+    p.add_argument('--max-trials',type=int,default=8)
+    p.add_argument('--fast-simulation',action='store_true')
+    p.add_argument('--cached-public-fold',action='store_true');a=p.parse_args()
+    probe=Policy(json.loads(a.model.read_text())['weights'],budget=a.budget,max_trials=a.max_trials,min_trials=4,
+                 fast_simulation=a.fast_simulation,cached_public_fold=a.cached_public_fold)
     started=time.perf_counter();decisions=0
     for seed in range(a.seed,a.seed+a.games):
         state=engine.new_game(engine.GameConfig(),seed)
@@ -23,7 +27,9 @@ def main():
             decisions+=1
     if probe.stats['max_decision_seconds']>=5:raise RuntimeError('decision exceeded official5-second ceiling')
     print(json.dumps({'development_only':True,'games':a.games,'decisions':decisions,'seconds':time.perf_counter()-started,
-                      'max_rss_bytes':resource.getrusage(resource.RUSAGE_SELF).ru_maxrss*1024,'stats':probe.stats}))
+                      'max_rss_bytes':resource.getrusage(resource.RUSAGE_SELF).ru_maxrss*1024,'stats':probe.stats,
+                      'config':{'max_trials':a.max_trials,'fast_simulation':a.fast_simulation,
+                                'cached_public_fold':a.cached_public_fold,'budget_seconds':a.budget}}))
 
 
 if __name__=='__main__':main()

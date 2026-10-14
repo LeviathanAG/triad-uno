@@ -50,3 +50,29 @@ read-only Docker restart games pass with zero agent faults or fallbacks.
 The CPU image continues to use the ordinary Dockerfile and claims no shared
 PyTorch/CUDA size exemption. Later private neural experiments remain separate
 until they demonstrate a gain over this retained checkpoint.
+
+Private belief-rollout efficiency experiment (not deployed): audited snapshots
+matched 7,808 filtered observations and 300 transitions. Incremental public
+fold matched 18,892 folds and 4,691 route choices, including reset cases.
+The fold cache assumes the pinned SDK appends events without changing old
+events. In 232 fixed synthetic-world rollouts, identical returns took 1.85x
+less time with both speed paths. Prepared sampling preserves the original
+public-only samples and RNG state. No actual hidden cards or real game seed
+is supplied to the probe. Official referee imports are development-only.
+
+Fresh 112M development comparison (256 full games per regime) selected fast16
+by league placement points with the incumbent eligible. League gain +0.015625
+(95% paired seed-block bootstrap CI -0.003906 to +0.039063); starter +0.027344
+(-0.007813 to +0.066406); random -0.019531 (-0.066406 to +0.019531). These
+small, mixed results do not justify changing the retained runtime. The uniform
+eight-style hypothetical rival mixture did not win selection. Approximate
+sampled-model Gaussian override bounds do not guarantee real-game strength.
+A fixed fast16 fresh 113M gate is running privately on free Kaggle CPU as
+xdantalianx/triad-uno-belief-fast16 version 1, 512 four-seat blocks per unique
+regime (league/starter/random). Maximum 16 trials, minimum 4, budget 0.15s,
+all hypothetical rivals use retained route. Actual opponent identities are
+unknown. Tonight's frozen test-round source 5474ba6 remains unchanged.
+Restricted development-only Docker check (1 CPU, 1 GiB, read-only, network
+none, pids 128): 16 games / 1,438 decisions; maximum 0.153045s decision and
+26,402,816 bytes peak RSS. Zero hypothetical-world legality rejections.
+The 115.1M resource fixture is not a policy strength selection family.

@@ -92,3 +92,24 @@ def sample_unknown_hands(observation,rng,max_attempts=32):
             hands[other]=hand
         if ok:return hands,cards[offset:]
     return None
+
+
+class PreparedSampler:
+    """Development speed cache from one fixed own/public observation only."""
+    def __init__(self,observation):
+        pool,discards=public_unknown_pool(observation)
+        self.cards=list(pool.elements());self.discards=discards
+        self.constraints=proven_constraints(observation)
+        self.seat=observation['seat'];self.sizes=list(observation['hand_sizes'])
+
+    def sample(self,rng,max_attempts=32):
+        cards=list(self.cards)
+        for _ in range(max_attempts):
+            rng.shuffle(cards);offset=0;hands={};ok=True
+            for other,count in enumerate(self.sizes):
+                if other==self.seat:continue
+                hand=cards[offset:offset+count];offset+=count
+                if not all(compatible(card,self.constraints[other]) for card in hand):ok=False;break
+                hands[other]=hand
+            if ok:return hands,cards[offset:]
+        return None

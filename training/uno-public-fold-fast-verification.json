@@ -1,0 +1,10 @@
+{
+  "development_only": true,
+  "exact_public_fold_checks": 18892,
+  "exact_cached_policy_decisions": 4691,
+  "copied_truncated_different_game_resets_checked": true,
+  "full_fold_seconds": 2.622823636083922,
+  "cached_fold_seconds": 0.03459625464893179,
+  "fold_speedup": 75.81235780286713,
+  "assumption": "Pinned SDK histories append events and never mutate older events; cache is not a deployed inference API."
+}

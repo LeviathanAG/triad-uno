@@ -1,0 +1,23 @@
+{
+  "development_only": true,
+  "all_mutable_snapshot_fields_isolated": true,
+  "exact_filtered_views": 7808,
+  "exact_snapshot_transitions": 300,
+  "phases": {
+    "TURN": 1759,
+    "AFTER_DRAW": 177,
+    "FINISHED": 16
+  },
+  "max_history_entries": 247,
+  "observed_recycles": 4,
+  "timing_samples": 160,
+  "median_seconds": {
+    "deepcopy": 0.0011857420031446964,
+    "snapshot": 0.0002811955018842127,
+    "official_observe_resolve": 2.1252002625260502e-05,
+    "fast_observe_resolve": 1.4068500604480505e-05
+  },
+  "snapshot_speedup": 4.216788658422235,
+  "observe_resolve_speedup": 1.5106089286083701,
+  "note": "Timing covers fixed work, not wall-clock-limited trial selection; strength requires separate fresh game benchmark."
+}

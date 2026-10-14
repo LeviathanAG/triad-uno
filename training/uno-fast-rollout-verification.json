@@ -1,0 +1,13 @@
+{
+  "development_only": true,
+  "public_observations": 24,
+  "equivalent_paired_rollouts": 232,
+  "sampling_declines": 2,
+  "fixed_work_seconds": {
+    "baseline": 1.0027394009957789,
+    "fast_snapshot_observation": 0.8263821368964273,
+    "fast_with_cached_fold": 0.5427634690277046
+  },
+  "overall_rollout_speedup": 1.84747032218669,
+  "note": "No actual hidden state or real seed is passed to the probe; simulator used only to generate filtered verification fixtures. Infinite deadline verifies the same work/returns rather than different timing-limited trial subsets."
+}

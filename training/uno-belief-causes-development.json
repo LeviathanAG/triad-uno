@@ -1,0 +1,479 @@
+{
+  "league": {
+    "incumbent": {
+      "points": 2.91015625,
+      "win_rate": 0.28125,
+      "games": 256,
+      "probe_stats": {
+        "probes": 0,
+        "overrides": 0,
+        "sampling_declines": 0,
+        "incomplete_pairs": 0,
+        "completed_trials": 0,
+        "world_rejections": 0,
+        "max_decision_seconds": 0.0
+      },
+      "seconds": 1.3649990769990836
+    },
+    "candidates": [
+      {
+        "config": {
+          "name": "original8",
+          "max_trials": 8,
+          "fast_simulation": false,
+          "cached_public_fold": false,
+          "rival_model": "route"
+        },
+        "summary": {
+          "points": 2.8828125,
+          "win_rate": 0.26953125,
+          "games": 256,
+          "probe_stats": {
+            "probes": 663,
+            "overrides": 27,
+            "sampling_declines": 578,
+            "incomplete_pairs": 350,
+            "completed_trials": 4281,
+            "world_rejections": 0,
+            "max_decision_seconds": 0.15690884600189747
+          },
+          "seconds": 59.270084199997655
+        },
+        "paired_gain": {
+          "mean_gain": -0.02734375,
+          "ci95": [
+            -0.08203125,
+            0.01953125
+          ],
+          "unit": "points per game",
+          "sampling_unit": "four-seat seed block"
+        }
+      },
+      {
+        "config": {
+          "name": "fast8",
+          "max_trials": 8,
+          "fast_simulation": true,
+          "cached_public_fold": true,
+          "rival_model": "route"
+        },
+        "summary": {
+          "points": 2.890625,
+          "win_rate": 0.26953125,
+          "games": 256,
+          "probe_stats": {
+            "probes": 652,
+            "overrides": 29,
+            "sampling_declines": 559,
+            "incomplete_pairs": 304,
+            "completed_trials": 4340,
+            "world_rejections": 0,
+            "max_decision_seconds": 0.15280277100100648
+          },
+          "seconds": 34.40113296799973
+        },
+        "paired_gain": {
+          "mean_gain": -0.01953125,
+          "ci95": [
+            -0.0703125,
+            0.02734375
+          ],
+          "unit": "points per game",
+          "sampling_unit": "four-seat seed block"
+        }
+      },
+      {
+        "config": {
+          "name": "fast16",
+          "max_trials": 16,
+          "fast_simulation": true,
+          "cached_public_fold": true,
+          "rival_model": "route"
+        },
+        "summary": {
+          "points": 2.92578125,
+          "win_rate": 0.28125,
+          "games": 256,
+          "probe_stats": {
+            "probes": 647,
+            "overrides": 19,
+            "sampling_declines": 1089,
+            "incomplete_pairs": 617,
+            "completed_trials": 8234,
+            "world_rejections": 0,
+            "max_decision_seconds": 0.1539603330020327
+          },
+          "seconds": 62.411210133002896
+        },
+        "paired_gain": {
+          "mean_gain": 0.015625,
+          "ci95": [
+            -0.00390625,
+            0.0390625
+          ],
+          "unit": "points per game",
+          "sampling_unit": "four-seat seed block"
+        }
+      },
+      {
+        "config": {
+          "name": "fast16_mixture",
+          "max_trials": 16,
+          "fast_simulation": true,
+          "cached_public_fold": true,
+          "rival_model": "mixture"
+        },
+        "summary": {
+          "points": 2.9140625,
+          "win_rate": 0.28125,
+          "games": 256,
+          "probe_stats": {
+            "probes": 650,
+            "overrides": 18,
+            "sampling_declines": 1121,
+            "incomplete_pairs": 589,
+            "completed_trials": 8640,
+            "world_rejections": 0,
+            "max_decision_seconds": 0.1521781270057545
+          },
+          "seconds": 47.7284026740017
+        },
+        "paired_gain": {
+          "mean_gain": 0.00390625,
+          "ci95": [
+            -0.0078125,
+            0.01572265624999858
+          ],
+          "unit": "points per game",
+          "sampling_unit": "four-seat seed block"
+        }
+      }
+    ]
+  },
+  "starter": {
+    "incumbent": {
+      "points": 2.96484375,
+      "win_rate": 0.296875,
+      "games": 256,
+      "probe_stats": {
+        "probes": 0,
+        "overrides": 0,
+        "sampling_declines": 0,
+        "incomplete_pairs": 0,
+        "completed_trials": 0,
+        "world_rejections": 0,
+        "max_decision_seconds": 0.0
+      },
+      "seconds": 1.1872938180022174
+    },
+    "candidates": [
+      {
+        "config": {
+          "name": "original8",
+          "max_trials": 8,
+          "fast_simulation": false,
+          "cached_public_fold": false,
+          "rival_model": "route"
+        },
+        "summary": {
+          "points": 2.9453125,
+          "win_rate": 0.29296875,
+          "games": 256,
+          "probe_stats": {
+            "probes": 639,
+            "overrides": 20,
+            "sampling_declines": 655,
+            "incomplete_pairs": 355,
+            "completed_trials": 3939,
+            "world_rejections": 0,
+            "max_decision_seconds": 0.15546423000341747
+          },
+          "seconds": 58.697654616000364
+        },
+        "paired_gain": {
+          "mean_gain": -0.01953125,
+          "ci95": [
+            -0.06640625,
+            0.015625
+          ],
+          "unit": "points per game",
+          "sampling_unit": "four-seat seed block"
+        }
+      },
+      {
+        "config": {
+          "name": "fast8",
+          "max_trials": 8,
+          "fast_simulation": true,
+          "cached_public_fold": true,
+          "rival_model": "route"
+        },
+        "summary": {
+          "points": 2.9609375,
+          "win_rate": 0.296875,
+          "games": 256,
+          "probe_stats": {
+            "probes": 640,
+            "overrides": 23,
+            "sampling_declines": 647,
+            "incomplete_pairs": 303,
+            "completed_trials": 4158,
+            "world_rejections": 0,
+            "max_decision_seconds": 0.15218897700106027
+          },
+          "seconds": 35.530974219997006
+        },
+        "paired_gain": {
+          "mean_gain": -0.00390625,
+          "ci95": [
+            -0.0546875,
+            0.04296875
+          ],
+          "unit": "points per game",
+          "sampling_unit": "four-seat seed block"
+        }
+      },
+      {
+        "config": {
+          "name": "fast16",
+          "max_trials": 16,
+          "fast_simulation": true,
+          "cached_public_fold": true,
+          "rival_model": "route"
+        },
+        "summary": {
+          "points": 2.9921875,
+          "win_rate": 0.30859375,
+          "games": 256,
+          "probe_stats": {
+            "probes": 629,
+            "overrides": 18,
+            "sampling_declines": 1271,
+            "incomplete_pairs": 638,
+            "completed_trials": 7630,
+            "world_rejections": 0,
+            "max_decision_seconds": 0.15376906099845655
+          },
+          "seconds": 61.15107497799909
+        },
+        "paired_gain": {
+          "mean_gain": 0.02734375,
+          "ci95": [
+            -0.0078125,
+            0.06640625
+          ],
+          "unit": "points per game",
+          "sampling_unit": "four-seat seed block"
+        }
+      },
+      {
+        "config": {
+          "name": "fast16_mixture",
+          "max_trials": 16,
+          "fast_simulation": true,
+          "cached_public_fold": true,
+          "rival_model": "mixture"
+        },
+        "summary": {
+          "points": 2.9765625,
+          "win_rate": 0.296875,
+          "games": 256,
+          "probe_stats": {
+            "probes": 614,
+            "overrides": 16,
+            "sampling_declines": 1288,
+            "incomplete_pairs": 633,
+            "completed_trials": 7848,
+            "world_rejections": 0,
+            "max_decision_seconds": 0.15486659399903147
+          },
+          "seconds": 45.89480199600075
+        },
+        "paired_gain": {
+          "mean_gain": 0.01171875,
+          "ci95": [
+            -0.02734375,
+            0.05859375
+          ],
+          "unit": "points per game",
+          "sampling_unit": "four-seat seed block"
+        }
+      }
+    ]
+  },
+  "random": {
+    "incumbent": {
+      "points": 3.265625,
+      "win_rate": 0.359375,
+      "games": 256,
+      "probe_stats": {
+        "probes": 0,
+        "overrides": 0,
+        "sampling_declines": 0,
+        "incomplete_pairs": 0,
+        "completed_trials": 0,
+        "world_rejections": 0,
+        "max_decision_seconds": 0.0
+      },
+      "seconds": 1.28408324400516
+    },
+    "candidates": [
+      {
+        "config": {
+          "name": "original8",
+          "max_trials": 8,
+          "fast_simulation": false,
+          "cached_public_fold": false,
+          "rival_model": "route"
+        },
+        "summary": {
+          "points": 3.265625,
+          "win_rate": 0.359375,
+          "games": 256,
+          "probe_stats": {
+            "probes": 771,
+            "overrides": 26,
+            "sampling_declines": 673,
+            "incomplete_pairs": 479,
+            "completed_trials": 4773,
+            "world_rejections": 0,
+            "max_decision_seconds": 0.156249088999175
+          },
+          "seconds": 77.2629553049992
+        },
+        "paired_gain": {
+          "mean_gain": 0.0,
+          "ci95": [
+            -0.0390625,
+            0.046875
+          ],
+          "unit": "points per game",
+          "sampling_unit": "four-seat seed block"
+        }
+      },
+      {
+        "config": {
+          "name": "fast8",
+          "max_trials": 8,
+          "fast_simulation": true,
+          "cached_public_fold": true,
+          "rival_model": "route"
+        },
+        "summary": {
+          "points": 3.25,
+          "win_rate": 0.3515625,
+          "games": 256,
+          "probe_stats": {
+            "probes": 777,
+            "overrides": 24,
+            "sampling_declines": 662,
+            "incomplete_pairs": 391,
+            "completed_trials": 5140,
+            "world_rejections": 0,
+            "max_decision_seconds": 0.15275665000081062
+          },
+          "seconds": 45.403850479997345
+        },
+        "paired_gain": {
+          "mean_gain": -0.015625,
+          "ci95": [
+            -0.05859375,
+            0.03125
+          ],
+          "unit": "points per game",
+          "sampling_unit": "four-seat seed block"
+        }
+      },
+      {
+        "config": {
+          "name": "fast16",
+          "max_trials": 16,
+          "fast_simulation": true,
+          "cached_public_fold": true,
+          "rival_model": "route"
+        },
+        "summary": {
+          "points": 3.24609375,
+          "win_rate": 0.34765625,
+          "games": 256,
+          "probe_stats": {
+            "probes": 782,
+            "overrides": 16,
+            "sampling_declines": 1306,
+            "incomplete_pairs": 800,
+            "completed_trials": 9700,
+            "world_rejections": 0,
+            "max_decision_seconds": 0.1564312760019675
+          },
+          "seconds": 80.99605678600346
+        },
+        "paired_gain": {
+          "mean_gain": -0.01953125,
+          "ci95": [
+            -0.06640625,
+            0.01953125
+          ],
+          "unit": "points per game",
+          "sampling_unit": "four-seat seed block"
+        }
+      },
+      {
+        "config": {
+          "name": "fast16_mixture",
+          "max_trials": 16,
+          "fast_simulation": true,
+          "cached_public_fold": true,
+          "rival_model": "mixture"
+        },
+        "summary": {
+          "points": 3.2734375,
+          "win_rate": 0.36328125,
+          "games": 256,
+          "probe_stats": {
+            "probes": 768,
+            "overrides": 21,
+            "sampling_declines": 1330,
+            "incomplete_pairs": 838,
+            "completed_trials": 9994,
+            "world_rejections": 0,
+            "max_decision_seconds": 0.15444018300331663
+          },
+          "seconds": 63.086447760004376
+        },
+        "paired_gain": {
+          "mean_gain": 0.0078125,
+          "ci95": [
+            -0.03515625,
+            0.05078125
+          ],
+          "unit": "points per game",
+          "sampling_unit": "four-seat seed block"
+        }
+      }
+    ]
+  },
+  "selection": {
+    "selected": 3,
+    "config": {
+      "name": "fast16",
+      "max_trials": 16,
+      "fast_simulation": true,
+      "cached_public_fold": true,
+      "rival_model": "route"
+    },
+    "metric": "common development league mean placement points;baseline eligible"
+  },
+  "provenance": {
+    "development_only": true,
+    "seed_start": 112000000,
+    "blocks": 64,
+    "workers": 2,
+    "budget_seconds": 0.15,
+    "min_trials": 4,
+    "heuristic_regime_alias": "starter and SDKheuristic are identical under canonical legal order; evaluated once",
+    "own_private_public_only_policy_inputs": true,
+    "rival_prior": "approximate uniform eight style labels;not actual opponent identities/hidden cards",
+    "uncertainty": "model-world Gaussian lowerbound is heuristic;not a guarantee about real games",
+    "next_fresh_final_seed_if_needed": 113000000
+  }
+}
