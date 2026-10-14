@@ -111,3 +111,10 @@ validated. Cloud completed approximately 4.5--4.9 trials per probe under the
 0.15-second budget, versus 12.7 in the local restricted Docker resource
 fixture; these fixtures differ and are not paired strength evidence. The
 failed gate is retained as reported and the route policy remains deployed.
+
+New private 118M development comparison follows the failed fixed gate:
+0.5-second budget, maximum 32 paired trials, either 2 or 4 semantic candidate
+actions, approximate route or uniform eight-style rival priors. The common
+league placement-point selection includes the incumbent. 119M is reserved
+for one fresh fixed-candidate gate if development selects an improvement.
+These changes affect experiments only; runtime policy remains retained.

@@ -23,8 +23,8 @@ def job(args):
   outcomes=[]
   for seat in range(4):
    actors=[None]*4
-   args={k:v for k,v in config.items() if k!='name'}
-   actors[seat]=Probe(weights,budget=.15,min_trials=4,**args) if args else make_policy({'kind':'route','weights':weights},0)
+   args={k:v for k,v in config.items() if k not in ('name','budget')}
+   actors[seat]=Probe(weights,budget=config.get('budget',.15),min_trials=4,**args) if args else make_policy({'kind':'route','weights':weights},0)
    for offset,spec in enumerate(rivals,1):actors[(seat+offset)%4]=make_policy(spec,seed*10+offset)
    state=engine.new_game(engine.GameConfig(max_turns=1000),seed)
    while state.phase!=engine.FINISHED and seat not in state.finished_set:
