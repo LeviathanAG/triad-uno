@@ -1,0 +1,113 @@
+{
+  "development_only": true,
+  "cpu": 1,
+  "ram_bytes": 1073741824,
+  "readonly": true,
+  "network": "none",
+  "reports": {
+    "actions4_route": {
+      "development_only": true,
+      "games": 8,
+      "decisions": 695,
+      "seconds": 22.88116027200158,
+      "max_rss_bytes": 26001408,
+      "stats": {
+        "calls": 695,
+        "probes": 68,
+        "overrides": 1,
+        "sampling_declines": 100,
+        "incomplete_pairs": 113,
+        "completed_trials": 1848,
+        "world_rejections": 0,
+        "max_decision_seconds": 0.5019392339963815,
+        "probe_seconds": 22.72136798399879
+      },
+      "config": {
+        "max_trials": 32,
+        "fast_simulation": true,
+        "cached_public_fold": true,
+        "budget_seconds": 0.5,
+        "max_actions": 4,
+        "rival_model": "route"
+      }
+    },
+    "actions4_mixture": {
+      "development_only": true,
+      "games": 8,
+      "decisions": 700,
+      "seconds": 17.126086270996893,
+      "max_rss_bytes": 25686016,
+      "stats": {
+        "calls": 700,
+        "probes": 70,
+        "overrides": 4,
+        "sampling_declines": 98,
+        "incomplete_pairs": 150,
+        "completed_trials": 1991,
+        "world_rejections": 0,
+        "max_decision_seconds": 0.5004339220031397,
+        "probe_seconds": 16.97528935993614
+      },
+      "config": {
+        "max_trials": 32,
+        "fast_simulation": true,
+        "cached_public_fold": true,
+        "budget_seconds": 0.5,
+        "max_actions": 4,
+        "rival_model": "mixture"
+      }
+    },
+    "actions2_route": {
+      "development_only": true,
+      "games": 8,
+      "decisions": 695,
+      "seconds": 20.921195199000067,
+      "max_rss_bytes": 25665536,
+      "stats": {
+        "calls": 695,
+        "probes": 68,
+        "overrides": 1,
+        "sampling_declines": 100,
+        "incomplete_pairs": 107,
+        "completed_trials": 1944,
+        "world_rejections": 0,
+        "max_decision_seconds": 0.5008270659964182,
+        "probe_seconds": 20.766530510023586
+      },
+      "config": {
+        "max_trials": 32,
+        "fast_simulation": true,
+        "cached_public_fold": true,
+        "budget_seconds": 0.5,
+        "max_actions": 2,
+        "rival_model": "route"
+      }
+    },
+    "actions2_mixture": {
+      "development_only": true,
+      "games": 8,
+      "decisions": 700,
+      "seconds": 14.6417710589958,
+      "max_rss_bytes": 25935872,
+      "stats": {
+        "calls": 700,
+        "probes": 70,
+        "overrides": 4,
+        "sampling_declines": 98,
+        "incomplete_pairs": 125,
+        "completed_trials": 2017,
+        "world_rejections": 0,
+        "max_decision_seconds": 0.351471070003754,
+        "probe_seconds": 14.489432112015493
+      },
+      "config": {
+        "max_trials": 32,
+        "fast_simulation": true,
+        "cached_public_fold": true,
+        "budget_seconds": 0.5,
+        "max_actions": 2,
+        "rival_model": "mixture"
+      }
+    }
+  }
+}

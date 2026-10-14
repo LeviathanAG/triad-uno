@@ -1,0 +1,15 @@
+{
+  "development_only": true,
+  "runtime_and_live_gate_changed": false,
+  "public_decisions": 24,
+  "identical_fixed_rollouts": 440,
+  "whole_seconds": [
+    1.1591149589876295,
+    1.1420639400021173
+  ],
+  "whole_speedup": 1.014930003818771,
+  "cache_hits": 2325,
+  "cache_misses": 15486,
+  "max_cache_entries": 2048,
+  "cache_scope": "one own/public current decision and its hypothetical rollouts"
+}

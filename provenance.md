@@ -118,3 +118,16 @@ actions, approximate route or uniform eight-style rival priors. The common
 league placement-point selection includes the incumbent. 119M is reserved
 for one fresh fixed-candidate gate if development selects an improvement.
 These changes affect experiments only; runtime policy remains retained.
+
+The four larger-budget configurations passed restricted 1-CPU/1-GiB Docker
+resource checks (eight complete games each): maximum decision 0.501939s and
+peak RSS 26,001,408 bytes, no sampled-world legality rejections. These 121.1M
+fixtures are resource checks, not strength evidence. Locally the probes
+completed about 27--29 trials each. The two-action mixture fixture exhausted
+all 32 attempts below its 0.5s budget; 125/2,240 attempts still produced an
+incomplete paired rollout at the 128-step cap, so truncated/model uncertainty
+remains. A further per-decision route-feature memoization experiment matched
+440 fixed-work rollouts but yielded only 1.015x overall speed in one timing
+pass, providing no useful new headroom; it was not integrated into the job or
+runtime. Cache keys used queried card multisets and public top/colour only;
+the hypothetical rival queries were never factual hidden cards.
