@@ -23,3 +23,14 @@ games6053decisions: unseenpool exact,11983 constrained-seat checks sound,
 564/630endgame hypotheticalsample successes,66budgetdeclines. No playing
 strength claim, runtimeengineimport, or realhiddenstate/seed argument. Any
 futureplanner caller must safelyretainlearntpolicy when sampler declines.
+
+Development-only root-action belief rollout probe, NOT deploymentcode:
+uno_belief_rollout_probe.py explicitly imports official localreferee onlyfor
+sampledpossibleworld simulations. Its select method acceptsobservationonly,
+no trustedstate/hiddenhands/realgameseed. Requireownhand2or3, fewtoproute
+actions, pairedboundedrollouts. Incomplete worlds/time/samplingdeclines retain
+learnedpolicy. Synthetic-modelconfidence heuristic isnot actualwinningproof.
+Beforeeventdeployment implementoriginalrule-simulator andindependentgame
+validation; do not importlocal_evaluator in eventruntime. ResourceDockerdev
+1CPU/1GiBreadonly/no-network measuredmax.158674s/RSS25.16MB860decisions.
+Paired512game/regime fresh56m benchmark pending; mainruntime stillroute.
