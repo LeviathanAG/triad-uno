@@ -11,7 +11,7 @@ except ModuleNotFoundError:
 
 _path = Path(__file__).resolve().parents[1] / "models" / "policy.json"
 _model = json.loads(_path.read_text())
-if (_model.get("format") != "triad-uno-linear-v1" or _model.get("features") != FEATURE_NAMES
+if (_model.get("format") != "triad-uno-route-linear-v1" or _model.get("features") != FEATURE_NAMES
         or not all(math.isfinite(w) for w in _model["weights"])):
     raise ValueError("invalid learned policy")
 _policy = Policy(_model["weights"])

@@ -1,35 +1,52 @@
 # UNO development candidate provenance
 
-Team: TungMasterSoloClear (TECHTEAM11600). Source repository:
-https://github.com/LeviathanAG/triad-uno. This is a development candidate;
-the final capture commit and image digest have not been submitted.
+Team: TungMasterSoloClear (TECHTEAM11600). Private source repository:
+https://github.com/LeviathanAG/triad-uno. This development candidate has not been
+submitted to the event; final capture commit and image digest remain unset.
 
-The protocol, SDK starter, and local training simulator come from the organizer's
-unoSDK at `0cda3acc1bb5c05fa1803a8fbd7761770dc6d5fe`. Their vendor attribution and
-manifests remain intact. The action features, policy optimization, and inference
-wrapper were developed with Codex during the event. No external pretrained model,
-LLM runtime, opening dataset, or opponent's submission is incorporated.
-Vendored protocol components are `src/uno_agent/protocol.py` and
-`src/uno_agent/schemas/*.json`, with their exact origin recorded in
-`src/uno_agent/VENDOR.json`. No organizer game logic is copied into the runtime.
+The organizer UNO simulator used for training is the exact snapshot
+`0cda3acc1bb5c05fa1803a8fbd7761770dc6d5fe`. The later SDK build/checker update
+`a1e9592407c816edc51fce024d7344516c8d3074` is merged and does not change game
+logic. Organizer protocol/vendor files retain their attribution and manifests.
+No local evaluator or copied organizer engine is imported by deployed inference.
 
-`models/policy.json` contains 18 learned action-scoring weights. Training used
-cross-entropy policy optimization with population 32 for 30 generations and 64
-simulated matches per candidate. Policies receive only filtered observations.
-Training, selection and final evaluation seeds are distinct; source seeds and
-simulator state are not inputs to the deployed model.
+The policy is an original non-language linear action scorer using Python's
+standard library. It has 24 weights: 18 frozen weights from the previous learned
+policy, plus six newly trained residual weights. Own-hand sequence features use
+an original deterministic search capped at 128 visited states and depth eight.
+The search imagines consecutive own plays with no intervening opponent changes;
+its result is a hand-structure feature, not a guaranteed future sequence.
+Other features use public history to infer colour/symbol absences and preferences.
+Inference reads only the filtered observation and recomputes history evidence on
+every request. It consumes no hidden hands, simulator state, seed, or game ID.
 
-The private Kaggle run is
-https://www.kaggle.com/code/xdantalianx/triad-tactics-training (version 1).
-Training dependencies include NumPy; an additional PyTorch/CUDA score-distillation
-experiment ran on Kaggle T4. The distilled checkpoint was not selected for this
-candidate. Deployment uses Python's standard library only, loads frozen weights
-once, requires no network and does not import the local evaluator.
+The initial 18-weight model was trained by population cross-entropy optimization
+in https://www.kaggle.com/code/xdantalianx/triad-tactics-training (version 1).
+It is retained as `models/incumbent-v1.json`, with its original evaluation report.
+The additional six weights were trained in the private CPU notebook
+https://www.kaggle.com/code/xdantalianx/triad-uno-route-residual (version 1):
+24 generations, population 24, 24 four-seat seed blocks per candidate. Finalists
+were compared once on a fixed 256-block selection set. The first final test used
+512 fresh blocks per opponent regime. Training source, selection and progress
+are under `training/`; NumPy is a training dependency, never a runtime dependency.
+Set `UNO_SDK` to this repository and pass `models/incumbent-v1.json` to reproduce
+residual training. No external pretrained model or participant agent is used.
 
-`models/evaluation.json` records the separate 512-game tests per opponent regime.
-These results assess the tested baselines only; they do not establish event
-winning probability or official admission.
+`models/evaluation.json` reports 2,048 games per regime. The varied league gain
+was +0.07275 points per game (paired 95% interval +0.02588 to +0.11914).
+`models/independent-evaluation.json` reports another 4,096 games per regime from
+fresh seed 26,000,000 with the chosen checkpoint fixed. That replication gave a
+smaller, uncertain league gain +0.00977 (interval -0.02319 to +0.04224), a
+starter/heuristic gain +0.04663 (interval +0.01563 to +0.07861), and a random-rival
+gain +0.03223 (interval -0.00245 to +0.06812). All tested point means improved;
+these local results establish neither event winning probability nor universal
+superiority. League first-place rate was slightly lower on the replication.
 
-Training source is under `training/`. Set `UNO_SDK` to this repository when
-running `training/train_uno.py` with NumPy installed. GPU distillation additionally
-requires PyTorch and `UNO_OUTPUT` pointing to the teacher checkpoint directory.
+Validation: 300 exhaustive small-hand checks against authoritative SDK legality;
+2,423 zero-residual compatibility/legality decisions; packaged inference matches
+the training policy across 1,649 decisions in 16 complete games. SDK tests,
+protocol smoke checks, three local restart games, and three network-disabled,
+read-only Docker restart games pass with zero agent faults or fallbacks.
+The CPU image continues to use the ordinary Dockerfile and claims no shared
+PyTorch/CUDA size exemption. Later private neural experiments remain separate
+until they demonstrate a gain over this retained checkpoint.

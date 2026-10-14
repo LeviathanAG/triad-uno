@@ -1,5 +1,5 @@
 {
-  "format": "triad-uno-linear-v1",
+  "format": "triad-uno-route-linear-v1",
   "features": [
     "play",
     "number",
@@ -18,7 +18,13 @@
     "keep",
     "choose_colour",
     "next_can_finish",
-    "own_hand_size"
+    "own_hand_size",
+    "sequence_fraction",
+    "sequence_stranded",
+    "ending_wild",
+    "next_colour_absence",
+    "next_symbol_absence",
+    "next_colour_preference"
   ],
   "weights": [
     8.022466349142684,
@@ -38,16 +44,73 @@
     -4.598739912392293,
     3.347870880522802,
     0.32778952616834095,
-    -0.24548152213113314
+    -0.24548152213113314,
+    0.054801310646275025,
+    -1.1349214815798592,
+    -0.04225874297028254,
+    1.1191018681573717,
+    0.21891410472226475,
+    -0.08122782541248305
   ],
   "training": {
-    "method": "cross-entropy policy optimization",
-    "seed": 20261014,
-    "generations": 30,
-    "population": 32,
-    "games_per_candidate": 64,
-    "validation": 3.005859375,
+    "method": "frozen-base residual CEM, own-hand bounded sequence features",
+    "seed": 20261019,
+    "iterations": 24,
     "sdk_commit": "0cda3acc1bb5c05fa1803a8fbd7761770dc6d5fe",
-    "feature_count": 18
+    "selection_seed_start": 21000000,
+    "test_seed_start": 22000000,
+    "base": {
+      "format": "triad-uno-linear-v1",
+      "features": [
+        "play",
+        "number",
+        "skip",
+        "reverse",
+        "draw_two",
+        "wild",
+        "wild_draw_four",
+        "remaining_colour_count",
+        "remaining_colour_fraction",
+        "remaining_match_count",
+        "attack_next_threat",
+        "reverse_escape_threat",
+        "wild_when_small_hand",
+        "finish",
+        "keep",
+        "choose_colour",
+        "next_can_finish",
+        "own_hand_size"
+      ],
+      "weights": [
+        8.022466349142684,
+        0.44153069585311683,
+        -0.06834035646341297,
+        1.4643534535685507,
+        -2.338619866848944,
+        -3.4540620544700498,
+        -4.276279368110987,
+        1.6602353386949849,
+        1.0165100023007814,
+        0.901341302040876,
+        3.853185081203389,
+        2.4436903583872347,
+        1.7223969671761579,
+        11.872419584625783,
+        -4.598739912392293,
+        3.347870880522802,
+        0.32778952616834095,
+        -0.24548152213113314
+      ],
+      "training": {
+        "method": "cross-entropy policy optimization",
+        "seed": 20261014,
+        "generations": 30,
+        "population": 32,
+        "games_per_candidate": 64,
+        "validation": 3.005859375,
+        "sdk_commit": "0cda3acc1bb5c05fa1803a8fbd7761770dc6d5fe",
+        "feature_count": 18
+      }
+    }
   }
 }

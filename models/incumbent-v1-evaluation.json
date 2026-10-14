@@ -1,0 +1,38 @@
+{
+  "heuristic": {
+    "learned": {
+      "points": 2.853515625,
+      "win_rate": 0.279296875,
+      "games": 512
+    },
+    "initial": {
+      "points": 2.78515625,
+      "win_rate": 0.26953125,
+      "games": 512
+    }
+  },
+  "random": {
+    "learned": {
+      "points": 3.39453125,
+      "win_rate": 0.423828125,
+      "games": 512
+    },
+    "initial": {
+      "points": 3.302734375,
+      "win_rate": 0.3984375,
+      "games": 512
+    }
+  },
+  "mixed": {
+    "learned": {
+      "points": 2.90234375,
+      "win_rate": 0.29296875,
+      "games": 512
+    },
+    "initial": {
+      "points": 2.876953125,
+      "win_rate": 0.275390625,
+      "games": 512
+    }
+  }
+}

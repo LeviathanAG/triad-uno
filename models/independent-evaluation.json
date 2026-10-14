@@ -1,0 +1,93 @@
+{
+  "league": {
+    "candidate": {
+      "points": 2.8896484375,
+      "win_rate": 0.27880859375,
+      "games": 4096
+    },
+    "incumbent": {
+      "points": 2.8798828125,
+      "win_rate": 0.282958984375,
+      "games": 4096
+    },
+    "paired_gain": {
+      "mean_gain": 0.009765625,
+      "ci95": [
+        -0.023193359375,
+        0.042236328125
+      ],
+      "unit": "points per game",
+      "sampling_unit": "four-seat seed block"
+    }
+  },
+  "starter": {
+    "candidate": {
+      "points": 2.841552734375,
+      "win_rate": 0.27294921875,
+      "games": 4096
+    },
+    "incumbent": {
+      "points": 2.794921875,
+      "win_rate": 0.265625,
+      "games": 4096
+    },
+    "paired_gain": {
+      "mean_gain": 0.046630859375,
+      "ci95": [
+        0.015625,
+        0.07861328125
+      ],
+      "unit": "points per game",
+      "sampling_unit": "four-seat seed block"
+    }
+  },
+  "heuristic": {
+    "candidate": {
+      "points": 2.841552734375,
+      "win_rate": 0.27294921875,
+      "games": 4096
+    },
+    "incumbent": {
+      "points": 2.794921875,
+      "win_rate": 0.265625,
+      "games": 4096
+    },
+    "paired_gain": {
+      "mean_gain": 0.046630859375,
+      "ci95": [
+        0.015625,
+        0.07861328125
+      ],
+      "unit": "points per game",
+      "sampling_unit": "four-seat seed block"
+    }
+  },
+  "random": {
+    "candidate": {
+      "points": 3.281005859375,
+      "win_rate": 0.376953125,
+      "games": 4096
+    },
+    "incumbent": {
+      "points": 3.248779296875,
+      "win_rate": 0.371337890625,
+      "games": 4096
+    },
+    "paired_gain": {
+      "mean_gain": 0.0322265625,
+      "ci95": [
+        -0.002447509765624998,
+        0.06812133789062491
+      ],
+      "unit": "points per game",
+      "sampling_unit": "four-seat seed block"
+    }
+  },
+  "provenance": {
+    "seed_start": 26000000,
+    "blocks": 1024,
+    "candidate_path": "training/kaggle-uno-route-output/output/uno-policy-route.json",
+    "incumbent_path": "unoSDK/models/policy.json",
+    "fixed_checkpoint": true
+  }
+}
