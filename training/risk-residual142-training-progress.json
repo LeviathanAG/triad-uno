@@ -1,0 +1,626 @@
+[
+  {
+    "generation": 1,
+    "residual_weights": [
+      -2.1771659603461413,
+      -3.168149957653747,
+      -0.41186516676894047,
+      0.1835290673670243,
+      3.372888558622849,
+      1.1236666408964404
+    ],
+    "best": {
+      "points": 2.8203125,
+      "win_rate": 0.265625,
+      "games": 128,
+      "public_prior_declines": 0,
+      "seconds": 6.233563086999993
+    },
+    "zero_prior": {
+      "points": 2.609375,
+      "win_rate": 0.1953125,
+      "games": 128,
+      "public_prior_declines": 0,
+      "seconds": 5.103810633000023
+    },
+    "seconds": 25.216619132999995
+  },
+  {
+    "generation": 2,
+    "residual_weights": [
+      0.18982607627174308,
+      -2.891231731938841,
+      0.8875808495173594,
+      3.782857159415742,
+      -1.1329880691741805,
+      2.763967656580696
+    ],
+    "best": {
+      "points": 2.8671875,
+      "win_rate": 0.28125,
+      "games": 128,
+      "public_prior_declines": 0,
+      "seconds": 5.63821084999995
+    },
+    "zero_prior": {
+      "points": 2.6171875,
+      "win_rate": 0.2109375,
+      "games": 128,
+      "public_prior_declines": 0,
+      "seconds": 4.684559449000005
+    },
+    "seconds": 47.90356576299996
+  },
+  {
+    "generation": 3,
+    "residual_weights": [
+      -0.4545611547920343,
+      -1.6310641207437613,
+      1.395280335674404,
+      1.7832466012055512,
+      -0.386218369300343,
+      -0.04322071111015529
+    ],
+    "best": {
+      "points": 2.8359375,
+      "win_rate": 0.28125,
+      "games": 128,
+      "public_prior_declines": 0,
+      "seconds": 6.508771054000022
+    },
+    "zero_prior": {
+      "points": 2.78125,
+      "win_rate": 0.2578125,
+      "games": 128,
+      "public_prior_declines": 0,
+      "seconds": 4.931118093999999
+    },
+    "seconds": 72.19690579799999
+  },
+  {
+    "generation": 4,
+    "residual_weights": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "best": {
+      "points": 2.859375,
+      "win_rate": 0.2734375,
+      "games": 128,
+      "public_prior_declines": 0,
+      "seconds": 4.533262266999998
+    },
+    "zero_prior": {
+      "points": 2.859375,
+      "win_rate": 0.2734375,
+      "games": 128,
+      "public_prior_declines": 0,
+      "seconds": 4.533262266999998
+    },
+    "seconds": 94.78980225199996
+  },
+  {
+    "generation": 5,
+    "residual_weights": [
+      -0.13716869145183944,
+      -0.4606142225616783,
+      1.4778526871972104,
+      1.4632359431540087,
+      0.429646077745421,
+      -1.062425995824302
+    ],
+    "best": {
+      "points": 2.890625,
+      "win_rate": 0.296875,
+      "games": 128,
+      "public_prior_declines": 0,
+      "seconds": 6.197706521999976
+    },
+    "zero_prior": {
+      "points": 2.796875,
+      "win_rate": 0.2734375,
+      "games": 128,
+      "public_prior_declines": 0,
+      "seconds": 5.002073015000008
+    },
+    "seconds": 120.16371348199999
+  },
+  {
+    "generation": 6,
+    "residual_weights": [
+      -0.4461956180201425,
+      -3.177250204817324,
+      0.13734121893373286,
+      2.013724365103607,
+      -0.9455710655132183,
+      -2.003060358011588
+    ],
+    "best": {
+      "points": 2.8359375,
+      "win_rate": 0.2421875,
+      "games": 128,
+      "public_prior_declines": 0,
+      "seconds": 5.387971003000018
+    },
+    "zero_prior": {
+      "points": 2.7109375,
+      "win_rate": 0.25,
+      "games": 128,
+      "public_prior_declines": 0,
+      "seconds": 4.634485077000022
+    },
+    "seconds": 142.45806624
+  },
+  {
+    "generation": 7,
+    "residual_weights": [
+      -0.3614204734181299,
+      -1.4130198999116073,
+      1.1123425961294728,
+      1.2139006551951832,
+      -0.34480829647938366,
+      -0.8897926811364953
+    ],
+    "best": {
+      "points": 2.8125,
+      "win_rate": 0.2734375,
+      "games": 128,
+      "public_prior_declines": 0,
+      "seconds": 5.425780679000013
+    },
+    "zero_prior": {
+      "points": 2.8046875,
+      "win_rate": 0.2734375,
+      "games": 128,
+      "public_prior_declines": 0,
+      "seconds": 4.455793841999991
+    },
+    "seconds": 165.14485446499998
+  },
+  {
+    "generation": 8,
+    "residual_weights": [
+      0.3461890485422723,
+      -1.271413879258215,
+      1.5680710306047163,
+      1.7705438110017178,
+      -0.47408036279079724,
+      -2.142094037963444
+    ],
+    "best": {
+      "points": 2.9375,
+      "win_rate": 0.296875,
+      "games": 128,
+      "public_prior_declines": 0,
+      "seconds": 5.315440634000083
+    },
+    "zero_prior": {
+      "points": 2.78125,
+      "win_rate": 0.2421875,
+      "games": 128,
+      "public_prior_declines": 0,
+      "seconds": 4.549967915000025
+    },
+    "seconds": 187.09913826399998
+  },
+  {
+    "generation": 9,
+    "residual_weights": [
+      -0.298994702612852,
+      -1.5729364460225148,
+      1.2431560287015406,
+      1.4848359338270969,
+      0.009648396779612212,
+      -0.6701499100006109
+    ],
+    "best": {
+      "points": 2.8828125,
+      "win_rate": 0.2734375,
+      "games": 128,
+      "public_prior_declines": 0,
+      "seconds": 5.984310434999998
+    },
+    "zero_prior": {
+      "points": 2.8203125,
+      "win_rate": 0.265625,
+      "games": 128,
+      "public_prior_declines": 0,
+      "seconds": 4.843506830000024
+    },
+    "seconds": 210.95316950300003
+  },
+  {
+    "generation": 10,
+    "residual_weights": [
+      -0.46377065163026465,
+      -1.6150730531872801,
+      1.0869084880148456,
+      1.3215439684354324,
+      -0.886033116667658,
+      -2.400426068450431
+    ],
+    "best": {
+      "points": 2.9765625,
+      "win_rate": 0.2890625,
+      "games": 128,
+      "public_prior_declines": 0,
+      "seconds": 5.507312071999991
+    },
+    "zero_prior": {
+      "points": 2.5859375,
+      "win_rate": 0.21875,
+      "games": 128,
+      "public_prior_declines": 0,
+      "seconds": 4.793937704000086
+    },
+    "seconds": 233.85874101799993
+  },
+  {
+    "generation": 11,
+    "residual_weights": [
+      -0.3149689776810719,
+      -1.5485186302049017,
+      1.1950829652430892,
+      1.2772963945820686,
+      -0.49087327573021333,
+      -1.5559599622041995
+    ],
+    "best": {
+      "points": 2.6015625,
+      "win_rate": 0.1953125,
+      "games": 128,
+      "public_prior_declines": 0,
+      "seconds": 5.955567601999974
+    },
+    "zero_prior": {
+      "points": 2.5390625,
+      "win_rate": 0.1953125,
+      "games": 128,
+      "public_prior_declines": 0,
+      "seconds": 4.879875653999989
+    },
+    "seconds": 258.773020537
+  },
+  {
+    "generation": 12,
+    "residual_weights": [
+      -0.4280133022240918,
+      -1.9795141035434412,
+      1.164167327145734,
+      1.2604081400545544,
+      -0.671645254029124,
+      -1.5559598425924823
+    ],
+    "best": {
+      "points": 3.03125,
+      "win_rate": 0.34375,
+      "games": 128,
+      "public_prior_declines": 0,
+      "seconds": 5.484789778000049
+    },
+    "zero_prior": {
+      "points": 2.9765625,
+      "win_rate": 0.328125,
+      "games": 128,
+      "public_prior_declines": 0,
+      "seconds": 4.752366151000047
+    },
+    "seconds": 282.670485105
+  },
+  {
+    "generation": 13,
+    "residual_weights": [
+      -0.21629428868657197,
+      -1.8380601980689262,
+      0.9447136607317684,
+      1.2585872471545874,
+      -0.8585381440503512,
+      -2.276681056104359
+    ],
+    "best": {
+      "points": 2.8203125,
+      "win_rate": 0.2734375,
+      "games": 128,
+      "public_prior_declines": 0,
+      "seconds": 5.962630880000006
+    },
+    "zero_prior": {
+      "points": 2.65625,
+      "win_rate": 0.234375,
+      "games": 128,
+      "public_prior_declines": 0,
+      "seconds": 4.820271931999969
+    },
+    "seconds": 306.030025731
+  },
+  {
+    "generation": 14,
+    "residual_weights": [
+      -0.44882887337227106,
+      -1.2899857631136262,
+      0.7153256255821783,
+      1.003692156975572,
+      -0.5553145997238895,
+      -1.6674731943205674
+    ],
+    "best": {
+      "points": 2.9375,
+      "win_rate": 0.3125,
+      "games": 128,
+      "public_prior_declines": 0,
+      "seconds": 5.816275222999934
+    },
+    "zero_prior": {
+      "points": 2.734375,
+      "win_rate": 0.265625,
+      "games": 128,
+      "public_prior_declines": 0,
+      "seconds": 4.834361292999915
+    },
+    "seconds": 329.557614219
+  },
+  {
+    "generation": 15,
+    "residual_weights": [
+      -0.22300122663944869,
+      -1.746017991507158,
+      1.0600964844833485,
+      1.3669408286329185,
+      -0.13816326537432366,
+      -2.45231165600305
+    ],
+    "best": {
+      "points": 2.671875,
+      "win_rate": 0.2109375,
+      "games": 128,
+      "public_prior_declines": 0,
+      "seconds": 5.92666731700001
+    },
+    "zero_prior": {
+      "points": 2.578125,
+      "win_rate": 0.1953125,
+      "games": 128,
+      "public_prior_declines": 0,
+      "seconds": 5.134086400000001
+    },
+    "seconds": 353.85794946399994
+  },
+  {
+    "generation": 16,
+    "residual_weights": [
+      -0.5485930890771927,
+      -1.7648472000942443,
+      1.4988274758215072,
+      1.2189232312507348,
+      -0.34641400521308263,
+      -1.541058865794053
+    ],
+    "best": {
+      "points": 2.8125,
+      "win_rate": 0.2265625,
+      "games": 128,
+      "public_prior_declines": 0,
+      "seconds": 5.864741021999976
+    },
+    "zero_prior": {
+      "points": 2.7265625,
+      "win_rate": 0.2265625,
+      "games": 128,
+      "public_prior_declines": 0,
+      "seconds": 4.591043075000016
+    },
+    "seconds": 377.0397694029999
+  },
+  {
+    "generation": 17,
+    "residual_weights": [
+      -0.19839678146994771,
+      -2.009548611490519,
+      1.1730777169613023,
+      1.1065410232701183,
+      -0.30971478058420465,
+      -2.253470441100454
+    ],
+    "best": {
+      "points": 2.7890625,
+      "win_rate": 0.28125,
+      "games": 128,
+      "public_prior_declines": 0,
+      "seconds": 5.920592032999934
+    },
+    "zero_prior": {
+      "points": 2.640625,
+      "win_rate": 0.2578125,
+      "games": 128,
+      "public_prior_declines": 0,
+      "seconds": 5.137827516000016
+    },
+    "seconds": 400.49502309599995
+  },
+  {
+    "generation": 18,
+    "residual_weights": [
+      0.02083042789725348,
+      -1.5868033209223145,
+      0.7998581795226279,
+      1.3900934755176066,
+      -0.5443637800950812,
+      -2.152701895272202
+    ],
+    "best": {
+      "points": 2.6875,
+      "win_rate": 0.25,
+      "games": 128,
+      "public_prior_declines": 0,
+      "seconds": 6.4530691229999775
+    },
+    "zero_prior": {
+      "points": 2.6640625,
+      "win_rate": 0.21875,
+      "games": 128,
+      "public_prior_declines": 0,
+      "seconds": 5.257822089999991
+    },
+    "seconds": 425.852212344
+  },
+  {
+    "generation": 19,
+    "residual_weights": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "best": {
+      "points": 2.859375,
+      "win_rate": 0.2578125,
+      "games": 128,
+      "public_prior_declines": 0,
+      "seconds": 4.4496561390000124
+    },
+    "zero_prior": {
+      "points": 2.859375,
+      "win_rate": 0.2578125,
+      "games": 128,
+      "public_prior_declines": 0,
+      "seconds": 4.4496561390000124
+    },
+    "seconds": 449.090012669
+  },
+  {
+    "generation": 20,
+    "residual_weights": [
+      -0.37115625841912037,
+      -0.17702190661869566,
+      1.5430144192427173,
+      0.6067095487843743,
+      -0.6312763757379256,
+      -1.908912335052636
+    ],
+    "best": {
+      "points": 3.0,
+      "win_rate": 0.34375,
+      "games": 128,
+      "public_prior_declines": 0,
+      "seconds": 6.111663662999945
+    },
+    "zero_prior": {
+      "points": 2.9140625,
+      "win_rate": 0.296875,
+      "games": 128,
+      "public_prior_declines": 0,
+      "seconds": 4.52686569399998
+    },
+    "seconds": 474.199344655
+  },
+  {
+    "generation": 21,
+    "residual_weights": [
+      -0.3100004556472687,
+      -0.6174045553624574,
+      1.317677776144095,
+      0.9978957158877935,
+      -0.45037706433721736,
+      -1.0248312164761233
+    ],
+    "best": {
+      "points": 2.875,
+      "win_rate": 0.265625,
+      "games": 128,
+      "public_prior_declines": 0,
+      "seconds": 5.625428980999914
+    },
+    "zero_prior": {
+      "points": 2.78125,
+      "win_rate": 0.25,
+      "games": 128,
+      "public_prior_declines": 0,
+      "seconds": 4.646936918999927
+    },
+    "seconds": 496.335559986
+  },
+  {
+    "generation": 22,
+    "residual_weights": [
+      -0.2839108591555153,
+      -0.9816372774378528,
+      1.3530610049006038,
+      0.6792627923436472,
+      -0.24207084380295174,
+      -2.5542248909829066
+    ],
+    "best": {
+      "points": 2.7734375,
+      "win_rate": 0.25,
+      "games": 128,
+      "public_prior_declines": 0,
+      "seconds": 5.512166825999998
+    },
+    "zero_prior": {
+      "points": 2.7109375,
+      "win_rate": 0.2421875,
+      "games": 128,
+      "public_prior_declines": 0,
+      "seconds": 4.693970518000015
+    },
+    "seconds": 518.961646483
+  },
+  {
+    "generation": 23,
+    "residual_weights": [
+      0.18222951462202136,
+      -0.5878686856695308,
+      0.8559483922535096,
+      1.1519156307500569,
+      -0.3119057295611931,
+      -1.847653152434571
+    ],
+    "best": {
+      "points": 2.7265625,
+      "win_rate": 0.2578125,
+      "games": 128,
+      "public_prior_declines": 0,
+      "seconds": 5.864022602999967
+    },
+    "zero_prior": {
+      "points": 2.609375,
+      "win_rate": 0.2265625,
+      "games": 128,
+      "public_prior_declines": 0,
+      "seconds": 4.850642524999898
+    },
+    "seconds": 544.2845780509999
+  },
+  {
+    "generation": 24,
+    "residual_weights": [
+      -0.264545744333747,
+      -0.5941340331801536,
+      0.8190094792659839,
+      0.6405451202919776,
+      -0.2981776144325998,
+      -1.3695016303799945
+    ],
+    "best": {
+      "points": 3.1328125,
+      "win_rate": 0.375,
+      "games": 128,
+      "public_prior_declines": 0,
+      "seconds": 6.093713610999998
+    },
+    "zero_prior": {
+      "points": 2.84375,
+      "win_rate": 0.296875,
+      "games": 128,
+      "public_prior_declines": 0,
+      "seconds": 5.078926193000029
+    },
+    "seconds": 568.612657961
+  }
+]

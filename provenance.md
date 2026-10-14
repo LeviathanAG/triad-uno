@@ -152,3 +152,26 @@ full development games and a synthetic108-card partition with104 own cards.
 Maximum decision 0.003835s, peak RSS 24551424bytes,
 all selected actions legal. The selected learned checkpoint must repeat its
 actual inference/export resource gates before deployment.
+
+The frozen24/six-residual search completed and failed its fresh primary gate.
+Allsix actualJSON files,11 helper/source hashes,twoasset hashes and24
+generations validated; the24 base values were unchanged andsix residuals
+finite/bounded.141M selection chose index3 (+0.103516 points over zero on
+1,024 games).142M final2,048games/regime: trained league gain0.0000
+(95%paired-block CI -0.049805 to +0.047864), route+0.038574 (-0.001953
+to+0.077649), starter-0.015625 (-0.058105 to+0.024902), random+0.036621
+(-0.011719 to+0.083997). Trained first-place rate fell by0.0078125. No
+upgrade or main change;143M remainsunused, not spent to seek significance.
+
+Next substantive private experiment jointly refines all30 coefficients:
+retained24 plus zero risk warm start, base trust box ±25% of max(1,absolute
+original coefficient), six risks bounded±8. Training uses a predeclared70%
+own-trained league/30% retained-route selfplay composite; all rivals remain
+fixed as candidate base weights change. Selection also requires nonnegative
+trained mean gain, route mean loss no greater than0.02 and classical-style
+mean loss no greater than0.03; these are observed selection guards, not
+confidence guarantees. The incumbent remains eligible.151Mtrain,152Mselect,
+153Mfreshfinal and154Mreserved independent were checked unused before launch.
+Static matrices of our stateless rival scorers are initialized once perworker;
+random style agents reset from each matched rival seed. Smoke155/156/157M
+passed; no failed-model final data are used for new selection.
