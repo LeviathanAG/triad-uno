@@ -4,6 +4,13 @@ Images now follow the runtime 2 contract (UID 10000, exec ENTRYPOINT, resource/S
 
 # unoSDK — participant starter for Triad UNO v1
 
+Team: **TungMasterSoloClear** — Team ID: **TECHTEAM11600**.
+
+The current entry packages our trained 24-weight UNO route policy using Python's
+standard library. Runtime/model validation and training attribution are recorded
+in [provenance.md](provenance.md); experimental training results do not replace
+the retained model without an independent strength gate.
+
 Fork this repository and edit it directly. The repo root is a ready-to-run
 **Python** submission (standard library only); a complete **TypeScript**
 alternative lives under `templates/typescript/`.

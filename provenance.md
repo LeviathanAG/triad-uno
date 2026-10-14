@@ -1,8 +1,12 @@
-# UNO development candidate provenance
+# UNO test-round candidate provenance
 
 Team: TungMasterSoloClear (TECHTEAM11600). Private source repository:
-https://github.com/LeviathanAG/triad-uno. This development candidate has not been
-submitted to the event; final capture commit and image digest remain unset.
+https://github.com/LeviathanAG/triad-uno. The October 14 test-round source is prepared for the authorized 20:30 IST push.
+The retained runtime/model source is verified at
+`715e74042973c99838b537e7fac027fed63ba64a`; the complete prepared source commit
+and any published image digest are recorded in the publication receipt. The
+registry/upload destination is pending organizer confirmation; no image URI is
+fabricated in the manifest.
 
 The organizer UNO simulator used for training is the exact snapshot
 `0cda3acc1bb5c05fa1803a8fbd7761770dc6d5fe`. The later SDK build/checker update
@@ -50,3 +54,16 @@ read-only Docker restart games pass with zero agent faults or fallbacks.
 The CPU image continues to use the ordinary Dockerfile and claims no shared
 PyTorch/CUDA size exemption. Later private neural experiments remain separate
 until they demonstrate a gain over this retained checkpoint.
+
+The test-round manifest identifies team TungMasterSoloClear / TECHTEAM11600 and
+declares the actual loaded `models/policy.json` asset (SHA-256
+`d458ef2894c0ce51d62ed30a4ad1b685c85db2c1a97417a8a93efab16d5abe14`).
+The CPU Python parent is pinned to
+`python@sha256:e88e9763f943ec1834f992a4b51e0f24500486803e8bc534e5767af9ea65f6ce`.
+Current admission preparation repeats the eight protocol checks, the SDK suite
+(27 passed, six optional checks skipped), and three local plus three restricted
+Docker restart games, with zero unintended faults or fallbacks. The test image
+uses UID10000:10000, no network, read-only root, one CPU, one GiB RAM, and bounded
+scratch. Required SDK resource labels remain unchanged. Later joint24 and
+mirrored searches failed to establish an upgrade; the shipped route policy is
+unchanged from the verified source above.
