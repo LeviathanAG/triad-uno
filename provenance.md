@@ -145,3 +145,10 @@ The finite/legality/public-constraint audit is saved alongside the helper.
 Additional scorer checks matched 1,810 zero-residual decisions and verified
 1,810 nonzero legal decisions plus845 incomplete-history declines to the
 unchanged scalar prior. No runtime, model, manifest or main branch change.
+
+Prototype scorer resource probe (arbitrary six coefficients, not the eventual
+trained candidate): restricted 1CPU/1GiB/read-only/network-none Docker, eight
+full development games and a synthetic108-card partition with104 own cards.
+Maximum decision 0.003835s, peak RSS 24551424bytes,
+all selected actions legal. The selected learned checkpoint must repeat its
+actual inference/export resource gates before deployment.

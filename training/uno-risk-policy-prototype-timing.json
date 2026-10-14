@@ -1,0 +1,1 @@
+{"development_only": true, "actual_trained_checkpoint": false, "games": 8, "decisions": 1199, "seconds": 0.3084443889965769, "max_decision_seconds": 0.0038353769996319897, "max_rss_bytes": 24551424, "prior_declines": 0, "stress_own_cards": 104, "stress_legal_actions": 41, "stress_seconds": 0.0038353769996319897, "residual_weights": [-1.0, -2.0, -1.0, -2.0, -1.0, 2.0]}
