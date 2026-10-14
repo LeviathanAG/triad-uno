@@ -14,3 +14,12 @@ Previous119featurefutureNN larger8192games/regime failedleagueimprovement
 vsroute; reservoirNN retainedroute onselection. These failures motivateexact
 routefeatures/base/teacher rather than obsoletev1. Allcheckpoints keptoutside
 runtime until independentlysupportedpointgain and contract/container checks.
+
+Observation-only belief-rollout groundwork, NOT inference deployment:
+uno_public_belief.py reconstructs canonicalunseenpool viaownhand andcurrent
+publicdiscardsuffix; exactpublicabsenceconstraints includeordinary-drawwild
+absence. Fixed32-attempt sampler returnsNone without hiddenfallback. Audit64
+games6053decisions: unseenpool exact,11983 constrained-seat checks sound,
+564/630endgame hypotheticalsample successes,66budgetdeclines. No playing
+strength claim, runtimeengineimport, or realhiddenstate/seed argument. Any
+futureplanner caller must safelyretainlearntpolicy when sampler declines.
