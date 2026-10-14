@@ -44,7 +44,7 @@ def export(model,base,metadata):
             'output_bias':float(model.output.bias.detach().cpu()[0]),'training':metadata}
 
 
-def make_pairs(data,seed):
+def make_pairs(data,seed,pair_gap=.5,uncertainty_only=False):
     # NPZ access decompresses a member. Load each array once, rather than once
     # per state/pair, especially the new Monte Carlo trial matrix.
     game_ids=data['game_ids'];targets=data['targets'];offsets=data['offsets']
@@ -59,23 +59,31 @@ def make_pairs(data,seed):
         for i in range(len(q)):
             for j in range(i+1,len(q)):
                 gap=float(q[i]-q[j])
-                if abs(gap)>=.5:
-                    weight=min(1.,abs(gap)/3.)
+                if abs(gap)>=pair_gap:
+                    stderr=0.
                     if trial_targets is not None and trial_targets.shape[1] > 1:
                         differences=trial_targets[a+i]-trial_targets[a+j]
                         stderr=float(np.std(differences,ddof=1)/np.sqrt(len(differences)))
-                        # Reward differences sharing future draws, not independent
-                        # action variances, provide the relevant noise estimate.
-                        weight*=max(.05,1.-stderr/abs(gap))
-                    target.append((a+i,a+j,1./(1.+np.exp(-gap/.75)),weight))
+                    # In the point-loss comparison, retain zero-gap pairs and
+                    # avoid weighting by observed reward-gap magnitude.
+                    if uncertainty_only or pair_gap==0:
+                        weight=1./(1.+stderr*stderr)
+                    else:
+                        weight=min(1.,abs(gap)/3.)*max(.05,1.-stderr/abs(gap))
+                    target.append((a+i,a+j,1./(1.+np.exp(-gap/.75)),weight,gap))
     if not train or not val:raise ValueError('not enough informative game-held-out pairs')
     return np.asarray(train,dtype=np.float64),np.asarray(val,dtype=np.float64),len(ids)-len(val_ids),len(val_ids)
 
 
-def loss(model,x,pairs,regularization):
+def loss(model,x,pairs,regularization,objective='ranking'):
     first=pairs[:,0].long();second=pairs[:,1].long()
     scores_a,residual_a=model(x[first]);scores_b,residual_b=model(x[second])
-    point=F.binary_cross_entropy_with_logits(scores_a-scores_b,pairs[:,2],reduction='none')
+    if objective=='mse':
+        point=(scores_a-scores_b-pairs[:,4]).square()
+    elif objective=='huber':
+        point=F.smooth_l1_loss(scores_a-scores_b,pairs[:,4],reduction='none',beta=1.)
+    else:
+        point=F.binary_cross_entropy_with_logits(scores_a-scores_b,pairs[:,2],reduction='none')
     rank=(point*pairs[:,3]).sum()/pairs[:,3].sum()
     regularizer=regularization*(residual_a.square().mean()+residual_b.square().mean())/2.
     return rank+regularizer,rank
@@ -96,6 +104,11 @@ def main():
     parser.add_argument('--seed',type=int,default=20261017)
     parser.add_argument('--device',default='cuda')
     parser.add_argument('--residual-scales',default='1',help='comma-separated conservative learned-residual scales')
+    parser.add_argument('--objective',choices=('ranking','mse','huber'),default='ranking')
+    parser.add_argument('--pair-gap',type=float,default=.5)
+    parser.add_argument('--uncertainty-only-weights',action='store_true')
+    parser.add_argument('--calibrate-base',action='store_true',help='positive point-unit scale fitted on training pairs; preserves base rankings')
+    parser.add_argument('--fit-only',action='store_true',help='export learned candidates; defer all actual-game selection to a shared comparison')
     parser.add_argument('--output',type=Path,default=Path(__file__).parent/'uno-residual-output')
     args=parser.parse_args()
     scales=[float(s) for s in args.residual_scales.split(',')]
@@ -120,7 +133,16 @@ def main():
         base=weights[:18]+[0.]*(len(names)-24)+weights[18:]
     else:
         base=metadata['incumbent']['weights']+[0.]*(len(names)-len(metadata['incumbent']['weights']))
-    train,val,train_games,val_games=make_pairs(data,args.seed)
+    if not np.isfinite(args.pair_gap) or args.pair_gap<0:parser.error('pair gap must be finite/nonnegative')
+    train,val,train_games,val_games=make_pairs(data,args.seed,args.pair_gap,args.uncertainty_only_weights)
+    calibration_scale=1.
+    if args.calibrate_base:
+        vectors=data['features']
+        differences=(vectors[train[:,0].astype(int)]-vectors[train[:,1].astype(int)])@np.asarray(base)
+        denominator=float(np.sum(train[:,3]*differences*differences))
+        numerator=float(np.sum(train[:,3]*differences*train[:,4]))
+        calibration_scale=max(.05,min(1.,numerator/denominator)) if denominator>0 else 1.
+        base=[calibration_scale*w for w in base]
     x=torch.as_tensor(data['features'],dtype=torch.float32,device=args.device)
     train=torch.as_tensor(train,dtype=torch.float32,device=args.device)
     val=torch.as_tensor(val,dtype=torch.float32,device=args.device)
@@ -133,29 +155,31 @@ def main():
         model=Residual(base,args.width).to(args.device)
         optimizer=torch.optim.AdamW(model.parameters(),lr=.003,weight_decay=.0001)
         with torch.no_grad():
-            _,baseline_rank=loss(model,x,val,regularization)
+            _,baseline_rank=loss(model,x,val,regularization,args.objective)
         best_loss=float(baseline_rank);best_epoch=0;best=copy.deepcopy(model.state_dict())
         for epoch in range(args.epochs):
             model.train();order=torch.randperm(len(train),device=args.device)
             for start in range(0,len(order),args.batch):
                 batch=train[order[start:start+args.batch]]
-                objective,_=loss(model,x,batch,regularization)
+                objective,_=loss(model,x,batch,regularization,args.objective)
                 optimizer.zero_grad(set_to_none=True);objective.backward()
                 nn.utils.clip_grad_norm_(model.parameters(),5.)
                 optimizer.step()
             model.eval()
             with torch.no_grad():
-                objective,rank=loss(model,x,val,regularization)
+                objective,rank=loss(model,x,val,regularization,args.objective)
             current=float(rank)
             if current<best_loss:
                 best_loss,best_epoch,best=current,epoch+1,copy.deepcopy(model.state_dict())
             if (epoch+1)%10==0:
-                row={'regularization':regularization,'epoch':epoch+1,'validation_rank_loss':current,'best_rank_loss':best_loss,'seconds':round(time.time()-started,1)}
+                row={'objective':args.objective,'regularization':regularization,'epoch':epoch+1,'validation_loss':current,'best_validation_loss':best_loss,'seconds':round(time.time()-started,1)}
                 history.append(row);print(json.dumps(row),flush=True)
         model.load_state_dict(best)
         document=export(model,base,{'method':'paired counterfactual policy distillation with residual scorer',
+            'objective':args.objective,'pair_gap':args.pair_gap,'uncertainty_only_weights':args.uncertainty_only_weights,
+            'base_calibration_scale':calibration_scale,
             'seed':args.seed+index,'regularization':regularization,'best_epoch':best_epoch,
-            'validation_rank_loss':best_loss,'baseline_validation_rank_loss':float(baseline_rank),
+            'validation_loss':best_loss,'baseline_validation_loss':float(baseline_rank),
             'training_games':train_games,'validation_games':val_games,'source_dataset':metadata,
             'sdk_commit':metadata['sdk_commit']})
         check=data['features'][:min(200,len(data['features']))]
@@ -179,6 +203,7 @@ def main():
             candidates.append(scaled)
         del model,optimizer
     (args.output/'training-progress.json').write_text(json.dumps(history,indent=2)+'\n')
+    if args.fit_only:return
     incumbent_document=metadata['incumbent']
     if args.evaluation_incumbent:
         incumbent_document=json.loads(args.evaluation_incumbent.read_text())

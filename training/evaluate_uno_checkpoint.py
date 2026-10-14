@@ -25,7 +25,8 @@ def main():
     attack=list(INITIAL_WEIGHTS)
     for i in (2,4,6,10):attack[i]+=2.
     preserve=list(INITIAL_WEIGHTS);preserve[5]-=2.;preserve[6]-=2.
-    reference=[{'kind':'starter'},{'kind':'heuristic'},{'kind':'random'},incumbent,source,{'kind':'v1','weights':INITIAL_WEIGHTS},{'kind':'v1','weights':attack},{'kind':'v1','weights':preserve}]
+    reference=[{'kind':'starter'},{'kind':'heuristic'},{'kind':'random'},incumbent,{'kind':'v1','weights':INITIAL_WEIGHTS},{'kind':'v1','weights':attack},{'kind':'v1','weights':preserve}]
+    if source != incumbent:reference.insert(4,source)
     seeds=list(range(a.seed_start,a.seed_start+a.blocks));modes=('league','starter','heuristic','random')
     with concurrent.futures.ProcessPoolExecutor(max_workers=a.workers,mp_context=multiprocessing.get_context('spawn')) as pool:
         results=list(pool.map(evaluate_job,[(s,seeds,reference,m) for m in modes for s in (candidate,incumbent)]))
