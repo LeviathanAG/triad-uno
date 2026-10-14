@@ -1,4 +1,4 @@
-FROM python@sha256:e88e9763f943ec1834f992a4b51e0f24500486803e8bc534e5767af9ea65f6ce
+FROM python:3.11-slim
 WORKDIR /app
 LABEL org.triad-uno.protocol="1.0" org.triad-uno.runtime="2" org.triad-uno.sdk="uno-sdk-2" \
       org.triad-uno.cpu="1" org.triad-uno.ram-bytes="1073741824" \

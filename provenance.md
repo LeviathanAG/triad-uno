@@ -58,8 +58,9 @@ until they demonstrate a gain over this retained checkpoint.
 The test-round manifest identifies team TungMasterSoloClear / TECHTEAM11600 and
 declares the actual loaded `models/policy.json` asset (SHA-256
 `d458ef2894c0ce51d62ed30a4ad1b685c85db2c1a97417a8a93efab16d5abe14`).
-The CPU Python parent is pinned to
-`python@sha256:e88e9763f943ec1834f992a4b51e0f24500486803e8bc534e5767af9ea65f6ce`.
+The CPU parent restores the official literal `FROM python:3.11-slim` declaration
+for organizer compatibility. The exact tested index and Linux/amd64 platform
+digests are recorded in the admission verification receipt; the tag is mutable.
 Current admission preparation repeats the eight protocol checks, the SDK suite
 (27 passed, six optional checks skipped), and three local plus three restricted
 Docker restart games, with zero unintended faults or fallbacks. The test image
