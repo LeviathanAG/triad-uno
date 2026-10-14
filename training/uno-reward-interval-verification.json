@@ -1,0 +1,26 @@
+{
+  "development_only": true,
+  "public_observations": 24,
+  "exact_continuation_bound_checks": 1036,
+  "censored_step_checks": 446,
+  "deadline_checks": 148,
+  "abstract_remaining_slot_checks": 30,
+  "policy_legal_decisions": 24,
+  "stats": {
+    "calls": 24,
+    "probes": 24,
+    "overrides": 1,
+    "sampling_declines": 164,
+    "incomplete_pairs": 23,
+    "completed_trials": 581,
+    "world_rejections": 0,
+    "max_decision_seconds": 0.29365836000215495,
+    "probe_seconds": 4.123555942016537,
+    "retained_pairs": 604,
+    "interval_pairs": 23,
+    "deadline_bounds": 0,
+    "step_bounds": 26
+  },
+  "real_hidden_state_or_game_seed_policy_inputs": false,
+  "limitations": "Bounds cover sampled continuation rewards; posterior and rival model remain approximate."
+}

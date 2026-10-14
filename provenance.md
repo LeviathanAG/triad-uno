@@ -131,3 +131,21 @@ remains. A further per-decision route-feature memoization experiment matched
 pass, providing no useful new headroom; it was not integrated into the job or
 runtime. Cache keys used queried card multisets and public top/colour only;
 the hypothetical rival queries were never factual hidden cards.
+
+The 118M budget development selected .5s/32 trials/two actions/route prior.
+Its development gains were +0.027344 league (95% CI 0 to +0.054688),
++0.03125 starter (0 to +0.074219), +0.054688 random (+0.015625 to +0.101563).
+It is fixed before the119M final, which retains the original scopes and adds
+a separately reported league of eight of our own trained/archive policies,
+three distinct rivals per seed block. Trained rivals are not claimed to be
+better than every event entrant; no competitor private source is accessed.
+The downloaded development files and11 source hashes validated.
+
+A separate censored-rollout prototype keeps every valid pair, using the exact
+remaining-placement interval when a simulated own finish is unresolved.
+1,036 checks against completed hypothetical continuations, including446
+step-truncated and148 deadline cases, passed;30 abstract shared-slot cases
+and24 legal decisions passed. The sampled posterior and rival model remain
+approximate and the Gaussian world-mean comparison is heuristic. Planned
+130M development/131M selection/133M final are distinct from root132M numeric
+fixtures and from the untouched119M candidate. No runtime or main change.

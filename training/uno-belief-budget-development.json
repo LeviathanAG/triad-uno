@@ -1,0 +1,505 @@
+{
+  "league": {
+    "incumbent": {
+      "points": 2.77734375,
+      "win_rate": 0.24609375,
+      "games": 256,
+      "probe_stats": {
+        "probes": 0,
+        "overrides": 0,
+        "sampling_declines": 0,
+        "incomplete_pairs": 0,
+        "completed_trials": 0,
+        "world_rejections": 0,
+        "max_decision_seconds": 0.0
+      },
+      "summed_worker_seconds": 5.611026491000018
+    },
+    "candidates": [
+      {
+        "config": {
+          "name": "budget500ms_actions4_route",
+          "budget": 0.5,
+          "max_trials": 32,
+          "max_actions": 4,
+          "fast_simulation": true,
+          "cached_public_fold": true,
+          "rival_model": "route"
+        },
+        "summary": {
+          "points": 2.80078125,
+          "win_rate": 0.25390625,
+          "games": 256,
+          "probe_stats": {
+            "probes": 710,
+            "overrides": 24,
+            "sampling_declines": 1925,
+            "incomplete_pairs": 1211,
+            "completed_trials": 12348,
+            "world_rejections": 0,
+            "max_decision_seconds": 0.5123312239999791
+          },
+          "summed_worker_seconds": 334.50746937499997
+        },
+        "paired_gain": {
+          "mean_gain": 0.0234375,
+          "ci95": [
+            -0.00390625,
+            0.05078125
+          ],
+          "unit": "points per game",
+          "sampling_unit": "four-seat seed block"
+        }
+      },
+      {
+        "config": {
+          "name": "budget500ms_actions4_mixture",
+          "budget": 0.5,
+          "max_trials": 32,
+          "max_actions": 4,
+          "fast_simulation": true,
+          "cached_public_fold": true,
+          "rival_model": "mixture"
+        },
+        "summary": {
+          "points": 2.796875,
+          "win_rate": 0.2421875,
+          "games": 256,
+          "probe_stats": {
+            "probes": 710,
+            "overrides": 23,
+            "sampling_declines": 2123,
+            "incomplete_pairs": 1354,
+            "completed_trials": 15642,
+            "world_rejections": 0,
+            "max_decision_seconds": 0.5149430400000483
+          },
+          "summed_worker_seconds": 315.5069972130001
+        },
+        "paired_gain": {
+          "mean_gain": 0.01953125,
+          "ci95": [
+            -0.01171875,
+            0.05078125
+          ],
+          "unit": "points per game",
+          "sampling_unit": "four-seat seed block"
+        }
+      },
+      {
+        "config": {
+          "name": "budget500ms_actions2_route",
+          "budget": 0.5,
+          "max_trials": 32,
+          "max_actions": 2,
+          "fast_simulation": true,
+          "cached_public_fold": true,
+          "rival_model": "route"
+        },
+        "summary": {
+          "points": 2.8046875,
+          "win_rate": 0.25390625,
+          "games": 256,
+          "probe_stats": {
+            "probes": 698,
+            "overrides": 23,
+            "sampling_declines": 2001,
+            "incomplete_pairs": 1139,
+            "completed_trials": 13928,
+            "world_rejections": 0,
+            "max_decision_seconds": 0.5103126740000334
+          },
+          "summed_worker_seconds": 323.1866031820001
+        },
+        "paired_gain": {
+          "mean_gain": 0.02734375,
+          "ci95": [
+            0.0,
+            0.0546875
+          ],
+          "unit": "points per game",
+          "sampling_unit": "four-seat seed block"
+        }
+      },
+      {
+        "config": {
+          "name": "budget500ms_actions2_mixture",
+          "budget": 0.5,
+          "max_trials": 32,
+          "max_actions": 2,
+          "fast_simulation": true,
+          "cached_public_fold": true,
+          "rival_model": "mixture"
+        },
+        "summary": {
+          "points": 2.796875,
+          "win_rate": 0.2421875,
+          "games": 256,
+          "probe_stats": {
+            "probes": 709,
+            "overrides": 24,
+            "sampling_declines": 2197,
+            "incomplete_pairs": 1269,
+            "completed_trials": 17491,
+            "world_rejections": 0,
+            "max_decision_seconds": 0.5095523220001041
+          },
+          "summed_worker_seconds": 302.69010210700003
+        },
+        "paired_gain": {
+          "mean_gain": 0.01953125,
+          "ci95": [
+            -0.02734375,
+            0.05859375
+          ],
+          "unit": "points per game",
+          "sampling_unit": "four-seat seed block"
+        }
+      }
+    ]
+  },
+  "starter": {
+    "incumbent": {
+      "points": 2.77734375,
+      "win_rate": 0.26171875,
+      "games": 256,
+      "probe_stats": {
+        "probes": 0,
+        "overrides": 0,
+        "sampling_declines": 0,
+        "incomplete_pairs": 0,
+        "completed_trials": 0,
+        "world_rejections": 0,
+        "max_decision_seconds": 0.0
+      },
+      "summed_worker_seconds": 4.490288811000028
+    },
+    "candidates": [
+      {
+        "config": {
+          "name": "budget500ms_actions4_route",
+          "budget": 0.5,
+          "max_trials": 32,
+          "max_actions": 4,
+          "fast_simulation": true,
+          "cached_public_fold": true,
+          "rival_model": "route"
+        },
+        "summary": {
+          "points": 2.7890625,
+          "win_rate": 0.265625,
+          "games": 256,
+          "probe_stats": {
+            "probes": 676,
+            "overrides": 14,
+            "sampling_declines": 1975,
+            "incomplete_pairs": 1154,
+            "completed_trials": 11298,
+            "world_rejections": 0,
+            "max_decision_seconds": 0.5147002900000643
+          },
+          "summed_worker_seconds": 318.323548009
+        },
+        "paired_gain": {
+          "mean_gain": 0.01171875,
+          "ci95": [
+            -0.02734375,
+            0.05859375
+          ],
+          "unit": "points per game",
+          "sampling_unit": "four-seat seed block"
+        }
+      },
+      {
+        "config": {
+          "name": "budget500ms_actions4_mixture",
+          "budget": 0.5,
+          "max_trials": 32,
+          "max_actions": 4,
+          "fast_simulation": true,
+          "cached_public_fold": true,
+          "rival_model": "mixture"
+        },
+        "summary": {
+          "points": 2.83984375,
+          "win_rate": 0.2734375,
+          "games": 256,
+          "probe_stats": {
+            "probes": 681,
+            "overrides": 17,
+            "sampling_declines": 2178,
+            "incomplete_pairs": 1400,
+            "completed_trials": 14628,
+            "world_rejections": 0,
+            "max_decision_seconds": 0.5123392309999417
+          },
+          "summed_worker_seconds": 302.39804537199996
+        },
+        "paired_gain": {
+          "mean_gain": 0.0625,
+          "ci95": [
+            0.01953125,
+            0.1171875
+          ],
+          "unit": "points per game",
+          "sampling_unit": "four-seat seed block"
+        }
+      },
+      {
+        "config": {
+          "name": "budget500ms_actions2_route",
+          "budget": 0.5,
+          "max_trials": 32,
+          "max_actions": 2,
+          "fast_simulation": true,
+          "cached_public_fold": true,
+          "rival_model": "route"
+        },
+        "summary": {
+          "points": 2.80859375,
+          "win_rate": 0.26953125,
+          "games": 256,
+          "probe_stats": {
+            "probes": 680,
+            "overrides": 10,
+            "sampling_declines": 2089,
+            "incomplete_pairs": 1110,
+            "completed_trials": 13079,
+            "world_rejections": 0,
+            "max_decision_seconds": 0.5129100960000414
+          },
+          "summed_worker_seconds": 312.924131215
+        },
+        "paired_gain": {
+          "mean_gain": 0.03125,
+          "ci95": [
+            0.0,
+            0.07421875
+          ],
+          "unit": "points per game",
+          "sampling_unit": "four-seat seed block"
+        }
+      },
+      {
+        "config": {
+          "name": "budget500ms_actions2_mixture",
+          "budget": 0.5,
+          "max_trials": 32,
+          "max_actions": 2,
+          "fast_simulation": true,
+          "cached_public_fold": true,
+          "rival_model": "mixture"
+        },
+        "summary": {
+          "points": 2.8359375,
+          "win_rate": 0.2734375,
+          "games": 256,
+          "probe_stats": {
+            "probes": 682,
+            "overrides": 16,
+            "sampling_declines": 2234,
+            "incomplete_pairs": 1280,
+            "completed_trials": 16492,
+            "world_rejections": 0,
+            "max_decision_seconds": 0.5156823339999619
+          },
+          "summed_worker_seconds": 288.8199663409998
+        },
+        "paired_gain": {
+          "mean_gain": 0.05859375,
+          "ci95": [
+            0.015625,
+            0.11328125
+          ],
+          "unit": "points per game",
+          "sampling_unit": "four-seat seed block"
+        }
+      }
+    ]
+  },
+  "random": {
+    "incumbent": {
+      "points": 3.23046875,
+      "win_rate": 0.34765625,
+      "games": 256,
+      "probe_stats": {
+        "probes": 0,
+        "overrides": 0,
+        "sampling_declines": 0,
+        "incomplete_pairs": 0,
+        "completed_trials": 0,
+        "world_rejections": 0,
+        "max_decision_seconds": 0.0
+      },
+      "summed_worker_seconds": 5.037257559999944
+    },
+    "candidates": [
+      {
+        "config": {
+          "name": "budget500ms_actions4_route",
+          "budget": 0.5,
+          "max_trials": 32,
+          "max_actions": 4,
+          "fast_simulation": true,
+          "cached_public_fold": true,
+          "rival_model": "route"
+        },
+        "summary": {
+          "points": 3.27734375,
+          "win_rate": 0.359375,
+          "games": 256,
+          "probe_stats": {
+            "probes": 747,
+            "overrides": 26,
+            "sampling_declines": 1771,
+            "incomplete_pairs": 1395,
+            "completed_trials": 12332,
+            "world_rejections": 0,
+            "max_decision_seconds": 0.5188618580000366
+          },
+          "summed_worker_seconds": 357.5445287969999
+        },
+        "paired_gain": {
+          "mean_gain": 0.046875,
+          "ci95": [
+            0.01171875,
+            0.08984375
+          ],
+          "unit": "points per game",
+          "sampling_unit": "four-seat seed block"
+        }
+      },
+      {
+        "config": {
+          "name": "budget500ms_actions4_mixture",
+          "budget": 0.5,
+          "max_trials": 32,
+          "max_actions": 4,
+          "fast_simulation": true,
+          "cached_public_fold": true,
+          "rival_model": "mixture"
+        },
+        "summary": {
+          "points": 3.24609375,
+          "win_rate": 0.34765625,
+          "games": 256,
+          "probe_stats": {
+            "probes": 761,
+            "overrides": 18,
+            "sampling_declines": 1825,
+            "incomplete_pairs": 1695,
+            "completed_trials": 16279,
+            "world_rejections": 0,
+            "max_decision_seconds": 0.5223530410000876
+          },
+          "summed_worker_seconds": 348.284315442
+        },
+        "paired_gain": {
+          "mean_gain": 0.015625,
+          "ci95": [
+            -0.04296875,
+            0.07421875
+          ],
+          "unit": "points per game",
+          "sampling_unit": "four-seat seed block"
+        }
+      },
+      {
+        "config": {
+          "name": "budget500ms_actions2_route",
+          "budget": 0.5,
+          "max_trials": 32,
+          "max_actions": 2,
+          "fast_simulation": true,
+          "cached_public_fold": true,
+          "rival_model": "route"
+        },
+        "summary": {
+          "points": 3.28515625,
+          "win_rate": 0.36328125,
+          "games": 256,
+          "probe_stats": {
+            "probes": 779,
+            "overrides": 23,
+            "sampling_declines": 1793,
+            "incomplete_pairs": 1412,
+            "completed_trials": 14549,
+            "world_rejections": 0,
+            "max_decision_seconds": 0.5171069160001025
+          },
+          "summed_worker_seconds": 369.5130901980001
+        },
+        "paired_gain": {
+          "mean_gain": 0.0546875,
+          "ci95": [
+            0.015625,
+            0.1015625
+          ],
+          "unit": "points per game",
+          "sampling_unit": "four-seat seed block"
+        }
+      },
+      {
+        "config": {
+          "name": "budget500ms_actions2_mixture",
+          "budget": 0.5,
+          "max_trials": 32,
+          "max_actions": 2,
+          "fast_simulation": true,
+          "cached_public_fold": true,
+          "rival_model": "mixture"
+        },
+        "summary": {
+          "points": 3.234375,
+          "win_rate": 0.34765625,
+          "games": 256,
+          "probe_stats": {
+            "probes": 764,
+            "overrides": 18,
+            "sampling_declines": 1898,
+            "incomplete_pairs": 1562,
+            "completed_trials": 18611,
+            "world_rejections": 0,
+            "max_decision_seconds": 0.5222269139999298
+          },
+          "summed_worker_seconds": 323.5246594849998
+        },
+        "paired_gain": {
+          "mean_gain": 0.00390625,
+          "ci95": [
+            -0.05078125,
+            0.0625
+          ],
+          "unit": "points per game",
+          "sampling_unit": "four-seat seed block"
+        }
+      }
+    ]
+  },
+  "selection": {
+    "selected": 3,
+    "config": {
+      "name": "budget500ms_actions2_route",
+      "budget": 0.5,
+      "max_trials": 32,
+      "max_actions": 2,
+      "fast_simulation": true,
+      "cached_public_fold": true,
+      "rival_model": "route"
+    },
+    "criterion": "common development league placement points; incumbent eligible"
+  },
+  "provenance": {
+    "development_only": true,
+    "seed_start": 118000000,
+    "blocks": 64,
+    "workers": 4,
+    "min_trials": 4,
+    "max_steps": 128,
+    "policy_sha256": "d458ef2894c0ce51d62ed30a4ad1b685c85db2c1a97417a8a93efab16d5abe14",
+    "actual_hidden_state_or_game_seed_policy_inputs": false,
+    "future_final_seed_if_candidate_selected": 119000000,
+    "113M_gate": "prior fixed fast16 failed and remains recorded without reinterpretation",
+    "approximation": "public-constraint hypothetical hands; route or uniform style-mixture rival prior"
+  }
+}

@@ -19,7 +19,9 @@ def job(args):
  started=time.perf_counter()
  for seed in seeds:
   rng=random.Random(seed^0x4C4541475545)
-  rivals=[rng.choice(reference) for _ in range(3)] if mode=='league' else [{'kind':mode}]*3
+  if mode=='league':rivals=[rng.choice(reference) for _ in range(3)]
+  elif mode=='trained-league':rivals=rng.sample(reference,3)
+  else:rivals=[{'kind':mode}]*3
   outcomes=[]
   for seat in range(4):
    actors=[None]*4
