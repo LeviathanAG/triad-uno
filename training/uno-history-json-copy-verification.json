@@ -1,0 +1,18 @@
+{
+  "development_only": true,
+  "runtime_and_live_gate_changed": false,
+  "exact_json_schema_views": 742,
+  "isolated_snapshots": 1484,
+  "exact_fixed_rollouts": 210,
+  "snapshot_seconds": [
+    0.15033758201025194,
+    0.1328047249771771
+  ],
+  "snapshot_speedup": 1.1320198286325123,
+  "whole_rollout_seconds": [
+    0.6507856949829147,
+    0.6527856739630806
+  ],
+  "whole_rollout_speedup": 0.9969362394734799,
+  "scope": "Pinned referee JSON history/initial setup only; not generic tuple/set copying"
+}

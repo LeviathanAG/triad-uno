@@ -1,0 +1,8 @@
+{
+  "exact_feature_cases": 12000,
+  "baseline_seconds": 0.2375233830025536,
+  "fast_seconds": 0.27644932399562094,
+  "speedup": 0.8591932133149873,
+  "runtime_or_live_gate_changed": false,
+  "scope": "isolated own-hand bounded route search, arbitrary visit/depth budgets and hands0to24"
+}

@@ -76,3 +76,11 @@ Restricted development-only Docker check (1 CPU, 1 GiB, read-only, network
 none, pids 128): 16 games / 1,438 decisions; maximum 0.153045s decision and
 26,402,816 bytes peak RSS. Zero hypothetical-world legality rejections.
 The 115.1M resource fixture is not a policy strength selection family.
+
+Two additional isolated speed attempts were rejected. A precomputed own-hand
+route search matched 12,000 cases across hands of size 0..24 and varying
+visit/depth budgets, but was slower (0.859x baseline speed). Native JSON copy
+of the pinned public-history/initial-setup schema matched 742 views, 1,484
+isolated snapshots and 210 full fixed-work rollouts; whole-rollout speed was
+0.997x, so it was not integrated. Generic tuple/set copy semantics were never
+replaced. The live fast16 gate and all runtime code remain unchanged.

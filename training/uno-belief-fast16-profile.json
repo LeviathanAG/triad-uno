@@ -1,0 +1,63 @@
+{
+  "development_only": true,
+  "profile_total_seconds": 6.6777795900000045,
+  "rows": [
+    {
+      "file": "/home/satwik/triad/training/uno_route_policy.py",
+      "line": 18,
+      "function": "route_length",
+      "calls": 28728,
+      "self_seconds": 0.14745122000000002,
+      "cumulative_seconds": 1.378626761
+    },
+    {
+      "file": "/home/satwik/triad/training/uno_belief_rollout_probe.py",
+      "line": 29,
+      "function": "sampled_world",
+      "calls": 576,
+      "self_seconds": 0.0217157,
+      "cumulative_seconds": 0.9646172590000001
+    },
+    {
+      "file": "/home/satwik/triad/training/uno_public_belief.py",
+      "line": 105,
+      "function": "sample",
+      "calls": 576,
+      "self_seconds": 0.007345508000000001,
+      "cumulative_seconds": 0.20947047900000001
+    },
+    {
+      "file": "/home/satwik/triad/training/uno_public_belief.py",
+      "line": 41,
+      "function": "proven_constraints",
+      "calls": 48,
+      "self_seconds": 0.002970209,
+      "cumulative_seconds": 0.016499342
+    },
+    {
+      "file": "/home/satwik/triad/training/uno_policy_v2.py",
+      "line": 26,
+      "function": "public_beliefs",
+      "calls": 783,
+      "self_seconds": 0.124058151,
+      "cumulative_seconds": 0.193477856
+    },
+    {
+      "file": "/home/satwik/triad/training/uno_simulation_fast.py",
+      "line": 20,
+      "function": "json_copy",
+      "calls": 2218846,
+      "self_seconds": 1.1677186430000002,
+      "cumulative_seconds": 1.6678998200000001
+    },
+    {
+      "file": "/home/satwik/triad/training/uno_simulation_fast.py",
+      "line": 30,
+      "function": "snapshot",
+      "calls": 1042,
+      "self_seconds": 0.011724638,
+      "cumulative_seconds": 1.2002475510000001
+    }
+  ],
+  "warning": "Profiling changes completed work under the wall-clock budget; use it only for overhead diagnosis, not strength/resource admission."
+}
