@@ -1,8 +1,12 @@
-# UNO development candidate provenance
+# UNO test-round candidate provenance
 
 Team: TungMasterSoloClear (TECHTEAM11600). Private source repository:
-https://github.com/LeviathanAG/triad-uno. This development candidate has not been
-submitted to the event; final capture commit and image digest remain unset.
+https://github.com/LeviathanAG/triad-uno. The October 14 test-round source is prepared for the authorized 20:30 IST push.
+The retained runtime/model source is verified at
+`715e74042973c99838b537e7fac027fed63ba64a`; the complete prepared source commit
+and any published image digest are recorded in the publication receipt. The
+registry/upload destination is pending organizer confirmation; no image URI is
+fabricated in the manifest.
 
 The organizer UNO simulator used for training is the exact snapshot
 `0cda3acc1bb5c05fa1803a8fbd7761770dc6d5fe`. The later SDK build/checker update
@@ -51,6 +55,20 @@ The CPU image continues to use the ordinary Dockerfile and claims no shared
 PyTorch/CUDA size exemption. Later private neural experiments remain separate
 until they demonstrate a gain over this retained checkpoint.
 
+The test-round manifest identifies team TungMasterSoloClear / TECHTEAM11600 and
+declares the actual loaded `models/policy.json` asset (SHA-256
+`d458ef2894c0ce51d62ed30a4ad1b685c85db2c1a97417a8a93efab16d5abe14`).
+The CPU parent restores the official literal `FROM python:3.11-slim` declaration
+for organizer compatibility. The exact tested index and Linux/amd64 platform
+digests are recorded in the admission verification receipt; the tag is mutable.
+Current admission preparation repeats the eight protocol checks, the SDK suite
+(27 passed, six optional checks skipped), and three local plus three restricted
+Docker restart games, with zero unintended faults or fallbacks. The test image
+uses UID10000:10000, no network, read-only root, one CPU, one GiB RAM, and bounded
+scratch. Required SDK resource labels remain unchanged. Later joint24 and
+mirrored searches failed to establish an upgrade; the shipped route policy is
+unchanged from the verified source above.
+
 Private belief-rollout efficiency experiment (not deployed): audited snapshots
 matched 7,808 filtered observations and 300 transitions. Incremental public
 fold matched 18,892 folds and 4,691 route choices, including reset cases.
@@ -67,11 +85,11 @@ by league placement points with the incumbent eligible. League gain +0.015625
 small, mixed results do not justify changing the retained runtime. The uniform
 eight-style hypothetical rival mixture did not win selection. Approximate
 sampled-model Gaussian override bounds do not guarantee real-game strength.
-A fixed fast16 fresh 113M gate is running privately on free Kaggle CPU as
+The fixed fast16 fresh 113M gate completed privately on free Kaggle CPU as
 xdantalianx/triad-uno-belief-fast16 version 1, 512 four-seat blocks per unique
 regime (league/starter/random). Maximum 16 trials, minimum 4, budget 0.15s,
 all hypothetical rivals use retained route. Actual opponent identities are
-unknown. Tonight's frozen test-round source 5474ba6 remains unchanged.
+unknown. Tonight's runtime remains unchanged; corrected test-round main ee37f8c restores the official Python base declaration.
 Restricted development-only Docker check (1 CPU, 1 GiB, read-only, network
 none, pids 128): 16 games / 1,438 decisions; maximum 0.153045s decision and
 26,402,816 bytes peak RSS. Zero hypothetical-world legality rejections.
@@ -84,3 +102,12 @@ of the pinned public-history/initial-setup schema matched 742 views, 1,484
 isolated snapshots and 210 full fixed-work rollouts; whole-rollout speed was
 0.997x, so it was not integrated. Generic tuple/set copy semantics were never
 replaced. The live fast16 gate and all runtime code remain unchanged.
+
+The fixed fast16 fresh 113M gate failed to establish an upgrade: 2,048 games
+per regime, league gain -0.004883 (95% paired seed-block CI -0.013672 to
++0.003418), starter +0.001465 (-0.008301 to +0.011230), random -0.002441
+(-0.015137 to +0.010254). All downloaded JSON and ten embedded source hashes
+validated. Cloud completed approximately 4.5--4.9 trials per probe under the
+0.15-second budget, versus 12.7 in the local restricted Docker resource
+fixture; these fixtures differ and are not paired strength evidence. The
+failed gate is retained as reported and the route policy remains deployed.

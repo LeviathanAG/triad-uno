@@ -7,7 +7,15 @@
   ],
   "execution": "cpu",
   "language": "python",
-  "models": [],
+  "models": [
+    {
+      "path": "models/policy.json",
+      "purpose": "trained own/public UNO route-linear inference",
+      "format": "triad-uno-route-linear-v1",
+      "sha256": "d458ef2894c0ce51d62ed30a4ad1b685c85db2c1a97417a8a93efab16d5abe14",
+      "generated_at_build": false
+    }
+  ],
   "sdk_version": "uno-sdk-2",
   "runtime_version": "2",
   "platform": "linux/amd64",
@@ -18,5 +26,7 @@
     "scratch_bytes": 1073741824,
     "max_processes": 128,
     "gpu_bytes": 0
-  }
+  },
+  "team_name": "TungMasterSoloClear",
+  "team_id": "TECHTEAM11600"
 }
