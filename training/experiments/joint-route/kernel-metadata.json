@@ -1,0 +1,14 @@
+{
+  "id": "xdantalianx/triad-uno-joint-route",
+  "title": "Triad UNO Joint Route",
+  "code_file": "uno-joint-route.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "dataset_sources": [],
+  "competition_sources": [],
+  "kernel_sources": []
+}

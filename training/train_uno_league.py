@@ -31,6 +31,9 @@ class Starter:
 
 
 def make_policy(spec, seed):
+    if spec["kind"] == "mlp_python":
+        from uno_mlp_policy import Policy
+        return Policy(spec["model"])
     if spec["kind"] == "route":
         from uno_route_policy import Policy as RoutePolicy
         return RoutePolicy(spec["weights"])
