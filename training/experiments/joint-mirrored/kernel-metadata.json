@@ -1,0 +1,14 @@
+{
+  "id": "xdantalianx/triad-uno-joint-mirrored",
+  "title": "Triad UNO Joint Mirrored",
+  "code_file": "uno-joint-mirrored.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "dataset_sources": [],
+  "competition_sources": [],
+  "kernel_sources": []
+}

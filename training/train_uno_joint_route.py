@@ -33,10 +33,12 @@ def main():
     p.add_argument('--workers',type=int,default=4)
     p.add_argument('--trust-fraction',type=float,default=.25)
     p.add_argument('--initial-sigma-fraction',type=float,default=.10)
+    p.add_argument('--mirrored',action='store_true',help='future experiment:paired opposite perturbations before trust-box clipping')
     p.add_argument('--output',type=Path,required=True)
     a=p.parse_args()
     if min(a.iterations,a.population,a.train_blocks,a.selection_blocks,a.test_blocks,a.workers)<1 or a.population<4:p.error('positive counts/population>=4 required')
     if not 0<a.initial_sigma_fraction<=a.trust_fraction<=.5:p.error('bounded positive trust configuration required')
+    if a.mirrored and a.population%2:p.error('mirrored search requires even population including two reserved candidates')
     if not a.train_seed_start+a.iterations*a.train_blocks<=a.selection_seed_start or not a.selection_seed_start+a.selection_blocks<=a.test_seed_start:p.error('seed families overlap')
     a.output.mkdir(parents=True,exist_ok=True)
     original=json.loads(a.incumbent.read_text())
@@ -63,7 +65,13 @@ def main():
     rng=np.random.default_rng(a.seed);finalists=[center.tolist()];history=[];started=time.time()
     with concurrent.futures.ProcessPoolExecutor(max_workers=a.workers,mp_context=multiprocessing.get_context('spawn')) as pool:
         for generation in range(a.iterations):
-            population=np.clip(rng.normal(mean,sigma,(a.population,24)),lower,upper)
+            if a.mirrored:
+                noise=rng.normal(0.,sigma,((a.population-2)//2,24))
+                population=np.empty((a.population,24))
+                population[2::2]=np.clip(mean+noise,lower,upper)
+                population[3::2]=np.clip(mean-noise,lower,upper)
+            else:
+                population=np.clip(rng.normal(mean,sigma,(a.population,24)),lower,upper)
             population[0]=mean;population[1]=center
             specs=[{'kind':'route','weights':row.tolist()} for row in population]
             seeds=list(range(a.train_seed_start+generation*a.train_blocks,a.train_seed_start+(generation+1)*a.train_blocks))
@@ -91,6 +99,7 @@ def main():
             'training':{'method':'warm-start joint24-coefficient trust-bounded CEM','frozen_base':False,'seed':a.seed,
             'iterations':a.iterations,'population':a.population,'train_blocks_per_generation':a.train_blocks,
             'trust_fraction':a.trust_fraction,'initial_sigma_fraction':a.initial_sigma_fraction,
+            'mirrored_before_clipping':a.mirrored,
             'lower_bounds':lower.tolist(),'upper_bounds':upper.tolist(),'train_seed_start':a.train_seed_start,
             'selection_seed_start':a.selection_seed_start,'test_seed_start':a.test_seed_start,
             'rival_pool_size':len(reference),'neural_rival_formats':[m['format'] for m in rival_documents],
@@ -102,6 +111,7 @@ def main():
         report['provenance']={'fixed_selected_candidate':chosen,'train_seed_start':a.train_seed_start,
             'selection_seed_start':a.selection_seed_start,'test_seed_start':a.test_seed_start,
             'test_blocks':a.test_blocks,'rival_pool_size':len(reference),'joint_dimensions':24,
+            'mirrored_before_clipping':a.mirrored,
             'trust_fraction':a.trust_fraction,'strength_warning':'New richer rival pool; compare paired incumbent within this gate only.'}
         (a.output/'evaluation.json').write_text(json.dumps(report,indent=2)+'\n');print(json.dumps({'final':report}),flush=True)
 
