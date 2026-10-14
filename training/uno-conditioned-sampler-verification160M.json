@@ -1,0 +1,6365 @@
+{
+  "exact_toy_proofs": [
+    {
+      "anchor": 2,
+      "proposal_cardinality": 2880,
+      "valid_cardinality": 2520,
+      "accepted_support_equals_original": true,
+      "uniform_conditional_probability_denominator": 2520
+    },
+    {
+      "anchor": 1,
+      "proposal_cardinality": 2400,
+      "valid_cardinality": 1356,
+      "accepted_support_equals_original": true,
+      "uniform_conditional_probability_denominator": 1356
+    },
+    {
+      "anchor": 1,
+      "proposal_cardinality": 1440,
+      "valid_cardinality": 900,
+      "accepted_support_equals_original": true,
+      "uniform_conditional_probability_denominator": 900
+    },
+    {
+      "anchor": 1,
+      "proposal_cardinality": 720,
+      "valid_cardinality": 468,
+      "accepted_support_equals_original": true,
+      "uniform_conditional_probability_denominator": 468
+    }
+  ],
+  "public_observation_audit": {
+    "source_games": 32,
+    "seed_start": 160000000,
+    "observations": 3472,
+    "eligible_observations": 332,
+    "known_legal_action_checks": 26517,
+    "totals": {
+      "original": {
+        "accepted": 4898,
+        "calls": 5312,
+        "seconds": 2.4923074002799694
+      },
+      "conditioned": {
+        "accepted": 5282,
+        "calls": 5312,
+        "seconds": 2.407172150815313
+      }
+    },
+    "rows": [
+      {
+        "turn": 17,
+        "own_size": 3,
+        "opponent_sizes": [
+          5,
+          13,
+          10
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.0044947740243515
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.0027868140023201704
+        }
+      },
+      {
+        "turn": 21,
+        "own_size": 3,
+        "opponent_sizes": [
+          4,
+          12,
+          9
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.003921563991752919
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.0028851840033894405
+        }
+      },
+      {
+        "turn": 63,
+        "own_size": 3,
+        "opponent_sizes": [
+          2,
+          4,
+          5
+        ],
+        "anchor": 1,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.0063668829898233525
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.0061199200063128956
+        }
+      },
+      {
+        "turn": 76,
+        "own_size": 3,
+        "opponent_sizes": [
+          2,
+          3,
+          3
+        ],
+        "anchor": 1,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 5,
+          "seconds": 0.005539617006434128
+        },
+        "conditioned": {
+          "accepted": 14,
+          "seconds": 0.008413902003667317
+        }
+      },
+      {
+        "turn": 101,
+        "own_size": 3,
+        "opponent_sizes": [
+          5,
+          5,
+          2
+        ],
+        "anchor": 2,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 3,
+          "seconds": 0.00459556799614802
+        },
+        "conditioned": {
+          "accepted": 13,
+          "seconds": 0.010176236988627352
+        }
+      },
+      {
+        "turn": 105,
+        "own_size": 2,
+        "opponent_sizes": [
+          5,
+          6,
+          1
+        ],
+        "anchor": 2,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 3,
+          "seconds": 0.004391383998154197
+        },
+        "conditioned": {
+          "accepted": 7,
+          "seconds": 0.007230420989799313
+        }
+      },
+      {
+        "turn": 116,
+        "own_size": 3,
+        "opponent_sizes": [
+          5,
+          2,
+          3
+        ],
+        "anchor": 1,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.01151730499259429
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.011264608001511078
+        }
+      },
+      {
+        "turn": 117,
+        "own_size": 3,
+        "opponent_sizes": [
+          5,
+          2,
+          2
+        ],
+        "anchor": 1,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 10,
+          "seconds": 0.008457923999230843
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.01179581499309279
+        }
+      },
+      {
+        "turn": 126,
+        "own_size": 3,
+        "opponent_sizes": [
+          3,
+          2,
+          2
+        ],
+        "anchor": 2,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.012161577004007995
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.012085955000657123
+        }
+      },
+      {
+        "turn": 127,
+        "own_size": 3,
+        "opponent_sizes": [
+          2,
+          2,
+          2
+        ],
+        "anchor": 2,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.012376582009892445
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.012331445002928376
+        }
+      },
+      {
+        "turn": 128,
+        "own_size": 3,
+        "opponent_sizes": [
+          2,
+          2,
+          2
+        ],
+        "anchor": 2,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.012501822020567488
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.012346345974947326
+        }
+      },
+      {
+        "turn": 133,
+        "own_size": 2,
+        "opponent_sizes": [
+          1,
+          3,
+          1
+        ],
+        "anchor": 1,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 15,
+          "seconds": 0.012344303984718863
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.012865190008596983
+        }
+      },
+      {
+        "turn": 18,
+        "own_size": 3,
+        "opponent_sizes": [
+          5,
+          3,
+          9
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 15,
+          "seconds": 0.004407837019243743
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.0025675779979792424
+        }
+      },
+      {
+        "turn": 21,
+        "own_size": 3,
+        "opponent_sizes": [
+          4,
+          2,
+          8
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.0034486389995436184
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.0027662309803417884
+        }
+      },
+      {
+        "turn": 25,
+        "own_size": 2,
+        "opponent_sizes": [
+          8,
+          1,
+          7
+        ],
+        "anchor": null,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.0029824400044162758
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.00293607799540041
+        }
+      },
+      {
+        "turn": 41,
+        "own_size": 3,
+        "opponent_sizes": [
+          5,
+          0,
+          6
+        ],
+        "anchor": 3,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 6,
+          "seconds": 0.005435259983642027
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.005711782017897349
+        }
+      },
+      {
+        "turn": 48,
+        "own_size": 3,
+        "opponent_sizes": [
+          0,
+          1,
+          3
+        ],
+        "anchor": 3,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.005508803005795926
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.004841887996008154
+        }
+      },
+      {
+        "turn": 49,
+        "own_size": 3,
+        "opponent_sizes": [
+          2,
+          0,
+          1
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.005032460991060361
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.0049151370039908215
+        }
+      },
+      {
+        "turn": 22,
+        "own_size": 2,
+        "opponent_sizes": [
+          6,
+          6,
+          7
+        ],
+        "anchor": 2,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 5,
+          "seconds": 0.0065198459778912365
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.005036882997956127
+        }
+      },
+      {
+        "turn": 26,
+        "own_size": 2,
+        "opponent_sizes": [
+          5,
+          5,
+          6
+        ],
+        "anchor": 2,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 5,
+          "seconds": 0.0059045779998996295
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.004149209016759414
+        }
+      },
+      {
+        "turn": 61,
+        "own_size": 3,
+        "opponent_sizes": [
+          5,
+          3,
+          3
+        ],
+        "anchor": 1,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 15,
+          "seconds": 0.007386567987850867
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.006622194014198612
+        }
+      },
+      {
+        "turn": 73,
+        "own_size": 3,
+        "opponent_sizes": [
+          3,
+          5,
+          4
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.007392016996163875
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.007258145997184329
+        }
+      },
+      {
+        "turn": 75,
+        "own_size": 3,
+        "opponent_sizes": [
+          4,
+          2,
+          4
+        ],
+        "anchor": 2,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.0075130340264877304
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.007414144012727775
+        }
+      },
+      {
+        "turn": 79,
+        "own_size": 3,
+        "opponent_sizes": [
+          3,
+          1,
+          3
+        ],
+        "anchor": 2,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.007765006012050435
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.007743626993033104
+        }
+      },
+      {
+        "turn": 85,
+        "own_size": 2,
+        "opponent_sizes": [
+          1,
+          0,
+          3
+        ],
+        "anchor": 3,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.00841582402063068
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.008254459986346774
+        }
+      },
+      {
+        "turn": 89,
+        "own_size": 3,
+        "opponent_sizes": [
+          2,
+          0,
+          4
+        ],
+        "anchor": 3,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.009229455004970077
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.009076420006749686
+        }
+      },
+      {
+        "turn": 100,
+        "own_size": 3,
+        "opponent_sizes": [
+          5,
+          0,
+          5
+        ],
+        "anchor": 3,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 14,
+          "seconds": 0.010158644981856924
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.010559076996287331
+        }
+      },
+      {
+        "turn": 106,
+        "own_size": 2,
+        "opponent_sizes": [
+          3,
+          0,
+          3
+        ],
+        "anchor": 3,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 15,
+          "seconds": 0.011002380007994361
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.010484432023076806
+        }
+      },
+      {
+        "turn": 128,
+        "own_size": 3,
+        "opponent_sizes": [
+          9,
+          2,
+          0
+        ],
+        "anchor": 1,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.012795521004591137
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.012708740992820822
+        }
+      },
+      {
+        "turn": 130,
+        "own_size": 3,
+        "opponent_sizes": [
+          8,
+          0,
+          2
+        ],
+        "anchor": 3,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.012812093016691506
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.013044083993008826
+        }
+      },
+      {
+        "turn": 131,
+        "own_size": 3,
+        "opponent_sizes": [
+          8,
+          2,
+          0
+        ],
+        "anchor": null,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.013008175999857485
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.012947183997312095
+        }
+      },
+      {
+        "turn": 133,
+        "own_size": 3,
+        "opponent_sizes": [
+          9,
+          0,
+          2
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 3,
+          "seconds": 0.008843399016768672
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.014115263991698157
+        }
+      },
+      {
+        "turn": 136,
+        "own_size": 2,
+        "opponent_sizes": [
+          8,
+          0,
+          1
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 6,
+          "seconds": 0.010363683999457862
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.013752182996540796
+        }
+      },
+      {
+        "turn": 24,
+        "own_size": 2,
+        "opponent_sizes": [
+          5,
+          5,
+          6
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 7,
+          "seconds": 0.005924439996306319
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.0042320579959778115
+        }
+      },
+      {
+        "turn": 33,
+        "own_size": 3,
+        "opponent_sizes": [
+          3,
+          8,
+          0
+        ],
+        "anchor": 1,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.004072641000675503
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.0036393579866853543
+        }
+      },
+      {
+        "turn": 48,
+        "own_size": 3,
+        "opponent_sizes": [
+          4,
+          0,
+          0
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.005334175017196685
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.0048154940086533315
+        }
+      },
+      {
+        "turn": 73,
+        "own_size": 3,
+        "opponent_sizes": [
+          0,
+          3,
+          0
+        ],
+        "anchor": 2,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.007442401998559944
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.007424645991704892
+        }
+      },
+      {
+        "turn": 83,
+        "own_size": 3,
+        "opponent_sizes": [
+          3,
+          0,
+          0
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.008303681985125877
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.008137158009049017
+        }
+      },
+      {
+        "turn": 85,
+        "own_size": 2,
+        "opponent_sizes": [
+          2,
+          0,
+          0
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.008200173026125412
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.008195105008780956
+        }
+      },
+      {
+        "turn": 86,
+        "own_size": 2,
+        "opponent_sizes": [
+          0,
+          1,
+          0
+        ],
+        "anchor": 2,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.008258566005679313
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.00821284600533545
+        }
+      },
+      {
+        "turn": 88,
+        "own_size": 2,
+        "opponent_sizes": [
+          0,
+          7,
+          0
+        ],
+        "anchor": null,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.008470680018945131
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.008325121008965652
+        }
+      },
+      {
+        "turn": 107,
+        "own_size": 3,
+        "opponent_sizes": [
+          1,
+          0,
+          0
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.010026016003394034
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.009898618984152563
+        }
+      },
+      {
+        "turn": 14,
+        "own_size": 3,
+        "opponent_sizes": [
+          10,
+          4,
+          3
+        ],
+        "anchor": null,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.0023578879990964197
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.002313897988642566
+        }
+      },
+      {
+        "turn": 16,
+        "own_size": 3,
+        "opponent_sizes": [
+          10,
+          2,
+          3
+        ],
+        "anchor": null,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.0026951809995807707
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.002421964985842351
+        }
+      },
+      {
+        "turn": 19,
+        "own_size": 3,
+        "opponent_sizes": [
+          9,
+          1,
+          2
+        ],
+        "anchor": null,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.0026371179992565885
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.0026355180161772296
+        }
+      },
+      {
+        "turn": 24,
+        "own_size": 2,
+        "opponent_sizes": [
+          7,
+          1,
+          3
+        ],
+        "anchor": 2,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.004091030015842989
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.0032006510082283057
+        }
+      },
+      {
+        "turn": 26,
+        "own_size": 2,
+        "opponent_sizes": [
+          6,
+          3,
+          1
+        ],
+        "anchor": 2,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.004417031006596517
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.0035153919889125973
+        }
+      },
+      {
+        "turn": 35,
+        "own_size": 2,
+        "opponent_sizes": [
+          4,
+          4,
+          5
+        ],
+        "anchor": 2,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.00488891797431279
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.004173957997409161
+        }
+      },
+      {
+        "turn": 40,
+        "own_size": 3,
+        "opponent_sizes": [
+          3,
+          5,
+          3
+        ],
+        "anchor": 2,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.0049883310130098835
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.0044306900090305135
+        }
+      },
+      {
+        "turn": 44,
+        "own_size": 2,
+        "opponent_sizes": [
+          4,
+          5,
+          2
+        ],
+        "anchor": 2,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 14,
+          "seconds": 0.006789548002416268
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.005322554003214464
+        }
+      },
+      {
+        "turn": 77,
+        "own_size": 2,
+        "opponent_sizes": [
+          0,
+          8,
+          6
+        ],
+        "anchor": null,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.007943529984913766
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.007660349001525901
+        }
+      },
+      {
+        "turn": 80,
+        "own_size": 2,
+        "opponent_sizes": [
+          0,
+          7,
+          5
+        ],
+        "anchor": null,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.008055448015511502
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.008070965988736134
+        }
+      },
+      {
+        "turn": 92,
+        "own_size": 3,
+        "opponent_sizes": [
+          0,
+          6,
+          1
+        ],
+        "anchor": null,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.009134858977631666
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.009411360988451634
+        }
+      },
+      {
+        "turn": 93,
+        "own_size": 2,
+        "opponent_sizes": [
+          0,
+          6,
+          2
+        ],
+        "anchor": 3,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.009280262005631812
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.009285426000133157
+        }
+      },
+      {
+        "turn": 98,
+        "own_size": 2,
+        "opponent_sizes": [
+          0,
+          9,
+          0
+        ],
+        "anchor": null,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.009706366006867029
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.010367660004703794
+        }
+      },
+      {
+        "turn": 19,
+        "own_size": 3,
+        "opponent_sizes": [
+          4,
+          2,
+          13
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.0037081980117363855
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.002768763020867482
+        }
+      },
+      {
+        "turn": 29,
+        "own_size": 2,
+        "opponent_sizes": [
+          5,
+          2,
+          12
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 10,
+          "seconds": 0.00627935299417004
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.004226257988193538
+        }
+      },
+      {
+        "turn": 33,
+        "own_size": 2,
+        "opponent_sizes": [
+          5,
+          3,
+          11
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 9,
+          "seconds": 0.006143879014416598
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.005292650988849346
+        }
+      },
+      {
+        "turn": 37,
+        "own_size": 2,
+        "opponent_sizes": [
+          5,
+          2,
+          10
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 13,
+          "seconds": 0.006436662006308325
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.00489336799364537
+        }
+      },
+      {
+        "turn": 48,
+        "own_size": 2,
+        "opponent_sizes": [
+          6,
+          4,
+          7
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.0069410540163517
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.005544690015085507
+        }
+      },
+      {
+        "turn": 52,
+        "own_size": 2,
+        "opponent_sizes": [
+          5,
+          3,
+          6
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.006536837019666564
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.005735850987548474
+        }
+      },
+      {
+        "turn": 53,
+        "own_size": 3,
+        "opponent_sizes": [
+          5,
+          1,
+          6
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.006437635005568154
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.005891241999051999
+        }
+      },
+      {
+        "turn": 63,
+        "own_size": 2,
+        "opponent_sizes": [
+          4,
+          0,
+          12
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.0072438880015397444
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.006729726992489304
+        }
+      },
+      {
+        "turn": 75,
+        "own_size": 3,
+        "opponent_sizes": [
+          4,
+          0,
+          8
+        ],
+        "anchor": 1,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.00803346000611782
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.00766660799854435
+        }
+      },
+      {
+        "turn": 81,
+        "own_size": 3,
+        "opponent_sizes": [
+          2,
+          0,
+          6
+        ],
+        "anchor": 1,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.008444578015769366
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.008020775982004125
+        }
+      },
+      {
+        "turn": 91,
+        "own_size": 2,
+        "opponent_sizes": [
+          1,
+          0,
+          4
+        ],
+        "anchor": 3,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.009903265003231354
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.009100822018808685
+        }
+      },
+      {
+        "turn": 103,
+        "own_size": 3,
+        "opponent_sizes": [
+          0,
+          3,
+          0
+        ],
+        "anchor": 1,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.010137781981029548
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.010048750991700217
+        }
+      },
+      {
+        "turn": 106,
+        "own_size": 3,
+        "opponent_sizes": [
+          0,
+          0,
+          1
+        ],
+        "anchor": 3,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.010767389991087839
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.0104026560074999
+        }
+      },
+      {
+        "turn": 120,
+        "own_size": 3,
+        "opponent_sizes": [
+          0,
+          4,
+          0
+        ],
+        "anchor": 1,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.012471010013541672
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.01194494900846621
+        }
+      },
+      {
+        "turn": 122,
+        "own_size": 3,
+        "opponent_sizes": [
+          0,
+          3,
+          0
+        ],
+        "anchor": 1,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.012332753001828678
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.01243484100268688
+        }
+      },
+      {
+        "turn": 123,
+        "own_size": 3,
+        "opponent_sizes": [
+          0,
+          0,
+          2
+        ],
+        "anchor": 3,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.015589419985190034
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.020917535985063296
+        }
+      },
+      {
+        "turn": 17,
+        "own_size": 3,
+        "opponent_sizes": [
+          3,
+          10,
+          5
+        ],
+        "anchor": null,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.0035734279881580733
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.0038167390011949465
+        }
+      },
+      {
+        "turn": 19,
+        "own_size": 3,
+        "opponent_sizes": [
+          10,
+          2,
+          4
+        ],
+        "anchor": null,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.002779383990855422
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.0027549539954634383
+        }
+      },
+      {
+        "turn": 21,
+        "own_size": 2,
+        "opponent_sizes": [
+          2,
+          9,
+          4
+        ],
+        "anchor": null,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.0028027070002281107
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.0027965059998678043
+        }
+      },
+      {
+        "turn": 26,
+        "own_size": 2,
+        "opponent_sizes": [
+          8,
+          1,
+          6
+        ],
+        "anchor": 3,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 12,
+          "seconds": 0.005127342010382563
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.003289493986812886
+        }
+      },
+      {
+        "turn": 55,
+        "own_size": 3,
+        "opponent_sizes": [
+          4,
+          8,
+          3
+        ],
+        "anchor": 2,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 0,
+          "seconds": 0.0046042710018809885
+        },
+        "conditioned": {
+          "accepted": 14,
+          "seconds": 0.007065815014357213
+        }
+      },
+      {
+        "turn": 59,
+        "own_size": 3,
+        "opponent_sizes": [
+          2,
+          7,
+          2
+        ],
+        "anchor": 2,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 10,
+          "seconds": 0.0065180430028703995
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.006012409008690156
+        }
+      },
+      {
+        "turn": 60,
+        "own_size": 2,
+        "opponent_sizes": [
+          2,
+          7,
+          2
+        ],
+        "anchor": 2,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 5,
+          "seconds": 0.0053364449995569885
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.00705402599851368
+        }
+      },
+      {
+        "turn": 30,
+        "own_size": 3,
+        "opponent_sizes": [
+          8,
+          5,
+          3
+        ],
+        "anchor": 3,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.004045582019898575
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.0037958419998176396
+        }
+      },
+      {
+        "turn": 35,
+        "own_size": 2,
+        "opponent_sizes": [
+          1,
+          7,
+          4
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.0038915100012673065
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.0039540669895359315
+        }
+      },
+      {
+        "turn": 40,
+        "own_size": 3,
+        "opponent_sizes": [
+          0,
+          6,
+          2
+        ],
+        "anchor": 3,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.004699971992522478
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.004258446992025711
+        }
+      },
+      {
+        "turn": 42,
+        "own_size": 3,
+        "opponent_sizes": [
+          0,
+          5,
+          2
+        ],
+        "anchor": null,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.004378003010060638
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.00438937998842448
+        }
+      },
+      {
+        "turn": 45,
+        "own_size": 3,
+        "opponent_sizes": [
+          0,
+          4,
+          1
+        ],
+        "anchor": null,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.004655692013329826
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.004628743998182472
+        }
+      },
+      {
+        "turn": 55,
+        "own_size": 3,
+        "opponent_sizes": [
+          0,
+          3,
+          0
+        ],
+        "anchor": 1,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.006177249990287237
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.005791697003587615
+        }
+      },
+      {
+        "turn": 59,
+        "own_size": 2,
+        "opponent_sizes": [
+          0,
+          3,
+          0
+        ],
+        "anchor": 1,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.0063513889981550165
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.00606799097295152
+        }
+      },
+      {
+        "turn": 60,
+        "own_size": 3,
+        "opponent_sizes": [
+          0,
+          0,
+          1
+        ],
+        "anchor": 3,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.0061138079763622954
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.006097836012486368
+        }
+      },
+      {
+        "turn": 17,
+        "own_size": 3,
+        "opponent_sizes": [
+          8,
+          5,
+          4
+        ],
+        "anchor": 1,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 12,
+          "seconds": 0.006077365986129735
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.0034562210057629272
+        }
+      },
+      {
+        "turn": 27,
+        "own_size": 3,
+        "opponent_sizes": [
+          5,
+          3,
+          11
+        ],
+        "anchor": null,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.0032004719832912087
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.0032185029922402464
+        }
+      },
+      {
+        "turn": 32,
+        "own_size": 3,
+        "opponent_sizes": [
+          6,
+          1,
+          15
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 15,
+          "seconds": 0.0049222380184801295
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.003911738000169862
+        }
+      },
+      {
+        "turn": 34,
+        "own_size": 2,
+        "opponent_sizes": [
+          6,
+          2,
+          15
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.005621919983241241
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.00423799501004396
+        }
+      },
+      {
+        "turn": 60,
+        "own_size": 2,
+        "opponent_sizes": [
+          3,
+          0,
+          7
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.006376269011525437
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.006081515988626052
+        }
+      },
+      {
+        "turn": 61,
+        "own_size": 3,
+        "opponent_sizes": [
+          1,
+          0,
+          7
+        ],
+        "anchor": 1,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.00617372398119187
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.006057614999008365
+        }
+      },
+      {
+        "turn": 18,
+        "own_size": 3,
+        "opponent_sizes": [
+          8,
+          5,
+          15
+        ],
+        "anchor": 1,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.0031350579811260104
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.003370866004843265
+        }
+      },
+      {
+        "turn": 22,
+        "own_size": 2,
+        "opponent_sizes": [
+          9,
+          6,
+          14
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 1,
+          "seconds": 0.0065412719995947555
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.004747897008201107
+        }
+      },
+      {
+        "turn": 39,
+        "own_size": 3,
+        "opponent_sizes": [
+          7,
+          9,
+          0
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 13,
+          "seconds": 0.0058155619917670265
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.004228179997880943
+        }
+      },
+      {
+        "turn": 74,
+        "own_size": 3,
+        "opponent_sizes": [
+          0,
+          5,
+          0
+        ],
+        "anchor": 2,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.007850247988244519
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.007067117992846761
+        }
+      },
+      {
+        "turn": 76,
+        "own_size": 3,
+        "opponent_sizes": [
+          0,
+          4,
+          0
+        ],
+        "anchor": 2,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.007910565997008234
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.007265180014655925
+        }
+      },
+      {
+        "turn": 90,
+        "own_size": 3,
+        "opponent_sizes": [
+          4,
+          0,
+          0
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.00891458000842249
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.008545600991055835
+        }
+      },
+      {
+        "turn": 97,
+        "own_size": 3,
+        "opponent_sizes": [
+          3,
+          0,
+          0
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.009548871996230446
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.009368266008095816
+        }
+      },
+      {
+        "turn": 38,
+        "own_size": 3,
+        "opponent_sizes": [
+          3,
+          3,
+          4
+        ],
+        "anchor": null,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.003841100995487068
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.0038055159893701784
+        }
+      },
+      {
+        "turn": 39,
+        "own_size": 3,
+        "opponent_sizes": [
+          3,
+          4,
+          2
+        ],
+        "anchor": 3,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.0042965200045728125
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.0039251290072570555
+        }
+      },
+      {
+        "turn": 43,
+        "own_size": 3,
+        "opponent_sizes": [
+          2,
+          6,
+          3
+        ],
+        "anchor": 3,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.004457123999600299
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.004354011995019391
+        }
+      },
+      {
+        "turn": 44,
+        "own_size": 3,
+        "opponent_sizes": [
+          2,
+          6,
+          3
+        ],
+        "anchor": 3,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.005285101004119497
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.004659236998122651
+        }
+      },
+      {
+        "turn": 57,
+        "own_size": 2,
+        "opponent_sizes": [
+          3,
+          2,
+          7
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 15,
+          "seconds": 0.0059636209916789085
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.005797128011181485
+        }
+      },
+      {
+        "turn": 62,
+        "own_size": 2,
+        "opponent_sizes": [
+          3,
+          6,
+          0
+        ],
+        "anchor": 1,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.006000299981678836
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.005976786989776883
+        }
+      },
+      {
+        "turn": 63,
+        "own_size": 3,
+        "opponent_sizes": [
+          1,
+          6,
+          0
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.005879162992641795
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.0059367419889895245
+        }
+      },
+      {
+        "turn": 65,
+        "own_size": 2,
+        "opponent_sizes": [
+          0,
+          6,
+          0
+        ],
+        "anchor": null,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.006031665994669311
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.0060254200143390335
+        }
+      },
+      {
+        "turn": 58,
+        "own_size": 3,
+        "opponent_sizes": [
+          0,
+          6,
+          4
+        ],
+        "anchor": 2,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 5,
+          "seconds": 0.005350297011318617
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.00685036900540581
+        }
+      },
+      {
+        "turn": 67,
+        "own_size": 3,
+        "opponent_sizes": [
+          0,
+          5,
+          3
+        ],
+        "anchor": 2,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 8,
+          "seconds": 0.006361131985613611
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.007080487994244322
+        }
+      },
+      {
+        "turn": 70,
+        "own_size": 3,
+        "opponent_sizes": [
+          0,
+          3,
+          5
+        ],
+        "anchor": 2,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 12,
+          "seconds": 0.0077344290184555575
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.007841770006052684
+        }
+      },
+      {
+        "turn": 71,
+        "own_size": 3,
+        "opponent_sizes": [
+          0,
+          5,
+          2
+        ],
+        "anchor": 2,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 11,
+          "seconds": 0.0069442389940377325
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.00739342001179466
+        }
+      },
+      {
+        "turn": 76,
+        "own_size": 3,
+        "opponent_sizes": [
+          0,
+          1,
+          3
+        ],
+        "anchor": 2,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.00793231898569502
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.007630618980329018
+        }
+      },
+      {
+        "turn": 78,
+        "own_size": 3,
+        "opponent_sizes": [
+          0,
+          5,
+          2
+        ],
+        "anchor": 3,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.008115482014545705
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.007685358010348864
+        }
+      },
+      {
+        "turn": 85,
+        "own_size": 3,
+        "opponent_sizes": [
+          0,
+          5,
+          1
+        ],
+        "anchor": 1,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 15,
+          "seconds": 0.008801927004242316
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.008371164003619924
+        }
+      },
+      {
+        "turn": 88,
+        "own_size": 2,
+        "opponent_sizes": [
+          0,
+          4,
+          0
+        ],
+        "anchor": 1,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.008995657997729722
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.008484538011543918
+        }
+      },
+      {
+        "turn": 90,
+        "own_size": 2,
+        "opponent_sizes": [
+          0,
+          10,
+          0
+        ],
+        "anchor": null,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.008680038983584382
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.008664191009302158
+        }
+      },
+      {
+        "turn": 92,
+        "own_size": 2,
+        "opponent_sizes": [
+          0,
+          9,
+          0
+        ],
+        "anchor": null,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.009004473009554204
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.008927540009608492
+        }
+      },
+      {
+        "turn": 105,
+        "own_size": 3,
+        "opponent_sizes": [
+          0,
+          0,
+          8
+        ],
+        "anchor": null,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.00999699899693951
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.010151304973987862
+        }
+      },
+      {
+        "turn": 107,
+        "own_size": 2,
+        "opponent_sizes": [
+          0,
+          0,
+          7
+        ],
+        "anchor": null,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.010205391015915666
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.010545968973019626
+        }
+      },
+      {
+        "turn": 16,
+        "own_size": 3,
+        "opponent_sizes": [
+          11,
+          12,
+          3
+        ],
+        "anchor": null,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.002372780996665824
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.0023801449860911816
+        }
+      },
+      {
+        "turn": 18,
+        "own_size": 3,
+        "opponent_sizes": [
+          11,
+          2,
+          11
+        ],
+        "anchor": null,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.0024788139926386066
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.002452265987813007
+        }
+      },
+      {
+        "turn": 31,
+        "own_size": 3,
+        "opponent_sizes": [
+          7,
+          3,
+          8
+        ],
+        "anchor": 1,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.0045456409934558906
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.0035373330101720057
+        }
+      },
+      {
+        "turn": 36,
+        "own_size": 2,
+        "opponent_sizes": [
+          6,
+          2,
+          11
+        ],
+        "anchor": 1,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.0039545850158901885
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.003965856012655422
+        }
+      },
+      {
+        "turn": 49,
+        "own_size": 3,
+        "opponent_sizes": [
+          5,
+          7,
+          0
+        ],
+        "anchor": null,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.004805048018170055
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.004719343007309362
+        }
+      },
+      {
+        "turn": 52,
+        "own_size": 2,
+        "opponent_sizes": [
+          4,
+          6,
+          0
+        ],
+        "anchor": null,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.005182073982723523
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.004881981993094087
+        }
+      },
+      {
+        "turn": 61,
+        "own_size": 3,
+        "opponent_sizes": [
+          0,
+          6,
+          0
+        ],
+        "anchor": 1,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.006740311007888522
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.007038165000267327
+        }
+      },
+      {
+        "turn": 63,
+        "own_size": 2,
+        "opponent_sizes": [
+          0,
+          5,
+          0
+        ],
+        "anchor": 1,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.007929879990115296
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.005976398002530914
+        }
+      },
+      {
+        "turn": 16,
+        "own_size": 3,
+        "opponent_sizes": [
+          14,
+          4,
+          8
+        ],
+        "anchor": null,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.00237328701041406
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.002367475004575681
+        }
+      },
+      {
+        "turn": 41,
+        "own_size": 3,
+        "opponent_sizes": [
+          3,
+          8,
+          10
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.004676901015045587
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.004262799979187548
+        }
+      },
+      {
+        "turn": 45,
+        "own_size": 3,
+        "opponent_sizes": [
+          2,
+          7,
+          9
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.004617268001311459
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.004547235010250006
+        }
+      },
+      {
+        "turn": 64,
+        "own_size": 3,
+        "opponent_sizes": [
+          0,
+          3,
+          5
+        ],
+        "anchor": 3,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 15,
+          "seconds": 0.007104294003511313
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.006203215991263278
+        }
+      },
+      {
+        "turn": 65,
+        "own_size": 3,
+        "opponent_sizes": [
+          0,
+          2,
+          5
+        ],
+        "anchor": 3,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.007541181992564816
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.006071379000786692
+        }
+      },
+      {
+        "turn": 67,
+        "own_size": 3,
+        "opponent_sizes": [
+          0,
+          2,
+          4
+        ],
+        "anchor": 3,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.006739137003023643
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.006382562998624053
+        }
+      },
+      {
+        "turn": 72,
+        "own_size": 3,
+        "opponent_sizes": [
+          0,
+          3,
+          0
+        ],
+        "anchor": 1,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.0066994210064876825
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.0065416409852332436
+        }
+      },
+      {
+        "turn": 78,
+        "own_size": 3,
+        "opponent_sizes": [
+          0,
+          4,
+          0
+        ],
+        "anchor": 1,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.007404201998724602
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.0072077420190908015
+        }
+      },
+      {
+        "turn": 82,
+        "own_size": 2,
+        "opponent_sizes": [
+          0,
+          5,
+          0
+        ],
+        "anchor": 1,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 15,
+          "seconds": 0.007975533982971683
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.007665441014978569
+        }
+      },
+      {
+        "turn": 18,
+        "own_size": 3,
+        "opponent_sizes": [
+          5,
+          4,
+          5
+        ],
+        "anchor": 3,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 3,
+          "seconds": 0.006024970993166789
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.004599749016051646
+        }
+      },
+      {
+        "turn": 48,
+        "own_size": 3,
+        "opponent_sizes": [
+          14,
+          0,
+          10
+        ],
+        "anchor": null,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.005448068011901341
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.0051835020203725435
+        }
+      },
+      {
+        "turn": 61,
+        "own_size": 3,
+        "opponent_sizes": [
+          14,
+          0,
+          5
+        ],
+        "anchor": null,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.00644704801379703
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.006156614006613381
+        }
+      },
+      {
+        "turn": 71,
+        "own_size": 3,
+        "opponent_sizes": [
+          10,
+          3,
+          0
+        ],
+        "anchor": 1,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.007302052996237762
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.006914637007866986
+        }
+      },
+      {
+        "turn": 77,
+        "own_size": 3,
+        "opponent_sizes": [
+          8,
+          0,
+          1
+        ],
+        "anchor": null,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.010953573997539934
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.007287472995813005
+        }
+      },
+      {
+        "turn": 78,
+        "own_size": 2,
+        "opponent_sizes": [
+          8,
+          2,
+          0
+        ],
+        "anchor": 1,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.007633914006873965
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.007490086012694519
+        }
+      },
+      {
+        "turn": 83,
+        "own_size": 2,
+        "opponent_sizes": [
+          6,
+          0,
+          2
+        ],
+        "anchor": 3,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.00795570197806228
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.007952938016387634
+        }
+      },
+      {
+        "turn": 91,
+        "own_size": 3,
+        "opponent_sizes": [
+          3,
+          0,
+          0
+        ],
+        "anchor": null,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.008504381010425277
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.008498832998157013
+        }
+      },
+      {
+        "turn": 92,
+        "own_size": 3,
+        "opponent_sizes": [
+          0,
+          0,
+          2
+        ],
+        "anchor": 3,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.008721017999050673
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.008608705997176003
+        }
+      },
+      {
+        "turn": 93,
+        "own_size": 2,
+        "opponent_sizes": [
+          2,
+          0,
+          0
+        ],
+        "anchor": null,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.008722282989765517
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.008546268982172478
+        }
+      },
+      {
+        "turn": 128,
+        "own_size": 3,
+        "opponent_sizes": [
+          0,
+          0,
+          4
+        ],
+        "anchor": null,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.012057902014930733
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.011929336003959179
+        }
+      },
+      {
+        "turn": 164,
+        "own_size": 3,
+        "opponent_sizes": [
+          0,
+          0,
+          3
+        ],
+        "anchor": null,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.0155754940060433
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.015500299989071209
+        }
+      },
+      {
+        "turn": 169,
+        "own_size": 3,
+        "opponent_sizes": [
+          2,
+          0,
+          0
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.016010143008315936
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.015902597988315392
+        }
+      },
+      {
+        "turn": 171,
+        "own_size": 2,
+        "opponent_sizes": [
+          1,
+          0,
+          0
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.015984149009454995
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.01596457300183829
+        }
+      },
+      {
+        "turn": 34,
+        "own_size": 3,
+        "opponent_sizes": [
+          5,
+          3,
+          3
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 8,
+          "seconds": 0.0059561019952525385
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.005121270012750756
+        }
+      },
+      {
+        "turn": 37,
+        "own_size": 3,
+        "opponent_sizes": [
+          6,
+          2,
+          2
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 8,
+          "seconds": 0.0057298219835502096
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.005618379000225104
+        }
+      },
+      {
+        "turn": 40,
+        "own_size": 2,
+        "opponent_sizes": [
+          5,
+          3,
+          2
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 14,
+          "seconds": 0.005644022974593099
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.00478147800458828
+        }
+      },
+      {
+        "turn": 54,
+        "own_size": 2,
+        "opponent_sizes": [
+          3,
+          0,
+          0
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.00613543300278252
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.005513012991286814
+        }
+      },
+      {
+        "turn": 42,
+        "own_size": 2,
+        "opponent_sizes": [
+          5,
+          5,
+          7
+        ],
+        "anchor": null,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.004316816986829508
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.004293668003811035
+        }
+      },
+      {
+        "turn": 51,
+        "own_size": 3,
+        "opponent_sizes": [
+          7,
+          4,
+          0
+        ],
+        "anchor": 1,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 14,
+          "seconds": 0.005914593995839823
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.005016758994315751
+        }
+      },
+      {
+        "turn": 65,
+        "own_size": 3,
+        "opponent_sizes": [
+          3,
+          3,
+          0
+        ],
+        "anchor": 1,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.006678830002783798
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.006240314010938164
+        }
+      },
+      {
+        "turn": 67,
+        "own_size": 3,
+        "opponent_sizes": [
+          2,
+          2,
+          0
+        ],
+        "anchor": 1,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.0070242229994619265
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.006599679996725172
+        }
+      },
+      {
+        "turn": 70,
+        "own_size": 2,
+        "opponent_sizes": [
+          3,
+          3,
+          0
+        ],
+        "anchor": 1,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.007315239992749412
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.007163730995671358
+        }
+      },
+      {
+        "turn": 73,
+        "own_size": 2,
+        "opponent_sizes": [
+          4,
+          2,
+          0
+        ],
+        "anchor": 1,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 14,
+          "seconds": 0.007553840987384319
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.007140254019759595
+        }
+      },
+      {
+        "turn": 80,
+        "own_size": 3,
+        "opponent_sizes": [
+          0,
+          1,
+          0
+        ],
+        "anchor": 2,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.0075731749820988625
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.007547507026174571
+        }
+      },
+      {
+        "turn": 24,
+        "own_size": 3,
+        "opponent_sizes": [
+          10,
+          3,
+          6
+        ],
+        "anchor": 2,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.003525609012285713
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.003082267001445871
+        }
+      },
+      {
+        "turn": 33,
+        "own_size": 3,
+        "opponent_sizes": [
+          2,
+          7,
+          4
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.0038991730034467764
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.003723384033946786
+        }
+      },
+      {
+        "turn": 34,
+        "own_size": 2,
+        "opponent_sizes": [
+          7,
+          2,
+          4
+        ],
+        "anchor": 2,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.003941755996493157
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.003768620990740601
+        }
+      },
+      {
+        "turn": 41,
+        "own_size": 3,
+        "opponent_sizes": [
+          6,
+          3,
+          5
+        ],
+        "anchor": 2,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.005004955986805726
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.0044829240287072025
+        }
+      },
+      {
+        "turn": 43,
+        "own_size": 3,
+        "opponent_sizes": [
+          2,
+          8,
+          5
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.004892817007203121
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.004644762993848417
+        }
+      },
+      {
+        "turn": 51,
+        "own_size": 2,
+        "opponent_sizes": [
+          0,
+          6,
+          5
+        ],
+        "anchor": 3,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.0063228439903468825
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.0052156179954181425
+        }
+      },
+      {
+        "turn": 57,
+        "own_size": 2,
+        "opponent_sizes": [
+          0,
+          5,
+          5
+        ],
+        "anchor": 3,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.006398839999746997
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.005918535985983908
+        }
+      },
+      {
+        "turn": 76,
+        "own_size": 3,
+        "opponent_sizes": [
+          0,
+          0,
+          4
+        ],
+        "anchor": 3,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.007863837978220545
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.007510768002248369
+        }
+      },
+      {
+        "turn": 39,
+        "own_size": 3,
+        "opponent_sizes": [
+          4,
+          8,
+          2
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 15,
+          "seconds": 0.010804182005813345
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.008791870990535244
+        }
+      },
+      {
+        "turn": 48,
+        "own_size": 2,
+        "opponent_sizes": [
+          4,
+          6,
+          3
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 9,
+          "seconds": 0.006554119994689245
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.005764021007053088
+        }
+      },
+      {
+        "turn": 62,
+        "own_size": 2,
+        "opponent_sizes": [
+          1,
+          9,
+          0
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.006188506005855743
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.006184491001476999
+        }
+      },
+      {
+        "turn": 64,
+        "own_size": 2,
+        "opponent_sizes": [
+          1,
+          8,
+          0
+        ],
+        "anchor": null,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.006286047013418283
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.006256695007323287
+        }
+      },
+      {
+        "turn": 69,
+        "own_size": 3,
+        "opponent_sizes": [
+          0,
+          6,
+          0
+        ],
+        "anchor": null,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.0067715060140471905
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.00674510098178871
+        }
+      },
+      {
+        "turn": 71,
+        "own_size": 3,
+        "opponent_sizes": [
+          0,
+          8,
+          0
+        ],
+        "anchor": null,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.006961496008443646
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.0070049479909357615
+        }
+      },
+      {
+        "turn": 86,
+        "own_size": 2,
+        "opponent_sizes": [
+          3,
+          0,
+          0
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.008882324014848564
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.008335945996805094
+        }
+      },
+      {
+        "turn": 87,
+        "own_size": 2,
+        "opponent_sizes": [
+          3,
+          0,
+          0
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.008776726994256023
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.008490776999678928
+        }
+      },
+      {
+        "turn": 92,
+        "own_size": 3,
+        "opponent_sizes": [
+          0,
+          3,
+          0
+        ],
+        "anchor": 2,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.009361274002003483
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.009137439010373782
+        }
+      },
+      {
+        "turn": 116,
+        "own_size": 3,
+        "opponent_sizes": [
+          0,
+          8,
+          0
+        ],
+        "anchor": null,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.011605443003645632
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.01150940600928152
+        }
+      },
+      {
+        "turn": 27,
+        "own_size": 3,
+        "opponent_sizes": [
+          7,
+          7,
+          5
+        ],
+        "anchor": null,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.0031113529912545346
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.003085563992499374
+        }
+      },
+      {
+        "turn": 33,
+        "own_size": 2,
+        "opponent_sizes": [
+          6,
+          8,
+          3
+        ],
+        "anchor": null,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.0035516430070856586
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.0035131870026816614
+        }
+      },
+      {
+        "turn": 42,
+        "own_size": 3,
+        "opponent_sizes": [
+          3,
+          0,
+          6
+        ],
+        "anchor": null,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.004456153023056686
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.0043048549923696555
+        }
+      },
+      {
+        "turn": 45,
+        "own_size": 2,
+        "opponent_sizes": [
+          3,
+          0,
+          5
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.00491757698910078
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.0044574909916264005
+        }
+      },
+      {
+        "turn": 74,
+        "own_size": 3,
+        "opponent_sizes": [
+          0,
+          6,
+          0
+        ],
+        "anchor": null,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.007161648027249612
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.007136021020414773
+        }
+      },
+      {
+        "turn": 86,
+        "own_size": 3,
+        "opponent_sizes": [
+          4,
+          0,
+          0
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.008938710976508446
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.008472099987557158
+        }
+      },
+      {
+        "turn": 88,
+        "own_size": 2,
+        "opponent_sizes": [
+          3,
+          0,
+          0
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.008756670998991467
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.011348514999554027
+        }
+      },
+      {
+        "turn": 90,
+        "own_size": 2,
+        "opponent_sizes": [
+          2,
+          0,
+          0
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.00963178200618131
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.008726589992875233
+        }
+      },
+      {
+        "turn": 92,
+        "own_size": 2,
+        "opponent_sizes": [
+          1,
+          0,
+          0
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.008895617997040972
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.008903830996132456
+        }
+      },
+      {
+        "turn": 93,
+        "own_size": 2,
+        "opponent_sizes": [
+          0,
+          1,
+          0
+        ],
+        "anchor": 2,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.009081641983357258
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.0090789250243688
+        }
+      },
+      {
+        "turn": 96,
+        "own_size": 3,
+        "opponent_sizes": [
+          0,
+          2,
+          0
+        ],
+        "anchor": 2,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.009773002013389487
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.014575821005564649
+        }
+      },
+      {
+        "turn": 97,
+        "own_size": 3,
+        "opponent_sizes": [
+          2,
+          0,
+          0
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.010553387000982184
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.00965632000588812
+        }
+      },
+      {
+        "turn": 98,
+        "own_size": 2,
+        "opponent_sizes": [
+          0,
+          2,
+          0
+        ],
+        "anchor": 2,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.009995772001275327
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.009777282997674774
+        }
+      },
+      {
+        "turn": 23,
+        "own_size": 3,
+        "opponent_sizes": [
+          7,
+          4,
+          5
+        ],
+        "anchor": 2,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.003530064997903537
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.00304524401872186
+        }
+      },
+      {
+        "turn": 32,
+        "own_size": 3,
+        "opponent_sizes": [
+          5,
+          1,
+          6
+        ],
+        "anchor": null,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.0035346169970580377
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.00356591101444792
+        }
+      },
+      {
+        "turn": 54,
+        "own_size": 3,
+        "opponent_sizes": [
+          0,
+          4,
+          6
+        ],
+        "anchor": 3,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 14,
+          "seconds": 0.006773026987502817
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.00567899697489338
+        }
+      },
+      {
+        "turn": 85,
+        "own_size": 3,
+        "opponent_sizes": [
+          2,
+          0,
+          0
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.00823188400681829
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.008193319998099469
+        }
+      },
+      {
+        "turn": 94,
+        "own_size": 3,
+        "opponent_sizes": [
+          0,
+          0,
+          4
+        ],
+        "anchor": 3,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.009383963988511823
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.009167563985101879
+        }
+      },
+      {
+        "turn": 111,
+        "own_size": 3,
+        "opponent_sizes": [
+          0,
+          0,
+          4
+        ],
+        "anchor": 3,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.011336163006490096
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.010910829994827509
+        }
+      },
+      {
+        "turn": 113,
+        "own_size": 2,
+        "opponent_sizes": [
+          0,
+          0,
+          3
+        ],
+        "anchor": 3,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.011060817014367785
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.01098251600342337
+        }
+      },
+      {
+        "turn": 115,
+        "own_size": 2,
+        "opponent_sizes": [
+          0,
+          0,
+          3
+        ],
+        "anchor": 3,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.0114106909968541
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.011252024982240982
+        }
+      },
+      {
+        "turn": 116,
+        "own_size": 3,
+        "opponent_sizes": [
+          1,
+          0,
+          0
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.011423532996559516
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.01147099700756371
+        }
+      },
+      {
+        "turn": 19,
+        "own_size": 3,
+        "opponent_sizes": [
+          4,
+          3,
+          6
+        ],
+        "anchor": 3,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 1,
+          "seconds": 0.007035519993223716
+        },
+        "conditioned": {
+          "accepted": 12,
+          "seconds": 0.007148048003728036
+        }
+      },
+      {
+        "turn": 22,
+        "own_size": 3,
+        "opponent_sizes": [
+          4,
+          2,
+          7
+        ],
+        "anchor": 3,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 3,
+          "seconds": 0.006261555012315512
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.004480008996324614
+        }
+      },
+      {
+        "turn": 30,
+        "own_size": 2,
+        "opponent_sizes": [
+          2,
+          2,
+          6
+        ],
+        "anchor": 3,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 5,
+          "seconds": 0.0059790879968204536
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.00556240799051011
+        }
+      },
+      {
+        "turn": 41,
+        "own_size": 2,
+        "opponent_sizes": [
+          3,
+          0,
+          5
+        ],
+        "anchor": 3,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 13,
+          "seconds": 0.006618785992031917
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.005058514012489468
+        }
+      },
+      {
+        "turn": 47,
+        "own_size": 3,
+        "opponent_sizes": [
+          0,
+          0,
+          3
+        ],
+        "anchor": 3,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.005733472004067153
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.005163078996702097
+        }
+      },
+      {
+        "turn": 49,
+        "own_size": 2,
+        "opponent_sizes": [
+          0,
+          0,
+          7
+        ],
+        "anchor": null,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.005267004991765134
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.005216513993218541
+        }
+      },
+      {
+        "turn": 27,
+        "own_size": 3,
+        "opponent_sizes": [
+          4,
+          6,
+          6
+        ],
+        "anchor": 1,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.004224039999826346
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.0033087579722632654
+        }
+      },
+      {
+        "turn": 41,
+        "own_size": 3,
+        "opponent_sizes": [
+          0,
+          2,
+          5
+        ],
+        "anchor": 2,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 13,
+          "seconds": 0.006343041990476195
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.004525556003500242
+        }
+      },
+      {
+        "turn": 42,
+        "own_size": 2,
+        "opponent_sizes": [
+          0,
+          5,
+          2
+        ],
+        "anchor": 2,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.005162098983419128
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.0043216409831075
+        }
+      },
+      {
+        "turn": 44,
+        "own_size": 2,
+        "opponent_sizes": [
+          0,
+          1,
+          4
+        ],
+        "anchor": 2,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.005178768988116644
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.0045369029976427555
+        }
+      },
+      {
+        "turn": 17,
+        "own_size": 3,
+        "opponent_sizes": [
+          4,
+          8,
+          3
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.0029370929987635463
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.0025560099820722826
+        }
+      },
+      {
+        "turn": 21,
+        "own_size": 3,
+        "opponent_sizes": [
+          2,
+          6,
+          3
+        ],
+        "anchor": null,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.0027908500051125884
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.0027940590007347055
+        }
+      },
+      {
+        "turn": 24,
+        "own_size": 3,
+        "opponent_sizes": [
+          2,
+          1,
+          5
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.003265855979407206
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.00300868101476226
+        }
+      },
+      {
+        "turn": 26,
+        "own_size": 3,
+        "opponent_sizes": [
+          2,
+          0,
+          9
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.0034519149994594045
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.0033853939967229962
+        }
+      },
+      {
+        "turn": 29,
+        "own_size": 3,
+        "opponent_sizes": [
+          3,
+          0,
+          8
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.004240373011271004
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.0036490389829850756
+        }
+      },
+      {
+        "turn": 32,
+        "own_size": 3,
+        "opponent_sizes": [
+          4,
+          0,
+          7
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.004843217000598088
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.0039318569979513995
+        }
+      },
+      {
+        "turn": 35,
+        "own_size": 2,
+        "opponent_sizes": [
+          3,
+          0,
+          6
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.004565236973576248
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.004053802993439604
+        }
+      },
+      {
+        "turn": 39,
+        "own_size": 3,
+        "opponent_sizes": [
+          0,
+          5,
+          2
+        ],
+        "anchor": 3,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.0044740540033672005
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.004411324036482256
+        }
+      },
+      {
+        "turn": 40,
+        "own_size": 3,
+        "opponent_sizes": [
+          2,
+          0,
+          5
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.0046868849894963205
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.004551254001853522
+        }
+      },
+      {
+        "turn": 42,
+        "own_size": 2,
+        "opponent_sizes": [
+          0,
+          4,
+          2
+        ],
+        "anchor": 3,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.004843075985263567
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.004689213012170512
+        }
+      },
+      {
+        "turn": 43,
+        "own_size": 3,
+        "opponent_sizes": [
+          1,
+          0,
+          4
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.004798477988515515
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.004848577998927794
+        }
+      },
+      {
+        "turn": 58,
+        "own_size": 2,
+        "opponent_sizes": [
+          4,
+          0,
+          0
+        ],
+        "anchor": null,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.006079131992009934
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.005915582012676168
+        }
+      },
+      {
+        "turn": 16,
+        "own_size": 3,
+        "opponent_sizes": [
+          7,
+          4,
+          6
+        ],
+        "anchor": null,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.002452658001857344
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.002451504005875904
+        }
+      },
+      {
+        "turn": 21,
+        "own_size": 3,
+        "opponent_sizes": [
+          6,
+          4,
+          10
+        ],
+        "anchor": null,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.002762572003121022
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.002767255988146644
+        }
+      },
+      {
+        "turn": 25,
+        "own_size": 2,
+        "opponent_sizes": [
+          5,
+          4,
+          8
+        ],
+        "anchor": null,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.0030242940119933337
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.0030304180036182515
+        }
+      },
+      {
+        "turn": 32,
+        "own_size": 3,
+        "opponent_sizes": [
+          3,
+          4,
+          7
+        ],
+        "anchor": 1,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.004645360000722576
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.0036704229714814574
+        }
+      },
+      {
+        "turn": 34,
+        "own_size": 3,
+        "opponent_sizes": [
+          3,
+          2,
+          7
+        ],
+        "anchor": 1,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.004164117002801504
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.003954585008614231
+        }
+      },
+      {
+        "turn": 41,
+        "own_size": 3,
+        "opponent_sizes": [
+          1,
+          0,
+          5
+        ],
+        "anchor": null,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.004235814994899556
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.004202525000437163
+        }
+      },
+      {
+        "turn": 42,
+        "own_size": 2,
+        "opponent_sizes": [
+          2,
+          0,
+          5
+        ],
+        "anchor": 1,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.00447128401719965
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.0043961889678030275
+        }
+      },
+      {
+        "turn": 47,
+        "own_size": 2,
+        "opponent_sizes": [
+          0,
+          0,
+          3
+        ],
+        "anchor": null,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.004705322004156187
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.004703609978605527
+        }
+      },
+      {
+        "turn": 49,
+        "own_size": 2,
+        "opponent_sizes": [
+          0,
+          0,
+          2
+        ],
+        "anchor": null,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.004931916009809356
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.004908276001515333
+        }
+      },
+      {
+        "turn": 54,
+        "own_size": 3,
+        "opponent_sizes": [
+          0,
+          6,
+          0
+        ],
+        "anchor": null,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.005508744994585868
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.005389950005337596
+        }
+      },
+      {
+        "turn": 55,
+        "own_size": 2,
+        "opponent_sizes": [
+          0,
+          6,
+          0
+        ],
+        "anchor": null,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.005576028990617488
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.0054786680193501525
+        }
+      },
+      {
+        "turn": 25,
+        "own_size": 3,
+        "opponent_sizes": [
+          5,
+          4,
+          3
+        ],
+        "anchor": 1,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 7,
+          "seconds": 0.005760169013228733
+        },
+        "conditioned": {
+          "accepted": 15,
+          "seconds": 0.0047949250001693144
+        }
+      },
+      {
+        "turn": 28,
+        "own_size": 3,
+        "opponent_sizes": [
+          2,
+          4,
+          4
+        ],
+        "anchor": 2,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 9,
+          "seconds": 0.005915555011597462
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.004799112997716293
+        }
+      },
+      {
+        "turn": 35,
+        "own_size": 3,
+        "opponent_sizes": [
+          5,
+          4,
+          1
+        ],
+        "anchor": 1,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.004562418005662039
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.0038885749963810667
+        }
+      },
+      {
+        "turn": 43,
+        "own_size": 3,
+        "opponent_sizes": [
+          5,
+          4,
+          2
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 2,
+          "seconds": 0.005519505008123815
+        },
+        "conditioned": {
+          "accepted": 10,
+          "seconds": 0.0077056519949110225
+        }
+      },
+      {
+        "turn": 46,
+        "own_size": 2,
+        "opponent_sizes": [
+          4,
+          6,
+          2
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 15,
+          "seconds": 0.005860090022906661
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.005107087010401301
+        }
+      },
+      {
+        "turn": 62,
+        "own_size": 3,
+        "opponent_sizes": [
+          1,
+          2,
+          0
+        ],
+        "anchor": 2,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.006429928005672991
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.006128278000687715
+        }
+      },
+      {
+        "turn": 63,
+        "own_size": 2,
+        "opponent_sizes": [
+          2,
+          2,
+          0
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.007206067995866761
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.006573757003934588
+        }
+      },
+      {
+        "turn": 66,
+        "own_size": 2,
+        "opponent_sizes": [
+          1,
+          1,
+          0
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.00680628301051911
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.006649850991379935
+        }
+      },
+      {
+        "turn": 71,
+        "own_size": 3,
+        "opponent_sizes": [
+          2,
+          3,
+          0
+        ],
+        "anchor": 2,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.007990010992216412
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.007512810967455152
+        }
+      },
+      {
+        "turn": 72,
+        "own_size": 3,
+        "opponent_sizes": [
+          2,
+          3,
+          0
+        ],
+        "anchor": 2,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.007925559002615046
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.007644685996638145
+        }
+      },
+      {
+        "turn": 74,
+        "own_size": 3,
+        "opponent_sizes": [
+          2,
+          5,
+          0
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.007636620997800492
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.007565951986180153
+        }
+      },
+      {
+        "turn": 89,
+        "own_size": 3,
+        "opponent_sizes": [
+          0,
+          4,
+          0
+        ],
+        "anchor": null,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.008998539997264743
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.008870875004504342
+        }
+      },
+      {
+        "turn": 91,
+        "own_size": 2,
+        "opponent_sizes": [
+          0,
+          8,
+          0
+        ],
+        "anchor": null,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.008961088991782162
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.008972963987616822
+        }
+      },
+      {
+        "turn": 16,
+        "own_size": 3,
+        "opponent_sizes": [
+          6,
+          5,
+          11
+        ],
+        "anchor": 1,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 6,
+          "seconds": 0.00596732301346492
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.0043454549959278665
+        }
+      },
+      {
+        "turn": 20,
+        "own_size": 2,
+        "opponent_sizes": [
+          10,
+          5,
+          10
+        ],
+        "anchor": 2,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.0034774200030369684
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.0028688480088021606
+        }
+      },
+      {
+        "turn": 37,
+        "own_size": 3,
+        "opponent_sizes": [
+          11,
+          5,
+          6
+        ],
+        "anchor": 2,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 13,
+          "seconds": 0.006074781020288356
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.004214006003167015
+        }
+      },
+      {
+        "turn": 51,
+        "own_size": 3,
+        "opponent_sizes": [
+          2,
+          7,
+          3
+        ],
+        "anchor": null,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.005214559001615271
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.005081139999674633
+        }
+      },
+      {
+        "turn": 53,
+        "own_size": 3,
+        "opponent_sizes": [
+          7,
+          2,
+          2
+        ],
+        "anchor": 2,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.0053914340242045
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.005314126996381674
+        }
+      },
+      {
+        "turn": 61,
+        "own_size": 2,
+        "opponent_sizes": [
+          8,
+          4,
+          2
+        ],
+        "anchor": 2,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 15,
+          "seconds": 0.007857846998376772
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.006539967012940906
+        }
+      },
+      {
+        "turn": 80,
+        "own_size": 3,
+        "opponent_sizes": [
+          0,
+          5,
+          3
+        ],
+        "anchor": 3,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.00828532301238738
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.007619617987074889
+        }
+      },
+      {
+        "turn": 81,
+        "own_size": 3,
+        "opponent_sizes": [
+          0,
+          5,
+          2
+        ],
+        "anchor": 2,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.007802754007570911
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.0076613829951384105
+        }
+      },
+      {
+        "turn": 88,
+        "own_size": 3,
+        "opponent_sizes": [
+          0,
+          4,
+          3
+        ],
+        "anchor": 2,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 10,
+          "seconds": 0.007519069004047196
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.00891231800778769
+        }
+      },
+      {
+        "turn": 96,
+        "own_size": 3,
+        "opponent_sizes": [
+          0,
+          5,
+          3
+        ],
+        "anchor": 2,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 9,
+          "seconds": 0.007095110013324302
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.009568835019308608
+        }
+      },
+      {
+        "turn": 113,
+        "own_size": 3,
+        "opponent_sizes": [
+          0,
+          0,
+          1
+        ],
+        "anchor": 3,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.010579973997664638
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.010540626004512887
+        }
+      },
+      {
+        "turn": 115,
+        "own_size": 3,
+        "opponent_sizes": [
+          0,
+          0,
+          3
+        ],
+        "anchor": null,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.01067365999915637
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.010647770010109525
+        }
+      },
+      {
+        "turn": 117,
+        "own_size": 3,
+        "opponent_sizes": [
+          0,
+          0,
+          3
+        ],
+        "anchor": 3,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.011298311008431483
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.01104474501335062
+        }
+      },
+      {
+        "turn": 140,
+        "own_size": 3,
+        "opponent_sizes": [
+          0,
+          3,
+          0
+        ],
+        "anchor": 1,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.013825075009663124
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.013665150007000193
+        }
+      },
+      {
+        "turn": 141,
+        "own_size": 3,
+        "opponent_sizes": [
+          0,
+          0,
+          2
+        ],
+        "anchor": 3,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.013568338014010806
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.013536720980482642
+        }
+      },
+      {
+        "turn": 145,
+        "own_size": 2,
+        "opponent_sizes": [
+          0,
+          0,
+          4
+        ],
+        "anchor": null,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.014144484011922032
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.014081835986871738
+        }
+      },
+      {
+        "turn": 17,
+        "own_size": 3,
+        "opponent_sizes": [
+          3,
+          3,
+          3
+        ],
+        "anchor": null,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.002407844993285835
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.0023450369990314357
+        }
+      },
+      {
+        "turn": 19,
+        "own_size": 3,
+        "opponent_sizes": [
+          2,
+          3,
+          4
+        ],
+        "anchor": 3,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.004152947032707743
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.0026409469865029678
+        }
+      },
+      {
+        "turn": 29,
+        "own_size": 2,
+        "opponent_sizes": [
+          4,
+          4,
+          3
+        ],
+        "anchor": 1,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 3,
+          "seconds": 0.005582055004197173
+        },
+        "conditioned": {
+          "accepted": 13,
+          "seconds": 0.006502804993942846
+        }
+      },
+      {
+        "turn": 36,
+        "own_size": 3,
+        "opponent_sizes": [
+          7,
+          3,
+          2
+        ],
+        "anchor": 2,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.005567269021412358
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.004521942006249446
+        }
+      },
+      {
+        "turn": 37,
+        "own_size": 3,
+        "opponent_sizes": [
+          2,
+          7,
+          3
+        ],
+        "anchor": 2,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 15,
+          "seconds": 0.00559740599419456
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.004592796009092126
+        }
+      },
+      {
+        "turn": 38,
+        "own_size": 3,
+        "opponent_sizes": [
+          2,
+          7,
+          2
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.004891823002253659
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.004860014014411718
+        }
+      },
+      {
+        "turn": 41,
+        "own_size": 2,
+        "opponent_sizes": [
+          3,
+          6,
+          2
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.005931984997005202
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.004865309994784184
+        }
+      },
+      {
+        "turn": 44,
+        "own_size": 3,
+        "opponent_sizes": [
+          3,
+          5,
+          2
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 15,
+          "seconds": 0.006042792992957402
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.00521610497526126
+        }
+      },
+      {
+        "turn": 46,
+        "own_size": 3,
+        "opponent_sizes": [
+          4,
+          2,
+          2
+        ],
+        "anchor": 2,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.005574405993684195
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.005319099989719689
+        }
+      },
+      {
+        "turn": 50,
+        "own_size": 2,
+        "opponent_sizes": [
+          3,
+          1,
+          1
+        ],
+        "anchor": 2,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.005391506994783413
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.005296517003444023
+        }
+      },
+      {
+        "turn": 56,
+        "own_size": 3,
+        "opponent_sizes": [
+          2,
+          3,
+          6
+        ],
+        "anchor": 1,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.006460052012698725
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.006077064979763236
+        }
+      },
+      {
+        "turn": 66,
+        "own_size": 3,
+        "opponent_sizes": [
+          5,
+          0,
+          4
+        ],
+        "anchor": null,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.006583525020687375
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.006593891004740726
+        }
+      },
+      {
+        "turn": 85,
+        "own_size": 3,
+        "opponent_sizes": [
+          3,
+          3,
+          0
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.008702787024958525
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.008333485006005503
+        }
+      },
+      {
+        "turn": 97,
+        "own_size": 3,
+        "opponent_sizes": [
+          5,
+          0,
+          0
+        ],
+        "anchor": null,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.00931700299406657
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.009258169993699994
+        }
+      },
+      {
+        "turn": 143,
+        "own_size": 3,
+        "opponent_sizes": [
+          5,
+          0,
+          0
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.015413410001201555
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.013896864009439014
+        }
+      },
+      {
+        "turn": 147,
+        "own_size": 2,
+        "opponent_sizes": [
+          7,
+          0,
+          0
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 14,
+          "seconds": 0.015286852009012364
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.01438489300198853
+        }
+      },
+      {
+        "turn": 157,
+        "own_size": 3,
+        "opponent_sizes": [
+          1,
+          0,
+          0
+        ],
+        "anchor": 1,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.015543407993391156
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.015462501993170008
+        }
+      },
+      {
+        "turn": 163,
+        "own_size": 3,
+        "opponent_sizes": [
+          3,
+          0,
+          0
+        ],
+        "anchor": 1,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.016663102025631815
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.015997686990885995
+        }
+      },
+      {
+        "turn": 185,
+        "own_size": 2,
+        "opponent_sizes": [
+          5,
+          0,
+          0
+        ],
+        "anchor": 1,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.0195234239945421
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.018156575999455526
+        }
+      },
+      {
+        "turn": 191,
+        "own_size": 3,
+        "opponent_sizes": [
+          7,
+          0,
+          0
+        ],
+        "anchor": 1,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 15,
+          "seconds": 0.019591921991377603
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.018813042996043805
+        }
+      },
+      {
+        "turn": 193,
+        "own_size": 3,
+        "opponent_sizes": [
+          6,
+          0,
+          0
+        ],
+        "anchor": 1,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.02057855000020936
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.019206965997000225
+        }
+      },
+      {
+        "turn": 202,
+        "own_size": 3,
+        "opponent_sizes": [
+          4,
+          0,
+          0
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.020551711982989218
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.02023133498005336
+        }
+      },
+      {
+        "turn": 204,
+        "own_size": 3,
+        "opponent_sizes": [
+          3,
+          0,
+          0
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.02044261801347602
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.020483579995925538
+        }
+      },
+      {
+        "turn": 205,
+        "own_size": 3,
+        "opponent_sizes": [
+          2,
+          0,
+          0
+        ],
+        "anchor": 1,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.02444945799652487
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.02079768000112381
+        }
+      },
+      {
+        "turn": 206,
+        "own_size": 2,
+        "opponent_sizes": [
+          2,
+          0,
+          0
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.020816918004129548
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.02068490800593281
+        }
+      },
+      {
+        "turn": 209,
+        "own_size": 2,
+        "opponent_sizes": [
+          3,
+          0,
+          0
+        ],
+        "anchor": null,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.02087259298423305
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.020855243994446937
+        }
+      },
+      {
+        "turn": 16,
+        "own_size": 3,
+        "opponent_sizes": [
+          5,
+          4,
+          3
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 15,
+          "seconds": 0.003401982001378201
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.002578571977210231
+        }
+      },
+      {
+        "turn": 20,
+        "own_size": 2,
+        "opponent_sizes": [
+          4,
+          3,
+          7
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.0032933119873632677
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.0028127979967393912
+        }
+      },
+      {
+        "turn": 46,
+        "own_size": 3,
+        "opponent_sizes": [
+          6,
+          3,
+          0
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 15,
+          "seconds": 0.005921277013840154
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.004837512991798576
+        }
+      },
+      {
+        "turn": 48,
+        "own_size": 3,
+        "opponent_sizes": [
+          7,
+          2,
+          0
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 5,
+          "seconds": 0.005948102989350446
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.0050860780029324815
+        }
+      },
+      {
+        "turn": 49,
+        "own_size": 2,
+        "opponent_sizes": [
+          7,
+          2,
+          0
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 9,
+          "seconds": 0.006092852971050888
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.005058262002421543
+        }
+      },
+      {
+        "turn": 82,
+        "own_size": 3,
+        "opponent_sizes": [
+          12,
+          4,
+          0
+        ],
+        "anchor": 1,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.009182699985103682
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.008556995991966687
+        }
+      },
+      {
+        "turn": 87,
+        "own_size": 2,
+        "opponent_sizes": [
+          10,
+          3,
+          0
+        ],
+        "anchor": 1,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.00957947599090403
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.009032693014887627
+        }
+      },
+      {
+        "turn": 101,
+        "own_size": 3,
+        "opponent_sizes": [
+          5,
+          0,
+          0
+        ],
+        "anchor": null,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.010295305997715332
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.010164360988710541
+        }
+      },
+      {
+        "turn": 103,
+        "own_size": 2,
+        "opponent_sizes": [
+          4,
+          0,
+          0
+        ],
+        "anchor": null,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.010289797995937988
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.010225542995613068
+        }
+      },
+      {
+        "turn": 108,
+        "own_size": 2,
+        "opponent_sizes": [
+          0,
+          5,
+          0
+        ],
+        "anchor": null,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.010605626004689839
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.010552225976425689
+        }
+      },
+      {
+        "turn": 19,
+        "own_size": 3,
+        "opponent_sizes": [
+          11,
+          5,
+          3
+        ],
+        "anchor": 2,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.003953904008085374
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.0027494079986354336
+        }
+      },
+      {
+        "turn": 24,
+        "own_size": 3,
+        "opponent_sizes": [
+          1,
+          10,
+          3
+        ],
+        "anchor": 2,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.003596335998736322
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.003114949999144301
+        }
+      },
+      {
+        "turn": 28,
+        "own_size": 2,
+        "opponent_sizes": [
+          3,
+          9,
+          2
+        ],
+        "anchor": 2,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.00394080500700511
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.00339639101002831
+        }
+      },
+      {
+        "turn": 29,
+        "own_size": 3,
+        "opponent_sizes": [
+          3,
+          9,
+          1
+        ],
+        "anchor": null,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.003427888026635628
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.00343516100110719
+        }
+      },
+      {
+        "turn": 33,
+        "own_size": 2,
+        "opponent_sizes": [
+          7,
+          8,
+          2
+        ],
+        "anchor": 3,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.003982533991802484
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.0037992419966030866
+        }
+      },
+      {
+        "turn": 41,
+        "own_size": 3,
+        "opponent_sizes": [
+          5,
+          6,
+          2
+        ],
+        "anchor": 3,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.004773478998686187
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.004420489014592022
+        }
+      },
+      {
+        "turn": 61,
+        "own_size": 2,
+        "opponent_sizes": [
+          3,
+          4,
+          5
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.006218218979483936
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.005903179982851725
+        }
+      },
+      {
+        "turn": 63,
+        "own_size": 3,
+        "opponent_sizes": [
+          3,
+          1,
+          5
+        ],
+        "anchor": 2,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.005956629007414449
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.006050639996828977
+        }
+      },
+      {
+        "turn": 67,
+        "own_size": 3,
+        "opponent_sizes": [
+          2,
+          0,
+          4
+        ],
+        "anchor": null,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.006433253009163309
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.006299767992459238
+        }
+      },
+      {
+        "turn": 68,
+        "own_size": 3,
+        "opponent_sizes": [
+          2,
+          0,
+          4
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.006631444004597142
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.0064786639995872974
+        }
+      },
+      {
+        "turn": 70,
+        "own_size": 3,
+        "opponent_sizes": [
+          2,
+          0,
+          3
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.0067549810046330094
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.006764471021597274
+        }
+      },
+      {
+        "turn": 71,
+        "own_size": 3,
+        "opponent_sizes": [
+          2,
+          0,
+          3
+        ],
+        "anchor": 1,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.006969106005271897
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.006924004992470145
+        }
+      },
+      {
+        "turn": 74,
+        "own_size": 2,
+        "opponent_sizes": [
+          3,
+          0,
+          2
+        ],
+        "anchor": 1,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.007405144009680953
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.007164979993831366
+        }
+      },
+      {
+        "turn": 79,
+        "own_size": 3,
+        "opponent_sizes": [
+          2,
+          0,
+          2
+        ],
+        "anchor": 1,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.008041254004638176
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.007963496005686466
+        }
+      },
+      {
+        "turn": 81,
+        "own_size": 3,
+        "opponent_sizes": [
+          2,
+          0,
+          6
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.00797881101607345
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.007851853988540825
+        }
+      },
+      {
+        "turn": 82,
+        "own_size": 2,
+        "opponent_sizes": [
+          2,
+          0,
+          6
+        ],
+        "anchor": 1,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.008097236001049168
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.007942110976728145
+        }
+      },
+      {
+        "turn": 87,
+        "own_size": 3,
+        "opponent_sizes": [
+          2,
+          0,
+          4
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.008465455990517512
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.008357894992514048
+        }
+      },
+      {
+        "turn": 90,
+        "own_size": 2,
+        "opponent_sizes": [
+          3,
+          0,
+          5
+        ],
+        "anchor": 3,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 14,
+          "seconds": 0.00875442200776888
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.009034700000484008
+        }
+      },
+      {
+        "turn": 96,
+        "own_size": 2,
+        "opponent_sizes": [
+          4,
+          0,
+          3
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 15,
+          "seconds": 0.010192188012297265
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.009288179011491593
+        }
+      },
+      {
+        "turn": 100,
+        "own_size": 3,
+        "opponent_sizes": [
+          0,
+          0,
+          2
+        ],
+        "anchor": 3,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.009678945993073285
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.009547955014568288
+        }
+      },
+      {
+        "turn": 19,
+        "own_size": 3,
+        "opponent_sizes": [
+          2,
+          9,
+          9
+        ],
+        "anchor": null,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.0026495830024941824
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.002675123010703828
+        }
+      },
+      {
+        "turn": 56,
+        "own_size": 2,
+        "opponent_sizes": [
+          5,
+          2,
+          3
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 14,
+          "seconds": 0.006862000016553793
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.005858253010956105
+        }
+      },
+      {
+        "turn": 78,
+        "own_size": 3,
+        "opponent_sizes": [
+          0,
+          0,
+          2
+        ],
+        "anchor": null,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.007445840994478203
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.007384339020063635
+        }
+      },
+      {
+        "turn": 96,
+        "own_size": 3,
+        "opponent_sizes": [
+          0,
+          0,
+          4
+        ],
+        "anchor": 3,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.009744425988174044
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.009168496988422703
+        }
+      },
+      {
+        "turn": 107,
+        "own_size": 3,
+        "opponent_sizes": [
+          0,
+          0,
+          8
+        ],
+        "anchor": null,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.01036954800656531
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.010338762018363923
+        }
+      },
+      {
+        "turn": 113,
+        "own_size": 3,
+        "opponent_sizes": [
+          0,
+          0,
+          8
+        ],
+        "anchor": null,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.01092475198674947
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.01088696197984973
+        }
+      },
+      {
+        "turn": 133,
+        "own_size": 3,
+        "opponent_sizes": [
+          3,
+          0,
+          0
+        ],
+        "anchor": null,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.012661243010370526
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.012378404993796721
+        }
+      },
+      {
+        "turn": 135,
+        "own_size": 3,
+        "opponent_sizes": [
+          4,
+          0,
+          0
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.012684908011578955
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.012570912003866397
+        }
+      },
+      {
+        "turn": 147,
+        "own_size": 3,
+        "opponent_sizes": [
+          0,
+          0,
+          3
+        ],
+        "anchor": 3,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.014994069999374915
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.014504576021863613
+        }
+      },
+      {
+        "turn": 159,
+        "own_size": 3,
+        "opponent_sizes": [
+          4,
+          0,
+          0
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.0166300749842776
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.015464030992006883
+        }
+      },
+      {
+        "turn": 162,
+        "own_size": 3,
+        "opponent_sizes": [
+          0,
+          0,
+          1
+        ],
+        "anchor": 3,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.01559861396526685
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.01559032699879026
+        }
+      },
+      {
+        "turn": 165,
+        "own_size": 3,
+        "opponent_sizes": [
+          1,
+          0,
+          0
+        ],
+        "anchor": 0,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.01605865001329221
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.015880248007306363
+        }
+      },
+      {
+        "turn": 169,
+        "own_size": 2,
+        "opponent_sizes": [
+          4,
+          0,
+          0
+        ],
+        "anchor": null,
+        "sample_calls_per_sampler": 16,
+        "original": {
+          "accepted": 16,
+          "seconds": 0.016364189017622266
+        },
+        "conditioned": {
+          "accepted": 16,
+          "seconds": 0.016159638005774468
+        }
+      }
+    ],
+    "strength_claim": false
+  },
+  "proposal_law": "uniform whole-card allocation conditioned on exact public exclusions",
+  "prior_limitation": "Uniform allocation does not model rival behaviour or private strategy",
+  "live_jobs_unchanged": true
+}

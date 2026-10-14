@@ -1,0 +1,566 @@
+{
+  "trained": {
+    "incumbent": {
+      "points": 2.5,
+      "win_rate": 0.25,
+      "games": 4,
+      "block_points": [
+        2.5
+      ],
+      "block_wins": [
+        0.25
+      ],
+      "probe_stats": {
+        "probes": 0,
+        "overrides": 0,
+        "sampling_declines": 0,
+        "incomplete_pairs": 0,
+        "completed_trials": 0,
+        "world_rejections": 0,
+        "retained_pairs": 0,
+        "interval_pairs": 0,
+        "deadline_bounds": 0,
+        "step_bounds": 0,
+        "max_decision_seconds": 0
+      },
+      "summed_worker_seconds": 0.10687271100323414
+    },
+    "candidates": [
+      {
+        "configuration": {
+          "name": "original_half32_actions2",
+          "kind": "original",
+          "budget": 0.5,
+          "max_trials": 32,
+          "max_actions": 2
+        },
+        "result": {
+          "points": 2.5,
+          "win_rate": 0.25,
+          "games": 4,
+          "block_points": [
+            2.5
+          ],
+          "block_wins": [
+            0.25
+          ],
+          "probe_stats": {
+            "probes": 16,
+            "overrides": 0,
+            "sampling_declines": 5,
+            "incomplete_pairs": 1,
+            "completed_trials": 506,
+            "world_rejections": 0,
+            "retained_pairs": 507,
+            "interval_pairs": 1,
+            "deadline_bounds": 0,
+            "step_bounds": 1,
+            "max_decision_seconds": 0.49189620800461853
+          },
+          "summed_worker_seconds": 4.105622891998792
+        },
+        "paired_gain": {
+          "mean_gain": 0.0,
+          "ci95": null
+        }
+      },
+      {
+        "configuration": {
+          "name": "conditioned_half32_actions2",
+          "kind": "conditioned",
+          "budget": 0.5,
+          "max_trials": 32,
+          "max_actions": 2
+        },
+        "result": {
+          "points": 2.5,
+          "win_rate": 0.25,
+          "games": 4,
+          "block_points": [
+            2.5
+          ],
+          "block_wins": [
+            0.25
+          ],
+          "probe_stats": {
+            "probes": 16,
+            "overrides": 0,
+            "sampling_declines": 0,
+            "incomplete_pairs": 2,
+            "completed_trials": 510,
+            "world_rejections": 0,
+            "retained_pairs": 512,
+            "interval_pairs": 2,
+            "deadline_bounds": 1,
+            "step_bounds": 1,
+            "max_decision_seconds": 0.5001203139981953
+          },
+          "summed_worker_seconds": 4.18269432499801
+        },
+        "paired_gain": {
+          "mean_gain": 0.0,
+          "ci95": null
+        }
+      },
+      {
+        "configuration": {
+          "name": "conditioned_1500ms64_actions2",
+          "kind": "conditioned",
+          "budget": 1.5,
+          "max_trials": 64,
+          "max_actions": 2
+        },
+        "result": {
+          "points": 2.5,
+          "win_rate": 0.25,
+          "games": 4,
+          "block_points": [
+            2.5
+          ],
+          "block_wins": [
+            0.25
+          ],
+          "probe_stats": {
+            "probes": 16,
+            "overrides": 0,
+            "sampling_declines": 0,
+            "incomplete_pairs": 1,
+            "completed_trials": 1023,
+            "world_rejections": 0,
+            "retained_pairs": 1024,
+            "interval_pairs": 1,
+            "deadline_bounds": 0,
+            "step_bounds": 1,
+            "max_decision_seconds": 0.9994367230028729
+          },
+          "summed_worker_seconds": 8.346234408993041
+        },
+        "paired_gain": {
+          "mean_gain": 0.0,
+          "ci95": null
+        }
+      },
+      {
+        "configuration": {
+          "name": "conditioned_1500ms64_actions4",
+          "kind": "conditioned",
+          "budget": 1.5,
+          "max_trials": 64,
+          "max_actions": 4
+        },
+        "result": {
+          "points": 2.5,
+          "win_rate": 0.25,
+          "games": 4,
+          "block_points": [
+            2.5
+          ],
+          "block_wins": [
+            0.25
+          ],
+          "probe_stats": {
+            "probes": 16,
+            "overrides": 0,
+            "sampling_declines": 0,
+            "incomplete_pairs": 4,
+            "completed_trials": 995,
+            "world_rejections": 0,
+            "retained_pairs": 999,
+            "interval_pairs": 4,
+            "deadline_bounds": 7,
+            "step_bounds": 2,
+            "max_decision_seconds": 1.5013420719988062
+          },
+          "summed_worker_seconds": 10.43226065899944
+        },
+        "paired_gain": {
+          "mean_gain": 0.0,
+          "ci95": null
+        }
+      }
+    ]
+  },
+  "route": {
+    "incumbent": {
+      "points": 2.75,
+      "win_rate": 0.25,
+      "games": 4,
+      "block_points": [
+        2.75
+      ],
+      "block_wins": [
+        0.25
+      ],
+      "probe_stats": {
+        "probes": 0,
+        "overrides": 0,
+        "sampling_declines": 0,
+        "incomplete_pairs": 0,
+        "completed_trials": 0,
+        "world_rejections": 0,
+        "retained_pairs": 0,
+        "interval_pairs": 0,
+        "deadline_bounds": 0,
+        "step_bounds": 0,
+        "max_decision_seconds": 0
+      },
+      "summed_worker_seconds": 0.04224862900446169
+    },
+    "candidates": [
+      {
+        "configuration": {
+          "name": "original_half32_actions2",
+          "kind": "original",
+          "budget": 0.5,
+          "max_trials": 32,
+          "max_actions": 2
+        },
+        "result": {
+          "points": 2.75,
+          "win_rate": 0.25,
+          "games": 4,
+          "block_points": [
+            2.75
+          ],
+          "block_wins": [
+            0.25
+          ],
+          "probe_stats": {
+            "probes": 12,
+            "overrides": 0,
+            "sampling_declines": 0,
+            "incomplete_pairs": 1,
+            "completed_trials": 383,
+            "world_rejections": 0,
+            "retained_pairs": 384,
+            "interval_pairs": 1,
+            "deadline_bounds": 0,
+            "step_bounds": 1,
+            "max_decision_seconds": 0.36000568700546864
+          },
+          "summed_worker_seconds": 2.307925526998588
+        },
+        "paired_gain": {
+          "mean_gain": 0.0,
+          "ci95": null
+        }
+      },
+      {
+        "configuration": {
+          "name": "conditioned_half32_actions2",
+          "kind": "conditioned",
+          "budget": 0.5,
+          "max_trials": 32,
+          "max_actions": 2
+        },
+        "result": {
+          "points": 2.75,
+          "win_rate": 0.25,
+          "games": 4,
+          "block_points": [
+            2.75
+          ],
+          "block_wins": [
+            0.25
+          ],
+          "probe_stats": {
+            "probes": 12,
+            "overrides": 0,
+            "sampling_declines": 0,
+            "incomplete_pairs": 1,
+            "completed_trials": 383,
+            "world_rejections": 0,
+            "retained_pairs": 384,
+            "interval_pairs": 1,
+            "deadline_bounds": 0,
+            "step_bounds": 1,
+            "max_decision_seconds": 0.3259247489986592
+          },
+          "summed_worker_seconds": 2.1744010479960707
+        },
+        "paired_gain": {
+          "mean_gain": 0.0,
+          "ci95": null
+        }
+      },
+      {
+        "configuration": {
+          "name": "conditioned_1500ms64_actions2",
+          "kind": "conditioned",
+          "budget": 1.5,
+          "max_trials": 64,
+          "max_actions": 2
+        },
+        "result": {
+          "points": 2.75,
+          "win_rate": 0.25,
+          "games": 4,
+          "block_points": [
+            2.75
+          ],
+          "block_wins": [
+            0.25
+          ],
+          "probe_stats": {
+            "probes": 12,
+            "overrides": 0,
+            "sampling_declines": 0,
+            "incomplete_pairs": 2,
+            "completed_trials": 766,
+            "world_rejections": 0,
+            "retained_pairs": 768,
+            "interval_pairs": 2,
+            "deadline_bounds": 0,
+            "step_bounds": 2,
+            "max_decision_seconds": 0.6804309950020979
+          },
+          "summed_worker_seconds": 4.429957813998044
+        },
+        "paired_gain": {
+          "mean_gain": 0.0,
+          "ci95": null
+        }
+      },
+      {
+        "configuration": {
+          "name": "conditioned_1500ms64_actions4",
+          "kind": "conditioned",
+          "budget": 1.5,
+          "max_trials": 64,
+          "max_actions": 4
+        },
+        "result": {
+          "points": 2.75,
+          "win_rate": 0.25,
+          "games": 4,
+          "block_points": [
+            2.75
+          ],
+          "block_wins": [
+            0.25
+          ],
+          "probe_stats": {
+            "probes": 12,
+            "overrides": 0,
+            "sampling_declines": 0,
+            "incomplete_pairs": 5,
+            "completed_trials": 763,
+            "world_rejections": 0,
+            "retained_pairs": 768,
+            "interval_pairs": 5,
+            "deadline_bounds": 2,
+            "step_bounds": 4,
+            "max_decision_seconds": 1.500539017994015
+          },
+          "summed_worker_seconds": 8.456207404997258
+        },
+        "paired_gain": {
+          "mean_gain": 0.0,
+          "ci95": null
+        }
+      }
+    ]
+  },
+  "random": {
+    "incumbent": {
+      "points": 4.25,
+      "win_rate": 0.75,
+      "games": 4,
+      "block_points": [
+        4.25
+      ],
+      "block_wins": [
+        0.75
+      ],
+      "probe_stats": {
+        "probes": 0,
+        "overrides": 0,
+        "sampling_declines": 0,
+        "incomplete_pairs": 0,
+        "completed_trials": 0,
+        "world_rejections": 0,
+        "retained_pairs": 0,
+        "interval_pairs": 0,
+        "deadline_bounds": 0,
+        "step_bounds": 0,
+        "max_decision_seconds": 0
+      },
+      "summed_worker_seconds": 0.020762557003763504
+    },
+    "candidates": [
+      {
+        "configuration": {
+          "name": "original_half32_actions2",
+          "kind": "original",
+          "budget": 0.5,
+          "max_trials": 32,
+          "max_actions": 2
+        },
+        "result": {
+          "points": 4.25,
+          "win_rate": 0.75,
+          "games": 4,
+          "block_points": [
+            4.25
+          ],
+          "block_wins": [
+            0.75
+          ],
+          "probe_stats": {
+            "probes": 17,
+            "overrides": 0,
+            "sampling_declines": 58,
+            "incomplete_pairs": 2,
+            "completed_trials": 483,
+            "world_rejections": 0,
+            "retained_pairs": 485,
+            "interval_pairs": 2,
+            "deadline_bounds": 1,
+            "step_bounds": 1,
+            "max_decision_seconds": 0.5010284680029145
+          },
+          "summed_worker_seconds": 3.9300127050009905
+        },
+        "paired_gain": {
+          "mean_gain": 0.0,
+          "ci95": null
+        }
+      },
+      {
+        "configuration": {
+          "name": "conditioned_half32_actions2",
+          "kind": "conditioned",
+          "budget": 0.5,
+          "max_trials": 32,
+          "max_actions": 2
+        },
+        "result": {
+          "points": 4.25,
+          "win_rate": 0.75,
+          "games": 4,
+          "block_points": [
+            4.25
+          ],
+          "block_wins": [
+            0.75
+          ],
+          "probe_stats": {
+            "probes": 17,
+            "overrides": 0,
+            "sampling_declines": 1,
+            "incomplete_pairs": 0,
+            "completed_trials": 543,
+            "world_rejections": 0,
+            "retained_pairs": 543,
+            "interval_pairs": 0,
+            "deadline_bounds": 0,
+            "step_bounds": 0,
+            "max_decision_seconds": 0.4971044560006703
+          },
+          "summed_worker_seconds": 4.345459377997031
+        },
+        "paired_gain": {
+          "mean_gain": 0.0,
+          "ci95": null
+        }
+      },
+      {
+        "configuration": {
+          "name": "conditioned_1500ms64_actions2",
+          "kind": "conditioned",
+          "budget": 1.5,
+          "max_trials": 64,
+          "max_actions": 2
+        },
+        "result": {
+          "points": 3.5,
+          "win_rate": 0.5,
+          "games": 4,
+          "block_points": [
+            3.5
+          ],
+          "block_wins": [
+            0.5
+          ],
+          "probe_stats": {
+            "probes": 17,
+            "overrides": 1,
+            "sampling_declines": 0,
+            "incomplete_pairs": 0,
+            "completed_trials": 1088,
+            "world_rejections": 0,
+            "retained_pairs": 1088,
+            "interval_pairs": 0,
+            "deadline_bounds": 0,
+            "step_bounds": 0,
+            "max_decision_seconds": 0.8630837669988978
+          },
+          "summed_worker_seconds": 8.064734448002127
+        },
+        "paired_gain": {
+          "mean_gain": -0.75,
+          "ci95": null
+        }
+      },
+      {
+        "configuration": {
+          "name": "conditioned_1500ms64_actions4",
+          "kind": "conditioned",
+          "budget": 1.5,
+          "max_trials": 64,
+          "max_actions": 4
+        },
+        "result": {
+          "points": 3.25,
+          "win_rate": 0.5,
+          "games": 4,
+          "block_points": [
+            3.25
+          ],
+          "block_wins": [
+            0.5
+          ],
+          "probe_stats": {
+            "probes": 18,
+            "overrides": 2,
+            "sampling_declines": 0,
+            "incomplete_pairs": 1,
+            "completed_trials": 1149,
+            "world_rejections": 0,
+            "retained_pairs": 1150,
+            "interval_pairs": 1,
+            "deadline_bounds": 3,
+            "step_bounds": 0,
+            "max_decision_seconds": 1.500790981001046
+          },
+          "summed_worker_seconds": 11.040519012000004
+        },
+        "paired_gain": {
+          "mean_gain": -1.0,
+          "ci95": null
+        }
+      }
+    ]
+  },
+  "selection": {
+    "selected": 0,
+    "configuration": {
+      "name": "retained_route",
+      "kind": "route"
+    },
+    "criterion": "own-trained distinct-rival league placement points;incumbent eligible"
+  },
+  "provenance": {
+    "development_only": true,
+    "seed_start": 165000000,
+    "blocks": 1,
+    "selection_family_reserved": 163000000,
+    "fresh_final_reserved": 164000000,
+    "same_uniform_public_prior": true,
+    "one_anchor_condition_then_reject_other_constraints": true,
+    "actual_hidden_state_or_private_game_seed_policy_inputs": false,
+    "gaussian_sampled_world_confidence_heuristic": true,
+    "old131M_and151M_recipes_unchanged": true,
+    "max_configured_action_budget_seconds": 1.5
+  }
+}
