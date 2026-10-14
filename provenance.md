@@ -175,3 +175,5 @@ confidence guarantees. The incumbent remains eligible.151Mtrain,152Mselect,
 Static matrices of our stateless rival scorers are initialized once perworker;
 random style agents reset from each matched rival seed. Smoke155/156/157M
 passed; no failed-model final data are used for new selection.
+
+Joint30 (171M is a separate stage experiment) completed24generations on151M with bounded±25%base trust/6publicrisk coefficients±8. Frozen152M selectionindex4 meets predeclared observed-mean guards. Fresh153M2048games/policy×5regimes allmean gainspositive, trained+0.03125, but all95%intervals span0. Predeclared70/30 trained/route composite+0.029052734375,10000-bootstrap95%[−0.005517578125,+0.062940673828125]. Source11/assets2 matchexactuploads; allgeneration/selectionbounds/eligibility/argmax recomputed. Selectedasset hash0721bb949ae5e6d6b4d0140e518c64730f4eeef80a505f74492a4e4a3f92f51c retained; no supported mainpromotion orautomatic154Mreplication. Main remains correctedee37f8c.

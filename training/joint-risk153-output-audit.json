@@ -1,0 +1,82 @@
+{
+  "inventories": {
+    "sources": 11,
+    "assets": 2
+  },
+  "all_inventories_match": true,
+  "all_json_valid": true,
+  "generations": 24,
+  "all_training_archives_in_bounds": true,
+  "selected": 4,
+  "selected_asset_matches_frozen_choice": true,
+  "source_sha": "74d8014",
+  "results": {
+    "trained": {
+      "gain": 0.03125,
+      "ci95_independent10000": [
+        -0.01220703125,
+        0.07421875
+      ],
+      "first_place_gain": 0.00146484375,
+      "candidate_points": 2.7841796875,
+      "incumbent_points": 2.7529296875
+    },
+    "route": {
+      "gain": 0.02392578125,
+      "ci95_independent10000": [
+        -0.015625,
+        0.0634765625
+      ],
+      "first_place_gain": 0.00146484375,
+      "candidate_points": 2.77392578125,
+      "incumbent_points": 2.75
+    },
+    "classical": {
+      "gain": 0.02978515625,
+      "ci95_independent10000": [
+        -0.00830078125,
+        0.068359375
+      ],
+      "first_place_gain": -0.00439453125,
+      "candidate_points": 2.91552734375,
+      "incumbent_points": 2.8857421875
+    },
+    "starter": {
+      "gain": 0.01904296875,
+      "ci95_independent10000": [
+        -0.0234375,
+        0.06201171875
+      ],
+      "first_place_gain": -0.0029296875,
+      "candidate_points": 2.84521484375,
+      "incumbent_points": 2.826171875
+    },
+    "random": {
+      "gain": 0.02099609375,
+      "ci95_independent10000": [
+        -0.02296142578124999,
+        0.06396484375
+      ],
+      "first_place_gain": 0.00244140625,
+      "candidate_points": 3.3525390625,
+      "incumbent_points": 3.33154296875
+    }
+  },
+  "predeclared_training_selection_composite_final": {
+    "weights": {
+      "trained": 0.7,
+      "route": 0.3
+    },
+    "mean_gain": 0.029052734374999993,
+    "ci95": [
+      -0.005517578124999998,
+      0.06294067382812499
+    ],
+    "same_seed_block_sampling": true,
+    "not_official_event_opponent_mixture": true
+  },
+  "selected_policy_sha256": "0721bb949ae5e6d6b4d0140e518c64730f4eeef80a505f74492a4e4a3f92f51c",
+  "conclusion": "All final regime means positive but every separate confidence interval crosses0; no robust upgrade or automatic154M replication",
+  "all_selection_genomes_in_bounds": true,
+  "selection_eligibility_and_argmax_recomputed": true
+}
