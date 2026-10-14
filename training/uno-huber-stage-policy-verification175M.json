@@ -1,0 +1,16 @@
+{
+  "source_games": 8,
+  "seed_start": 175000000,
+  "zero_route_equal_decisions": 989,
+  "one_neural_equal_decisions": 989,
+  "mixed_legal_decisions": 989,
+  "stage_counts": [
+    278,
+    271,
+    93,
+    181,
+    138,
+    28
+  ],
+  "strength_claim": false
+}

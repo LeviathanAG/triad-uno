@@ -1,0 +1,61 @@
+{
+  "trained": {
+    "mean_gain": 0.083984375,
+    "independent_ci95": [
+      -0.017578125,
+      0.1826171875
+    ],
+    "first_place_gain": 0.013671875,
+    "candidate_points": 2.7626953125,
+    "incumbent_points": 2.6787109375
+  },
+  "route": {
+    "mean_gain": 0.0283203125,
+    "independent_ci95": [
+      -0.048828125,
+      0.1044921875
+    ],
+    "first_place_gain": -0.005859375,
+    "candidate_points": 2.7783203125,
+    "incumbent_points": 2.75
+  },
+  "classical": {
+    "mean_gain": 0.0625,
+    "independent_ci95": [
+      -0.0546875,
+      0.1806640625
+    ],
+    "first_place_gain": 0.00390625,
+    "candidate_points": 3.009765625,
+    "incumbent_points": 2.947265625
+  },
+  "starter": {
+    "mean_gain": 0.0986328125,
+    "independent_ci95": [
+      -0.0068359375,
+      0.2041015625
+    ],
+    "first_place_gain": 0.0244140625,
+    "candidate_points": 2.8466796875,
+    "incumbent_points": 2.748046875
+  },
+  "random": {
+    "mean_gain": 0.1044921875,
+    "independent_ci95": [
+      0.001953125,
+      0.208984375
+    ],
+    "first_place_gain": 0.013671875,
+    "candidate_points": 3.3603515625,
+    "incumbent_points": 3.255859375
+  },
+  "all_inventories_match": true,
+  "blocks": 256,
+  "games_per_policy": 1024,
+  "eligibility": {
+    "eligible": false,
+    "criterion": "trained lower95 CI>0; route gain>=-.02, classical>=-.03, starter/random>=-.05",
+    "empirical_guard_not_event_guarantee": true
+  },
+  "conclusion": "Promising archived own-source checkpoint but predeclared primaryCI guard failed; no168M final ofsamecheckpoint"
+}
