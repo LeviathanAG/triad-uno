@@ -1,0 +1,106 @@
+{
+  "trained": {
+    "mean_gain": -0.001953125,
+    "ci95_10000": [
+      -0.015625,
+      0.01171875
+    ],
+    "first_place_gain": -0.0029296875,
+    "reported_gain": {
+      "mean_gain": -0.001953125,
+      "ci95": [
+        -0.015625,
+        0.01171875
+      ],
+      "unit": "points per game",
+      "sampling_unit": "four-seat seed block"
+    },
+    "candidate_points": 2.73046875,
+    "incumbent_points": 2.732421875,
+    "candidate_stats": {
+      "probes": 2874,
+      "overrides": 39,
+      "sampling_declines": 7682,
+      "incomplete_pairs": 2225,
+      "completed_trials": 57579,
+      "world_rejections": 0,
+      "retained_pairs": 59804,
+      "interval_pairs": 2225,
+      "deadline_bounds": 3291,
+      "step_bounds": 40,
+      "max_decision_seconds": 0.5164709690000109
+    }
+  },
+  "route": {
+    "mean_gain": 0.0166015625,
+    "ci95_10000": [
+      0.00390625,
+      0.0322265625
+    ],
+    "first_place_gain": 0.001953125,
+    "reported_gain": {
+      "mean_gain": 0.0166015625,
+      "ci95": [
+        0.00390625,
+        0.03125
+      ],
+      "unit": "points per game",
+      "sampling_unit": "four-seat seed block"
+    },
+    "candidate_points": 2.7666015625,
+    "incumbent_points": 2.75,
+    "candidate_stats": {
+      "probes": 2896,
+      "overrides": 45,
+      "sampling_declines": 7421,
+      "incomplete_pairs": 2286,
+      "completed_trials": 56572,
+      "world_rejections": 0,
+      "retained_pairs": 58858,
+      "interval_pairs": 2286,
+      "deadline_bounds": 3401,
+      "step_bounds": 38,
+      "max_decision_seconds": 0.5182186580000234
+    }
+  },
+  "random": {
+    "mean_gain": 0.00390625,
+    "ci95_10000": [
+      -0.009765625,
+      0.017578125
+    ],
+    "first_place_gain": 0.0009765625,
+    "reported_gain": {
+      "mean_gain": 0.00390625,
+      "ci95": [
+        -0.008813476562499992,
+        0.0166015625
+      ],
+      "unit": "points per game",
+      "sampling_unit": "four-seat seed block"
+    },
+    "candidate_points": 3.337890625,
+    "incumbent_points": 3.333984375,
+    "candidate_stats": {
+      "probes": 3071,
+      "overrides": 48,
+      "sampling_declines": 9333,
+      "incomplete_pairs": 2464,
+      "completed_trials": 56303,
+      "world_rejections": 0,
+      "retained_pairs": 58767,
+      "interval_pairs": 2464,
+      "deadline_bounds": 3688,
+      "step_bounds": 40,
+      "max_decision_seconds": 0.5212184409999736
+    }
+  },
+  "all_frozen_inventories_match": true,
+  "all_actual_json_parse": true,
+  "blocks_verified": 256,
+  "eligibility": {
+    "eligible_for_fresh_final": false,
+    "criterion": "trained lower95 bootstrap bound>0; route/random mean gain>=-.02",
+    "empirical_selection_guard_not_event_guarantee": true
+  }
+}

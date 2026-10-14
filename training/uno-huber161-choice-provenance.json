@@ -1,0 +1,15 @@
+{
+  "selected_before167M": true,
+  "development_diagnostic": "uno-pool-crossplay161M.json",
+  "development_blocks_per_matchup": 16,
+  "source_path": "training/kaggle-uno-point-objective-cpu-output/output/huber/candidate-8.json",
+  "checkpoint_sha256": "7012f54912ea8368f5b7f53fae81b108bd7bb60c656ee7758a47fb89c68170b3",
+  "source_pool_sha256": "ce7f4537b3dfe5ee7be2bf4aeed41760b64feeacb2da59c3766ce0bfe391e740",
+  "selection_reason": "highest mean across fixed homogeneous own-trained rival profiles on161M composition diagnostic",
+  "limitation": "small64game matchup scope not evidence of official competitor strength",
+  "runtime": "exact stdlib MLP Policy, never NumPy candidate scoring",
+  "selection_seed_start": 167000000,
+  "final_reserved": 168000000,
+  "independent_reserved": 169000000,
+  "gate": "trained lower95 CI>0; route gain>=-.02, classical>=-.03, starter/random>=-.05"
+}
