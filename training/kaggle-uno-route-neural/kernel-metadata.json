@@ -1,0 +1,17 @@
+{
+  "id": "xdantalianx/triad-uno-route-neural",
+  "title": "Triad UNO Route Neural",
+  "code_file": "uno-route-neural.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "dataset_sources": [],
+  "competition_sources": [],
+  "kernel_sources": [
+    "xdantalianx/triad-uno-route-counterfactual"
+  ],
+  "machine_shape": "NvidiaTeslaT4"
+}

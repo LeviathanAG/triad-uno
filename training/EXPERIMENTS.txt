@@ -1,0 +1,16 @@
+Experimental UNO policy iteration, development branch only.
+Retained deployed route model stays unchanged. No official submission.
+Run training scripts with UNO_SDK set to this SDK root; NumPy/optionalPyTorch
+are training dependencies, never runtime dependencies.
+Featurev4 adds exactroute6 to119own/publicfeatures; frozen neuralbase maps18
+leadinglearnedweights+zeros+sixtrailingrouteweights. This exactlypreservesroute
+forzerooutput, checked1520decisions. Collector route teacher and uniform game
+reservoir pluspairedfuturepile shuffles8trials; presenthiddenhands rewardonly.
+Whole-sourcegame split and pairedstderrweights reduce leakage/noise.
+New routecounterfactual notebookprivateCPU pushedversion1; route-neural
+notebookprepared butnotpushed until datasetCOMPLETE. Fresh50mselection/51m
+finalgames;52m/53msmoke. Runtime source/model not changed by these files.
+Previous119featurefutureNN larger8192games/regime failedleagueimprovement
+vsroute; reservoirNN retainedroute onselection. These failures motivateexact
+routefeatures/base/teacher rather than obsoletev1. Allcheckpoints keptoutside
+runtime until independentlysupportedpointgain and contract/container checks.
