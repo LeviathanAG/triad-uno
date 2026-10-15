@@ -37,4 +37,4 @@ run_agent = _adapter.run_agent
 
 
 if __name__ == "__main__":
-    run_agent(select_action)
+    run_agent(select_action, on_initialize=_strategy.initialize_state)
