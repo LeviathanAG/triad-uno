@@ -68,3 +68,5 @@ uses UID10000:10000, no network, read-only root, one CPU, one GiB RAM, and bound
 scratch. Required SDK resource labels remain unchanged. Later joint24 and
 mirrored searches failed to establish an upgrade; the shipped route policy is
 unchanged from the verified source above.
+
+A bounded original certificate handles exactly two unfinished seats. If a currently legal Skip begins an own-hand sequence of only Skips followed by at most one matching final card, no opponent can act before that hand empties. The agent may choose this guaranteed finish over the scalar score only with enough placement turns before the public configured limit. It stores validated initialize.config.max_turns in its permitted JSON checkpoint and subtracts current turns_completed; absent/invalid configuration declines to the existing scorer. References are recomputed from the current observation; no hidden opponent state, shuffle seed, opponent model, or search library is used. This can improve third-versus-fourth placement only and does not repair the first-place-rate gap. The trained24-weight asset and required teamName remain unchanged.

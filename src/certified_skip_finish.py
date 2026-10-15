@@ -3,7 +3,7 @@
 Plans are conditional on enough placement turns before the global turn limit.
 References describe the current hand only; recompute after each observation.
 No opponent cards, simulator state, random seed or learned evaluator is used.
-This isolated development helper is not part of the submitted runtime.
+The caller supplies headroom from its allowed initialization checkpoint.
 """
 
 
