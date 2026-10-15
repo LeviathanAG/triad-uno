@@ -1,0 +1,15 @@
+{
+  "configuration": {
+    "name": "conditioned_1500ms64_actions2",
+    "kind": "conditioned",
+    "budget": 1.5,
+    "max_trials": 64,
+    "max_actions": 2
+  },
+  "chosen_on_development_seed_start": 162000000,
+  "development_report_sha256": "5e7265292eb09b7b6fdbe2db723dae360f14dfd83615f6c5ab5367a5b9f905f1",
+  "fixed_before163M": true,
+  "selection_gate": "trained lower95 paired bootstrap bound>0; route/random mean gain>=-.02",
+  "selection_seed_start": 163000000,
+  "final_reserved": 164000000
+}

@@ -1,0 +1,198 @@
+{
+  "sources_match": 16,
+  "assets_match": 2,
+  "all_actual_json_valid": true,
+  "all_point_win_arrays_checked": true,
+  "blocks": 64,
+  "selection_argmax_recomputed": true,
+  "selected": 3,
+  "results": {
+    "trained": [
+      {
+        "config": {
+          "name": "original_half32_actions2",
+          "kind": "original",
+          "budget": 0.5,
+          "max_trials": 32,
+          "max_actions": 2
+        },
+        "mean_gain": 0.0078125,
+        "ci95": [
+          0.0,
+          0.0234375
+        ],
+        "first_place_gain": 0.0
+      },
+      {
+        "config": {
+          "name": "conditioned_half32_actions2",
+          "kind": "conditioned",
+          "budget": 0.5,
+          "max_trials": 32,
+          "max_actions": 2
+        },
+        "mean_gain": 0.0,
+        "ci95": [
+          -0.01171875,
+          0.01171875
+        ],
+        "first_place_gain": 0.0
+      },
+      {
+        "config": {
+          "name": "conditioned_1500ms64_actions2",
+          "kind": "conditioned",
+          "budget": 1.5,
+          "max_trials": 64,
+          "max_actions": 2
+        },
+        "mean_gain": 0.01953125,
+        "ci95": [
+          -0.01171875,
+          0.05078125
+        ],
+        "first_place_gain": 0.0
+      },
+      {
+        "config": {
+          "name": "conditioned_1500ms64_actions4",
+          "kind": "conditioned",
+          "budget": 1.5,
+          "max_trials": 64,
+          "max_actions": 4
+        },
+        "mean_gain": 0.01953125,
+        "ci95": [
+          -0.00390625,
+          0.046875
+        ],
+        "first_place_gain": 0.0
+      }
+    ],
+    "route": [
+      {
+        "config": {
+          "name": "original_half32_actions2",
+          "kind": "original",
+          "budget": 0.5,
+          "max_trials": 32,
+          "max_actions": 2
+        },
+        "mean_gain": 0.0078125,
+        "ci95": [
+          -0.015625,
+          0.03515625
+        ],
+        "first_place_gain": 0.0
+      },
+      {
+        "config": {
+          "name": "conditioned_half32_actions2",
+          "kind": "conditioned",
+          "budget": 0.5,
+          "max_trials": 32,
+          "max_actions": 2
+        },
+        "mean_gain": 0.01171875,
+        "ci95": [
+          -0.0078125,
+          0.03515625
+        ],
+        "first_place_gain": 0.0
+      },
+      {
+        "config": {
+          "name": "conditioned_1500ms64_actions2",
+          "kind": "conditioned",
+          "budget": 1.5,
+          "max_trials": 64,
+          "max_actions": 2
+        },
+        "mean_gain": 0.03515625,
+        "ci95": [
+          0.0,
+          0.078125
+        ],
+        "first_place_gain": 0.00390625
+      },
+      {
+        "config": {
+          "name": "conditioned_1500ms64_actions4",
+          "kind": "conditioned",
+          "budget": 1.5,
+          "max_trials": 64,
+          "max_actions": 4
+        },
+        "mean_gain": 0.03125,
+        "ci95": [
+          -0.0078125,
+          0.078125
+        ],
+        "first_place_gain": 0.00390625
+      }
+    ],
+    "random": [
+      {
+        "config": {
+          "name": "original_half32_actions2",
+          "kind": "original",
+          "budget": 0.5,
+          "max_trials": 32,
+          "max_actions": 2
+        },
+        "mean_gain": -0.0078125,
+        "ci95": [
+          -0.05078125,
+          0.03125
+        ],
+        "first_place_gain": 0.0
+      },
+      {
+        "config": {
+          "name": "conditioned_half32_actions2",
+          "kind": "conditioned",
+          "budget": 0.5,
+          "max_trials": 32,
+          "max_actions": 2
+        },
+        "mean_gain": 0.01171875,
+        "ci95": [
+          0.0,
+          0.03125
+        ],
+        "first_place_gain": 0.00390625
+      },
+      {
+        "config": {
+          "name": "conditioned_1500ms64_actions2",
+          "kind": "conditioned",
+          "budget": 1.5,
+          "max_trials": 64,
+          "max_actions": 2
+        },
+        "mean_gain": -0.0078125,
+        "ci95": [
+          -0.046875,
+          0.03125
+        ],
+        "first_place_gain": 0.00390625
+      },
+      {
+        "config": {
+          "name": "conditioned_1500ms64_actions4",
+          "kind": "conditioned",
+          "budget": 1.5,
+          "max_trials": 64,
+          "max_actions": 4
+        },
+        "mean_gain": 0.03515625,
+        "ci95": [
+          -0.0078125,
+          0.0859375
+        ],
+        "first_place_gain": 0.01171875
+      }
+    ]
+  },
+  "conclusion": "Earns separate frozen163M selection only; no strength claim or164M final yet"
+}

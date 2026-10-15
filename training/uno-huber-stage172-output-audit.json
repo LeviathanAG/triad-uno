@@ -1,0 +1,30 @@
+{
+  "sources_match": 16,
+  "assets_match": 3,
+  "all_actual_json_valid": true,
+  "generations_verified": 12,
+  "all_training_and_selection_strength_bounds_pass": true,
+  "selection_blocks": 256,
+  "all_point_win_arrays_checked": true,
+  "eligibility_and_argmax_recomputed": true,
+  "selected": 0,
+  "candidate_gains": [
+    {
+      "trained": -0.0029296875,
+      "route": 0.08203125,
+      "classical": -0.005859375
+    },
+    {
+      "trained": -0.0009765625,
+      "route": -0.0185546875,
+      "classical": -0.0146484375
+    },
+    {
+      "trained": -0.021484375,
+      "route": 0.0185546875,
+      "classical": 0.060546875
+    }
+  ],
+  "selected_policy_sha256": "08784ed65fdfa6aca0fe6df914c867bc2f47184b1301c9739398891a9f71558a",
+  "conclusion": "Exact retained route selected;173M final correctly unconsumed; no174M independent earned"
+}

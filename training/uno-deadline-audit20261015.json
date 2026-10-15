@@ -1,0 +1,50 @@
+{
+  "utc_checked": "2026-10-15T02:46:29.358523+00:00",
+  "prior_kernels": [
+    {
+      "ref": "xdantalianx/triad-uno-conditioned-budget",
+      "accepted_push_args": [
+        "-p",
+        "training/kaggle-uno-conditioned-budget"
+      ],
+      "cli_runtime_cap_explicit": false,
+      "internal_subprocess_timeouts_seconds": [
+        600,
+        14400
+      ],
+      "terminal_status": "COMPLETE"
+    },
+    {
+      "ref": "xdantalianx/triad-uno-huber-stage",
+      "accepted_push_args": [
+        "-p",
+        "training/kaggle-uno-huber-stage"
+      ],
+      "cli_runtime_cap_explicit": false,
+      "internal_subprocess_timeouts_seconds": [
+        600,
+        14400
+      ],
+      "terminal_status": "COMPLETE"
+    }
+  ],
+  "new_kernel": {
+    "ref": "xdantalianx/triad-uno-conditioned-selection",
+    "accepted_push_args": [
+      "-p",
+      "training/kaggle-uno-conditioned-selection",
+      "-t",
+      "7200"
+    ],
+    "sdk_mapping": "request.session_timeout_seconds=int(timeout)",
+    "sdk_source_line": 6448,
+    "notebook_absolute_stop_utc": "2026-10-15T05:30:00Z",
+    "notebook_exit_margin_seconds": 120,
+    "each_worker_absolute_stop_utc": "2026-10-15T05:28:00Z",
+    "worker_timer": "SIGALRM plus os._exit(124), independently installed in every spawned worker",
+    "status": "RUNNING"
+  },
+  "root_stop_new_compute_utc": "2026-10-15T06:00:00Z",
+  "official_freeze_utc": "2026-10-15T07:30:00Z",
+  "no_terminal_recipe_restarted": true
+}
