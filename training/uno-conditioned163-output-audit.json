@@ -1,0 +1,45 @@
+{
+  "all_frozen_sources_match": 17,
+  "all_frozen_assets_match": 3,
+  "all_actual_json_valid": true,
+  "blocks": 256,
+  "games_per_policy_per_regime": 1024,
+  "results": {
+    "trained": {
+      "gain": 0.0,
+      "independent_ci95": [
+        -0.017578125,
+        0.017578125
+      ],
+      "first_place_gain": -0.001953125,
+      "candidate_points": 2.6923828125,
+      "incumbent_points": 2.6923828125
+    },
+    "route": {
+      "gain": 0.0078125,
+      "independent_ci95": [
+        -0.0087890625,
+        0.0244140625
+      ],
+      "first_place_gain": 0.0029296875,
+      "candidate_points": 2.7578125,
+      "incumbent_points": 2.75
+    },
+    "random": {
+      "gain": 0.01171875,
+      "independent_ci95": [
+        -0.0087890625,
+        0.03125
+      ],
+      "first_place_gain": -0.00390625,
+      "candidate_points": 3.3134765625,
+      "incumbent_points": 3.3017578125
+    }
+  },
+  "eligibility": {
+    "eligible_for_fresh_final": false,
+    "criterion": "trained lower95 bootstrap bound>0; route/random mean gain>=-.02",
+    "empirical_selection_guard_not_event_guarantee": true
+  },
+  "conclusion": "Fresh primary gain exactly0; failed predeclared CI guard;164M final unearned. Held main retained."
+}

@@ -1,0 +1,56 @@
+{
+  "repo": "/home/satwik/triad/uno-admission-fix",
+  "revision": "ee37f8c600c1b4de7cc6b3f044908e3545b39a52",
+  "total_bytes": 465408,
+  "limit_bytes": 1610612736,
+  "ok": true,
+  "file_count": 145,
+  "lfs_pointers": [],
+  "largest_files": [
+    {
+      "path": "local_evaluator/src/triad_uno/engine.py",
+      "bytes": 36752
+    },
+    {
+      "path": "local_evaluator/src/triad_uno/agent_session.py",
+      "bytes": 29893
+    },
+    {
+      "path": "tools/check.py",
+      "bytes": 21636
+    },
+    {
+      "path": "examples/ml_fixture/cu128/uv.lock",
+      "bytes": 21260
+    },
+    {
+      "path": "examples/ml_fixture/cpu/uv.lock",
+      "bytes": 11597
+    },
+    {
+      "path": "local_evaluator/src/triad_uno/protocol.py",
+      "bytes": 10644
+    },
+    {
+      "path": "src/uno_agent/protocol.py",
+      "bytes": 10644
+    },
+    {
+      "path": "tests/test_compat.py",
+      "bytes": 10511
+    },
+    {
+      "path": "training/train_uno_league.py",
+      "bytes": 9982
+    },
+    {
+      "path": "tools/check_submission_size.py",
+      "bytes": 9253
+    }
+  ],
+  "image": {
+    "reference": "triad-uno:final-held-ee37f8c-20261015",
+    "bytes": 129821184,
+    "ok": true
+  }
+}

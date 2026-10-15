@@ -1,0 +1,223 @@
+{
+  "checked_utc": "2026-10-15T05:48:13.887412+00:00",
+  "source_sha": "ee37f8c600c1b4de7cc6b3f044908e3545b39a52",
+  "source_path": "/home/satwik/triad/uno-admission-fix",
+  "source_clean": true,
+  "archive_path": "/home/satwik/triad/training/uno-final-held-source-ee37f8c.tar",
+  "archive_bytes": 593920,
+  "archive_sha256": "3f366b78ad2f8d4b2b10d4dc05abeb4c4b8a417abf88192a47646193d503fd46",
+  "matches_root_staged_source_archive": true,
+  "official_upstream": "a1e9592407c816edc51fce024d7344516c8d3074",
+  "official_literal_python_template_matches": true,
+  "deployed_contract_matches_upstream": true,
+  "team": {
+    "name": "TungMasterSoloClear",
+    "id": "TECHTEAM11600"
+  },
+  "manifest_valid": true,
+  "policy_sha256": "d458ef2894c0ce51d62ed30a4ad1b685c85db2c1a97417a8a93efab16d5abe14",
+  "all_declared_assets_present_and_real": true,
+  "lfs_pointers": [],
+  "image_tag": "triad-uno:final-held-ee37f8c-20261015",
+  "image_id": "sha256:e5b9aa668d12b4dae729e59c3c5656c03a849ca10f1223b4f8c6bf6d22d08e9d",
+  "image_platform": "linux/amd64",
+  "image_user": "10000:10000",
+  "image_entrypoint": [
+    "python",
+    "src/agent.py"
+  ],
+  "required_labels": {
+    "org.triad-uno.protocol": "1.0",
+    "org.triad-uno.runtime": "2",
+    "org.triad-uno.sdk": "uno-sdk-2",
+    "org.triad-uno.cpu": "1",
+    "org.triad-uno.ram-bytes": "1073741824",
+    "org.triad-uno.scratch-bytes": "1073741824",
+    "org.triad-uno.pids": "128",
+    "org.triad-uno.gpu": "false",
+    "org.triad-uno.gpu-bytes": "0"
+  },
+  "runtime_file_hashes": {
+    "models/README.md": "68b344e69f03385ce61044675185116bc6b41849962e3b50f8885a2319a4d615",
+    "models/evaluation.json": "72cd09362023233a5e30bb6cddd4a5c4b26c2091c917e590d3dc1fb01fbc5b9a",
+    "models/incumbent-v1-evaluation.json": "aec7c864c5c4180541fec36da2c70ea0c396508fbe238d5a9844dc5303f91ac9",
+    "models/incumbent-v1.json": "a13f4deeef7c5cf4a66c5671b428931e81efe0a37ba6735a0638655d732a4e95",
+    "models/independent-evaluation.json": "5040b1b213d54ef3550f5a35b8ebf7a406c56b407ffdd99127eabfc412a60c08",
+    "models/policy.json": "d458ef2894c0ce51d62ed30a4ad1b685c85db2c1a97417a8a93efab16d5abe14",
+    "src/agent.py": "7e7a1c215bcc9557d991b702aa4d07559468e0fc50ce8b9a8184898d7e8cb096",
+    "src/learned_base_policy.py": "8fe1d6fdd1223499dcd84d674cc93e9033c19ad5690e4479ab8a0db15f192ee8",
+    "src/learned_beliefs.py": "eff071a6ed5ea90c953185b9fd042274547a7f90e1258f69bc986a0283cd12d7",
+    "src/learned_policy.py": "afdaf23aabee78092a76371ed7992b826380240e6909639a5f394ba57ca45af4",
+    "src/strategy.py": "975c50c47a433552384e2a38c9a6646cce5cb3d6aea9e18796670ecc0c87b5a6",
+    "src/uno_agent/VENDOR.json": "4c788eaf56819d4a156cd90a1df8d583c9156d5d92015a48923630d33252f687",
+    "src/uno_agent/__init__.py": "47fdb043a85451f17d3369b0194f21ad23f78a2222fd1e0bb40e16626c331d42",
+    "src/uno_agent/adapter.py": "5142847169d379346a63d6ca3c529dc6beaa4624fc32076a5c958cddbe7bc86f",
+    "src/uno_agent/gpu.py": "e1ed8d12004477f8fe4f586217bdf41b2cef5ed99fb26af89209bc6c5995a949",
+    "src/uno_agent/protocol.py": "b7a852e3a226a4c551c75f816da64fe5893b3c7366615135d18ca832ba84018c",
+    "src/uno_agent/schemas/act.json": "b07b52766991e8d63fbfda6fb388bb4858b4928eaa8e77b0c9da09352c4edf71",
+    "src/uno_agent/schemas/action.json": "3a0a2b799ce8ecc3e9dd608ab83e94af2003b8c89b78437662ab8c051e563e3f",
+    "src/uno_agent/schemas/card.json": "7926bcc69d17cc229a4cf94b65ffdf20fe573d681c10fd228f685b6097368d15",
+    "src/uno_agent/schemas/done.json": "ededcc53e6a20ca88341e7cc5c9efbc2470ca52156c45967556c3379180de2e3",
+    "src/uno_agent/schemas/game_over.json": "a11f309c63e4a4023097d7ea398b3f49c77bf5b285705d3430bb2a5918d15b07",
+    "src/uno_agent/schemas/initialize.json": "c2f846c1ec9621d5d7e4952b1e67b08085293de6f0d8f0172c48a482fdf7a79c",
+    "src/uno_agent/schemas/legal_action.json": "ba05bc35540a4d3ee6bae1b38c3266c8bae47523c2bbab6dc95862aacb8b2f15",
+    "src/uno_agent/schemas/observation.json": "b3c7154f9287661cfcca616c9c606a9f49a7eeeef301ab3b093d3bce32c8f7c7",
+    "src/uno_agent/schemas/outcome.json": "0bb4611330284a75a7130841a1d50fac2d02ba0b2f24f656a3f8a2cec9689bad",
+    "src/uno_agent/schemas/ready.json": "fbf088de447ac1a4b95992df15f7f1e96fa5eb1dfdb8a63916bbc2d809a895e8",
+    "submission.json": "c3b198b3725a72ab24c0763d4d126e392879dbc35b76c2772a1ad53de835a239"
+  },
+  "all_image_runtime_files_equal_exact_commit": true,
+  "exact_cached_base_layer_prefix_matches": true,
+  "base_repo_digests": [
+    "python@sha256:e88e9763f943ec1834f992a4b51e0f24500486803e8bc534e5767af9ea65f6ce"
+  ],
+  "full_image_size_no_exemption": {
+    "reference": "triad-uno:final-held-ee37f8c-20261015",
+    "bytes": 129821184,
+    "ok": true
+  },
+  "source_size": {
+    "repo": "/home/satwik/triad/uno-admission-fix",
+    "revision": "ee37f8c600c1b4de7cc6b3f044908e3545b39a52",
+    "total_bytes": 465408,
+    "limit_bytes": 1610612736,
+    "ok": true,
+    "file_count": 145,
+    "lfs_pointers": [],
+    "largest_files": [
+      {
+        "path": "local_evaluator/src/triad_uno/engine.py",
+        "bytes": 36752
+      },
+      {
+        "path": "local_evaluator/src/triad_uno/agent_session.py",
+        "bytes": 29893
+      },
+      {
+        "path": "tools/check.py",
+        "bytes": 21636
+      },
+      {
+        "path": "examples/ml_fixture/cu128/uv.lock",
+        "bytes": 21260
+      },
+      {
+        "path": "examples/ml_fixture/cpu/uv.lock",
+        "bytes": 11597
+      },
+      {
+        "path": "local_evaluator/src/triad_uno/protocol.py",
+        "bytes": 10644
+      },
+      {
+        "path": "src/uno_agent/protocol.py",
+        "bytes": 10644
+      },
+      {
+        "path": "tests/test_compat.py",
+        "bytes": 10511
+      },
+      {
+        "path": "training/train_uno_league.py",
+        "bytes": 9982
+      },
+      {
+        "path": "tools/check_submission_size.py",
+        "bytes": 9253
+      }
+    ],
+    "image": {
+      "reference": "triad-uno:final-held-ee37f8c-20261015",
+      "bytes": 129821184,
+      "ok": true
+    }
+  },
+  "restricted_protocol_checks": [
+    [
+      "initialize",
+      true,
+      "ready echoes request id (final-restricted-docker)"
+    ],
+    [
+      "turn-answers-legally",
+      true,
+      "legal action a0 with valid checkpoint"
+    ],
+    [
+      "malformed-input",
+      true,
+      "no stdout reply; stderr logged; session survived (a0)"
+    ],
+    [
+      "after-draw",
+      true,
+      "AFTER_DRAW answered legally (a1)"
+    ],
+    [
+      "choose-color",
+      true,
+      "initial colour answered legally (a0)"
+    ],
+    [
+      "restart",
+      true,
+      "respawned agent answers from checkpoint alone (a0)"
+    ],
+    [
+      "game-over",
+      true,
+      "done acknowledged; next game served by same process; exits on EOF"
+    ],
+    [
+      "stdout-discipline",
+      true,
+      "10 stdout lines, all protocol JSON"
+    ]
+  ],
+  "restricted_command": [
+    "docker",
+    "run",
+    "--rm",
+    "-i",
+    "--network",
+    "none",
+    "--read-only",
+    "--cpus",
+    "1",
+    "--memory",
+    "1g",
+    "--pids-limit",
+    "128",
+    "--tmpfs",
+    "/tmp:rw,noexec,nosuid,size=64m",
+    "triad-uno:final-held-ee37f8c-20261015"
+  ],
+  "fresh_build_used_pull_and_official_literal": true,
+  "cpu_only_no_shared_gpu_exemption": true,
+  "host_protocol_checks": 8,
+  "publication": "Local image only; no registry destination or organizer pull proof supplied",
+  "root_owns_noon_main_push": true,
+  "main_pushed_by_this_audit": false,
+  "sdk_tests": {
+    "passed": 27,
+    "optional_skipped": 6,
+    "failed": 0
+  },
+  "github_remote_main_observed": "ee37f8c600c1b4de7cc6b3f044908e3545b39a52",
+  "first_worktree_build_rejected_extra_ignored_python_caches": true,
+  "final_build_context": {
+    "path": "/home/satwik/triad/training/uno-final-build-dgu9njaa",
+    "origin": "exact git archive ee37f8c",
+    "source_archive_sha256": "3f366b78ad2f8d4b2b10d4dc05abeb4c4b8a417abf88192a47646193d503fd46"
+  },
+  "final_build_from_exact_committed_archive": true,
+  "research_conclusion": "Fresh primary gain exactly0; failed predeclared CI guard;164M final unearned. Held main retained.",
+  "github_admission": {
+    "repository": "LeviathanAG/triad-uno",
+    "private": true,
+    "default_branch": "main",
+    "organizer": "Sir-Nike",
+    "organizer_permission": "write",
+    "organizer_access_accepted": true
+  }
+}
