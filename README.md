@@ -4,6 +4,14 @@ Images now follow the runtime 2 contract (UID 10000, exec ENTRYPOINT, resource/S
 
 # unoSDK — participant starter for Triad UNO v1
 
+## Submitted agent technical overview
+
+- Entrypoint: `python src/agent.py`; protocol adapter: `src/uno_agent/`.
+- `src/strategy.py` ranks observed legal actions with the 24-parameter route-linear policy in `models/policy.json`.
+- A certified skip-finish planner can override the policy when public turn-limit state proves an immediate finish secures the maximum remaining placement. Otherwise the learned ranking selects the action.
+- Inference uses Python's standard library on CPU. The manifest pins the model digest and runtime contract.
+- Protocol checks: `uv run --locked python tools/check.py --agent python`; tests: `uv run --locked pytest`.
+
 Team: **TungMasterSoloClear** — Team ID: **TECHTEAM11600**.
 
 The current entry packages our trained 24-weight UNO route policy using Python's
